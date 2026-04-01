@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# X29.ai Full-Site Clone
 
-## Getting Started
+This repo is a full local clone of `https://www.x29.ai/`, served from a Next.js 16 app using source-synced Webflow exports, route manifests, and deterministic visual QA.
 
-First, run the development server:
+## Stack
+
+- Next.js `16.2.1`
+- React `19.2.4`
+- TypeScript `5`
+- Tailwind CSS `4`
+- Playwright for browser automation and parity audits
+- ImageMagick for pixel-diff comparisons
+- Webflow-exported HTML, CSS, JS, and assets mirrored locally under `src/content/x29/` and `public/x29/`
+
+## How The App Works
+
+- [route.ts](/home/sandriaas/_projects/portf01/src/app/[[...slug]]/route.ts) is a catch-all App Router route handler that serves raw HTML documents for every cloned route.
+- [x29-document.ts](/home/sandriaas/_projects/portf01/src/lib/x29-document.ts) rebuilds complete HTML documents from per-page config, body HTML, metadata, and script/style entries.
+- [x29-site.ts](/home/sandriaas/_projects/portf01/src/lib/x29-site.ts) loads the site manifest, reads page exports, normalizes routes, and rewrites internal links to stay local.
+- [proxy.ts](/home/sandriaas/_projects/portf01/src/proxy.ts) rewrites literal `/404` requests to the internal alias route that matches the live site behavior.
+- [site.json](/home/sandriaas/_projects/portf01/src/content/x29/site.json) is the route manifest for the exported site. It currently includes `14` cloned pages plus `2` broken-route entries audited as live-site `404`s.
+
+## Local Content
+
+- Page configs and body HTML live in `src/content/x29/pages/`
+- Mirrored static assets live in `public/x29/`
+- Current mirrored asset count: `145` files
+
+## Commands
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run build
+npm run start
+npm run qa:x29-site-flows
+npm run qa:x29-parity
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## QA And Parity
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Full deterministic site audit baseline: [summary.json](/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/site-flow-audit-final/summary.json)
+- Latest mobile canary for the last noisy route: [summary.json](/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/site-flow-audit-mobile-contact-current/summary.json)
+- Current written QA verdict: [QA_REPORT.md](/home/sandriaas/_projects/portf01/docs/research/QA_REPORT.md)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The site-flow audit checks:
 
-## Learn More
+- visual slice diffs across desktop, tablet, and mobile
+- browser-title and HTML-title parity
+- internal-link rewriting
+- status-code parity
+- navigation, footer, broken-route, password, and contact-flow behavior
 
-To learn more about Next.js, take a look at the following resources:
+For the QA scripts, `magick` must be available on the machine.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```text
+src/
+  app/[[...slug]]/route.ts
+  content/x29/
+  lib/x29-document.ts
+  lib/x29-site.ts
+  proxy.ts
+scripts/
+  qa-x29-parity.mjs
+  qa-x29-site-flows.mjs
+docs/
+  research/
+  design-references/
+public/
+  x29/
+```

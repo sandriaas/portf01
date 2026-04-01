@@ -1,0 +1,263 @@
+{
+  "generatedAt": "2026-04-01T09:10:32.846Z",
+  "liveOrigin": "https://www.x29.ai",
+  "localOrigin": "http://127.0.0.1:3012",
+  "routeCount": 1,
+  "viewports": [
+    "mobile"
+  ],
+  "stepRatios": [
+    0,
+    0.5,
+    1
+  ],
+  "htmlTitleChecks": [
+    {
+      "route": "/contact",
+      "live": {
+        "status": 200,
+        "titleHtml": "Contact | X29.AI"
+      },
+      "local": {
+        "status": 200,
+        "titleHtml": "Contact | X29.AI"
+      },
+      "matches": {
+        "htmlTitle": true
+      }
+    }
+  ],
+  "sliceSummary": {
+    "total": 1,
+    "zeroDiff": 1,
+    "linkClean": 1,
+    "statusMatch": 1,
+    "titleMatch": 1
+  },
+  "sliceChecks": [
+    {
+      "route": "/contact",
+      "viewport": "mobile",
+      "live": {
+        "titleBrowser": "Contact | X29.AI"
+      },
+      "local": {
+        "titleBrowser": "Contact | X29.AI"
+      },
+      "matches": {
+        "browserTitle": true
+      },
+      "linkRewriteClean": true,
+      "localLinkData": {
+        "title": "Contact | X29.AI",
+        "htmlClass": "w-mod-js w-mod-ix w-mod-ix3",
+        "hrefCount": 18,
+        "actionCount": 0,
+        "absoluteInternalHrefs": [],
+        "protocolRelativeInternalHrefs": [],
+        "absoluteInternalActions": [],
+        "protocolRelativeInternalActions": []
+      },
+      "liveLinkData": {
+        "title": "Contact | X29.AI",
+        "htmlClass": "w-mod-js w-mod-ix w-mod-ix3",
+        "hrefCount": 18,
+        "actionCount": 0,
+        "absoluteInternalHrefs": [
+          "https://www.x29.ai/we-are-for/businesses",
+          "https://www.x29.ai/we-are-for/ai-agencies",
+          "https://www.x29.ai/we-are-for/interns",
+          "https://www.x29.ai"
+        ],
+        "protocolRelativeInternalHrefs": [],
+        "absoluteInternalActions": [],
+        "protocolRelativeInternalActions": []
+      },
+      "slices": [
+        {
+          "stepIndex": 0,
+          "ratio": 0,
+          "liveScroll": {
+            "scrollY": 0,
+            "scrollHeight": 844,
+            "viewportHeight": 844,
+            "maxScroll": 0
+          },
+          "localScroll": {
+            "scrollY": 0,
+            "scrollHeight": 844,
+            "viewportHeight": 844,
+            "maxScroll": 0
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-mobile-contact-current/routes/contact/mobile-step-0.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-mobile-contact-current/routes/contact/mobile-step-0.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-mobile-contact-current/routes/contact/mobile-step-0.diff.png"
+          },
+          "diff": {
+            "width": 390,
+            "height": 844,
+            "pixels": 329160,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        },
+        {
+          "stepIndex": 1,
+          "ratio": 0.5,
+          "liveScroll": {
+            "scrollY": 0,
+            "scrollHeight": 844,
+            "viewportHeight": 844,
+            "maxScroll": 0
+          },
+          "localScroll": {
+            "scrollY": 0,
+            "scrollHeight": 844,
+            "viewportHeight": 844,
+            "maxScroll": 0
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-mobile-contact-current/routes/contact/mobile-step-1.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-mobile-contact-current/routes/contact/mobile-step-1.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-mobile-contact-current/routes/contact/mobile-step-1.diff.png"
+          },
+          "diff": {
+            "width": 390,
+            "height": 844,
+            "pixels": 329160,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        },
+        {
+          "stepIndex": 2,
+          "ratio": 1,
+          "liveScroll": {
+            "scrollY": 0,
+            "scrollHeight": 844,
+            "viewportHeight": 844,
+            "maxScroll": 0
+          },
+          "localScroll": {
+            "scrollY": 0,
+            "scrollHeight": 844,
+            "viewportHeight": 844,
+            "maxScroll": 0
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-mobile-contact-current/routes/contact/mobile-step-2.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-mobile-contact-current/routes/contact/mobile-step-2.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-mobile-contact-current/routes/contact/mobile-step-2.diff.png"
+          },
+          "diff": {
+            "width": 390,
+            "height": 844,
+            "pixels": 329160,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        }
+      ],
+      "diffSummary": {
+        "maxDiffPercentage": 0,
+        "totalDiffPercentage": 0,
+        "zeroDiffSlices": 3,
+        "avgDiffPercentage": 0
+      },
+      "runtimeError": null
+    }
+  ],
+  "linkCoverage": {
+    "absoluteInternalLinks": 0,
+    "protocolRelativeInternalLinks": 0,
+    "unresolvedTargets": []
+  },
+  "flowSummary": {
+    "total": 9,
+    "passed": 9
+  },
+  "flowChecks": [
+    {
+      "id": "home-nav-toggle",
+      "passed": true,
+      "details": {
+        "menuVisible": true
+      }
+    },
+    {
+      "id": "home-nav-about-link",
+      "passed": true,
+      "details": {
+        "url": "/about",
+        "title": "About | X29.Ai",
+        "text": "CONTACT US\nX29\nAI\nX29.AI\nPORT CO: CONDUCTING AI\nWe believe this is the most exciting moment in human history — a time when intelligence is being redefined and companies must be rebuilt.\nOur mission is to research, design, and prototype operating models where AI is the foundation, not the add-on.\nWe "
+      }
+    },
+    {
+      "id": "footer-contact-link",
+      "passed": true,
+      "details": {
+        "url": "/contact",
+        "title": "Contact | X29.AI",
+        "text": "CONTACT US\ncontact@X29.ai"
+      }
+    },
+    {
+      "id": "broken-project-route",
+      "passed": true,
+      "details": {
+        "url": "/projects/livingless-3",
+        "title": "Not Found",
+        "text": "CONTACT US\nX49AI% meets Machine\n+\nHuman% meets M@chine\n+\nHuman% meets M@chine\n+\nHuman% meets M@chine\n+\nHuman% meets M@chine\n+\nHuman% meets M@chine\n+\n404\n404: Ordinary Not Found\n+\n404: Ordinary Not Found\n+\n404: Ordinary Not Found\n+\n404: Ordinary Not Found\n+\n404: Ordinary Not Found\n+\n404: Ordinary Not"
+      }
+    },
+    {
+      "id": "broken-blog-route",
+      "passed": true,
+      "details": {
+        "url": "/blog/why-human-ai-is-the-future-of-creative-agencies",
+        "title": "Not Found",
+        "text": "CONTACT US\nX49AI% meets Machine\n+\nHuman% meets M@chine\n+\nHuman% meets M@chine\n+\nHuman% meets M@chine\n+\nHuman% meets M@chine\n+\nHuman% meets M@chine\n+\n404\n404: Ordinary Not Found\n+\n404: Ordinary Not Found\n+\n404: Ordinary Not Found\n+\n404: Ordinary Not Found\n+\n404: Ordinary Not Found\n+\n404: Ordinary Not"
+      }
+    },
+    {
+      "id": "local-password-error-state",
+      "passed": true,
+      "details": {
+        "url": "/401?e=1",
+        "title": "Protected page",
+        "text": "CONTACT US\nPassword\nprotected\nDEFAULT\nIncorrect password. Please try again.",
+        "failVisible": true
+      }
+    },
+    {
+      "id": "local-password-submit",
+      "passed": true,
+      "details": {
+        "url": "/.wf_auth",
+        "title": "Not Found",
+        "text": "CONTACT US\nX49AI% meets Machine\n+\nHuman% meets M@chine\n+\nHuman% meets M@chine\n+\nHuman% meets M@chine\n+\nHuman% meets M@chine\n+\nHuman% meets M@chine\n+\n404\n404: Ordinary Not Found\n+\n404: Ordinary Not Found\n+\n404: Ordinary Not Found\n+\n404: Ordinary Not Found\n+\n404: Ordinary Not Found\n+\n404: Ordinary Not"
+      }
+    },
+    {
+      "id": "live-password-submit-reference",
+      "passed": true,
+      "details": {
+        "url": "/.wf_auth",
+        "title": "Not Found",
+        "text": "CONTACT US\nX49AI% meets Machine\n+\nHuman% meets M@chine\n+\nHuman% meets M@chine\n+\nHuman% meets M@chine\n+\nHuman% meets M@chine\n+\nHuman% meets M@chine\n+\n404\n404: Ordinary Not Found\n+\n404: Ordinary Not Found\n+\n404: Ordinary Not Found\n+\n404: Ordinary Not Found\n+\n404: Ordinary Not Found\n+\n404: Ordinary Not"
+      }
+    },
+    {
+      "id": "contact-mailto-link",
+      "passed": true,
+      "details": {
+        "href": "mailto:contact@X29.ai"
+      }
+    }
+  ]
+}

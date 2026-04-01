@@ -221,6 +221,53 @@ async function waitForAnimationFrames(page, count = 2) {
   }, count);
 }
 
+async function waitForRenderableAssets(page, timeoutMs = 5_000) {
+  await page.evaluate(async (maxWaitMs) => {
+    const wait = (ms) => new Promise((resolve) => window.setTimeout(resolve, ms));
+    const raf = () =>
+      new Promise((resolve) => window.requestAnimationFrame(() => resolve(undefined)));
+    const deadline = window.performance.now() + maxWaitMs;
+
+    const settleImage = async (image) => {
+      if (!(image instanceof HTMLImageElement)) {
+        return;
+      }
+
+      if (!image.complete) {
+        await Promise.race([
+          new Promise((resolve) => {
+            const done = () => resolve(undefined);
+            image.addEventListener("load", done, { once: true });
+            image.addEventListener("error", done, { once: true });
+          }),
+          wait(Math.max(deadline - window.performance.now(), 0)),
+        ]);
+      }
+
+      if (image.complete && image.naturalWidth > 0 && typeof image.decode === "function") {
+        try {
+          await image.decode();
+        } catch {}
+      }
+    };
+
+    while (window.performance.now() < deadline) {
+      const images = [...document.images];
+      await Promise.all(images.map((image) => settleImage(image)));
+      await raf();
+      await raf();
+
+      if (images.every((image) => image.complete || image.loading === "lazy")) {
+        return;
+      }
+
+      await wait(100);
+    }
+  }, timeoutMs);
+
+  await waitForAnimationFrames(page, 2);
+}
+
 async function gotoPage(page, url) {
   const response = await page.goto(url, { waitUntil: "domcontentloaded", timeout: 30_000 });
   await page.waitForLoadState("networkidle", { timeout: 15_000 }).catch(() => {});
@@ -233,6 +280,7 @@ async function gotoPage(page, url) {
       ]);
     }
   });
+  await waitForRenderableAssets(page);
   return response;
 }
 
@@ -327,11 +375,13 @@ async function freezePage(page) {
               ".marquee-text.right",
               ".marquee-images",
               ".home-work-section .marquee-dots",
+              ".image-wrap-contact",
+              ".image-wrap-contact img",
             ],
             {
               transition: "none",
               animation: "none",
-              transform: "translate3d(0px, 0px, 0px)",
+              transform: "none",
               opacity: "1",
               willChange: "auto",
             },
@@ -656,6 +706,10 @@ async function compareRouteSlices(browser, route, viewportName, routeDir) {
         await Promise.all([
           livePage.waitForTimeout(settleDelayMs),
           localPage.waitForTimeout(settleDelayMs),
+        ]);
+        await Promise.all([
+          waitForRenderableAssets(livePage),
+          waitForRenderableAssets(localPage),
         ]);
         const [liveFrozen, localFrozen] = await Promise.all([
           freezePage(livePage),
