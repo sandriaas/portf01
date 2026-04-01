@@ -1,0 +1,102 @@
+{
+  "targetUrl": "https://www.x29.ai/",
+  "crawledRouteCount": 16,
+  "pages": [
+    {
+      "route": "/",
+      "status": 200,
+      "title": "X29.ai | An Experimental Lab for AI-Native Enterprise",
+      "sourceUrl": "https://www.x29.ai/"
+    },
+    {
+      "route": "/401",
+      "status": 200,
+      "title": "Protected page",
+      "sourceUrl": "https://www.x29.ai/401"
+    },
+    {
+      "route": "/404",
+      "status": 200,
+      "title": "Not Found",
+      "sourceUrl": "https://www.x29.ai/404"
+    },
+    {
+      "route": "/about",
+      "status": 200,
+      "title": "About | X29.Ai",
+      "sourceUrl": "https://www.x29.ai/about"
+    },
+    {
+      "route": "/blog/engineering-the-ai-native-enterprise",
+      "status": 200,
+      "title": "Engineering the AI-Native Enterprise",
+      "sourceUrl": "https://www.x29.ai/blog/engineering-the-ai-native-enterprise"
+    },
+    {
+      "route": "/blog/the-ai-native-operating-model",
+      "status": 200,
+      "title": "The AI-Native Operating Model",
+      "sourceUrl": "https://www.x29.ai/blog/the-ai-native-operating-model"
+    },
+    {
+      "route": "/blog/the-x-29-lesson",
+      "status": 200,
+      "title": "The X-29 Lesson",
+      "sourceUrl": "https://www.x29.ai/blog/the-x-29-lesson"
+    },
+    {
+      "route": "/blog/why-human-ai-is-the-future-of-creative-agencies",
+      "status": 404,
+      "title": "Not Found",
+      "sourceUrl": "https://www.x29.ai/blog/why-human-ai-is-the-future-of-creative-agencies"
+    },
+    {
+      "route": "/contact",
+      "status": 200,
+      "title": "Contact | X29.AI",
+      "sourceUrl": "https://www.x29.ai/contact"
+    },
+    {
+      "route": "/projects",
+      "status": 200,
+      "title": "Projects | Human+Machine - Webflow HTML website template",
+      "sourceUrl": "https://www.x29.ai/projects"
+    },
+    {
+      "route": "/projects/livingless-3",
+      "status": 404,
+      "title": "Not Found",
+      "sourceUrl": "https://www.x29.ai/projects/livingless-3"
+    },
+    {
+      "route": "/we-are-for/ai-agencies",
+      "status": 200,
+      "title": "For AI Agencies",
+      "sourceUrl": "https://www.x29.ai/we-are-for/ai-agencies"
+    },
+    {
+      "route": "/we-are-for/ai-researchers",
+      "status": 200,
+      "title": "For AI Leads &amp; Researchers",
+      "sourceUrl": "https://www.x29.ai/we-are-for/ai-researchers"
+    },
+    {
+      "route": "/we-are-for/businesses",
+      "status": 200,
+      "title": "For Businesses",
+      "sourceUrl": "https://www.x29.ai/we-are-for/businesses"
+    },
+    {
+      "route": "/we-are-for/interns",
+      "status": 200,
+      "title": "Intern at X29.ai",
+      "sourceUrl": "https://www.x29.ai/we-are-for/interns"
+    },
+    {
+      "route": "/we-are-for/livingless",
+      "status": 200,
+      "title": "Livingless",
+      "sourceUrl": "https://www.x29.ai/we-are-for/livingless"
+    }
+  ]
+}

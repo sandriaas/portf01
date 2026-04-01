@@ -1,0 +1,256 @@
+{
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 900
+  },
+  "config": {
+    "liveUrl": "https://www.x29.ai/",
+    "localUrl": "http://127.0.0.1:3011/",
+    "viewportName": "desktop",
+    "viewportWidth": 1440,
+    "viewportHeight": 900,
+    "heroTime": 1,
+    "footerTime": 1,
+    "sliderIndex": 0,
+    "readyTimeoutMs": 0,
+    "holdMs": 1200,
+    "outDir": "/home/sandriaas/_projects/portf01/docs/design-references/qa/deterministic"
+  },
+  "sections": [
+    {
+      "name": "nav",
+      "selector": ".nav-wrap-animation",
+      "liveBox": {
+        "x": 0,
+        "y": -1.7523199319839478,
+        "width": 1440,
+        "height": 80
+      },
+      "localBox": {
+        "x": 0,
+        "y": -80,
+        "width": 1440,
+        "height": 80
+      },
+      "sameSize": false,
+      "liveSize": {
+        "width": 1440,
+        "height": 81
+      },
+      "localSize": {
+        "width": 1440,
+        "height": 80
+      },
+      "aeDiff": null
+    },
+    {
+      "name": "hero",
+      "selector": "section.hero-home-section",
+      "liveBox": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900
+      },
+      "localBox": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900
+      },
+      "sameSize": true,
+      "liveSize": {
+        "width": 1440,
+        "height": 900
+      },
+      "localSize": {
+        "width": 1440,
+        "height": 900
+      },
+      "aeDiff": 1165760
+    },
+    {
+      "name": "overlap",
+      "selector": "section.home-overlap-section",
+      "liveBox": {
+        "x": 0,
+        "y": 900,
+        "width": 1440,
+        "height": 1172
+      },
+      "localBox": {
+        "x": 0,
+        "y": 900,
+        "width": 1440,
+        "height": 1172
+      },
+      "sameSize": true,
+      "liveSize": {
+        "width": 1440,
+        "height": 900
+      },
+      "localSize": {
+        "width": 1440,
+        "height": 900
+      },
+      "aeDiff": 12958
+    },
+    {
+      "name": "work",
+      "selector": "section.home-work-section",
+      "liveBox": {
+        "x": 0,
+        "y": 2072,
+        "width": 1440,
+        "height": 3314
+      },
+      "localBox": {
+        "x": 0,
+        "y": 2072,
+        "width": 1440,
+        "height": 3314
+      },
+      "sameSize": true,
+      "liveSize": {
+        "width": 1440,
+        "height": 3314
+      },
+      "localSize": {
+        "width": 1440,
+        "height": 3314
+      },
+      "aeDiff": 25650
+    },
+    {
+      "name": "services",
+      "selector": "section.home-services-section",
+      "liveBox": {
+        "x": 0,
+        "y": 5386,
+        "width": 1440,
+        "height": 1266
+      },
+      "localBox": {
+        "x": 0,
+        "y": 5386,
+        "width": 1440,
+        "height": 1266
+      },
+      "sameSize": true,
+      "liveSize": {
+        "width": 1440,
+        "height": 1266
+      },
+      "localSize": {
+        "width": 1440,
+        "height": 1266
+      },
+      "aeDiff": 0
+    },
+    {
+      "name": "video",
+      "selector": "section.home-video-section",
+      "liveBox": {
+        "x": 0,
+        "y": 6652,
+        "width": 1440,
+        "height": 1032
+      },
+      "localBox": {
+        "x": 0,
+        "y": 6652,
+        "width": 1440,
+        "height": 1032
+      },
+      "sameSize": true,
+      "liveSize": {
+        "width": 1440,
+        "height": 1032
+      },
+      "localSize": {
+        "width": 1440,
+        "height": 1032
+      },
+      "aeDiff": 0
+    },
+    {
+      "name": "numbers",
+      "selector": "section.home-numbers-section",
+      "liveBox": {
+        "x": 0,
+        "y": 7684,
+        "width": 1440,
+        "height": 260
+      },
+      "localBox": {
+        "x": 0,
+        "y": 7684,
+        "width": 1440,
+        "height": 260
+      },
+      "sameSize": true,
+      "liveSize": {
+        "width": 1440,
+        "height": 260
+      },
+      "localSize": {
+        "width": 1440,
+        "height": 260
+      },
+      "aeDiff": 0
+    },
+    {
+      "name": "journal",
+      "selector": "section.home-slider-section",
+      "liveBox": {
+        "x": 0,
+        "y": 7944,
+        "width": 1440,
+        "height": 1065
+      },
+      "localBox": {
+        "x": 0,
+        "y": 7944,
+        "width": 1440,
+        "height": 1065
+      },
+      "sameSize": true,
+      "liveSize": {
+        "width": 1440,
+        "height": 1065
+      },
+      "localSize": {
+        "width": 1440,
+        "height": 1065
+      },
+      "aeDiff": 0
+    },
+    {
+      "name": "footer",
+      "selector": "section.footer",
+      "liveBox": {
+        "x": 0,
+        "y": 9009,
+        "width": 1440,
+        "height": 901
+      },
+      "localBox": {
+        "x": 0,
+        "y": 9009,
+        "width": 1440,
+        "height": 901
+      },
+      "sameSize": true,
+      "liveSize": {
+        "width": 1440,
+        "height": 900
+      },
+      "localSize": {
+        "width": 1440,
+        "height": 900
+      },
+      "aeDiff": 11754
+    }
+  ]
+}

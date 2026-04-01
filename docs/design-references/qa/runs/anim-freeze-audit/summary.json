@@ -1,0 +1,89 @@
+{
+  "desktop": {
+    "overlap-copy": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/anim-freeze-audit/desktop/reference-overlap-copy.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/anim-freeze-audit/desktop/local-overlap-copy.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/anim-freeze-audit/desktop/diff/overlap-copy-diff.png",
+      "width": 764,
+      "height": 312,
+      "changedPixels": 994,
+      "changedPercent": 0.417
+    },
+    "work": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/anim-freeze-audit/desktop/reference-work.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/anim-freeze-audit/desktop/local-work.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/anim-freeze-audit/desktop/diff/work-diff.png",
+      "width": 1440,
+      "height": 3314,
+      "changedPixels": 67120,
+      "changedPercent": 1.4065
+    },
+    "video": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/anim-freeze-audit/desktop/reference-video.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/anim-freeze-audit/desktop/local-video.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/anim-freeze-audit/desktop/diff/video-diff.png",
+      "width": 1440,
+      "height": 1032,
+      "changedPixels": 0,
+      "changedPercent": 0
+    }
+  },
+  "tablet": {
+    "overlap-copy": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/anim-freeze-audit/tablet/reference-overlap-copy.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/anim-freeze-audit/tablet/local-overlap-copy.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/anim-freeze-audit/tablet/diff/overlap-copy-diff.png",
+      "width": 704,
+      "height": 312,
+      "changedPixels": 1042,
+      "changedPercent": 0.4744
+    },
+    "work": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/anim-freeze-audit/tablet/reference-work.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/anim-freeze-audit/tablet/local-work.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/anim-freeze-audit/tablet/diff/work-diff.png",
+      "width": 768,
+      "height": 3454,
+      "changedPixels": 39542,
+      "changedPercent": 1.4906
+    },
+    "video": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/anim-freeze-audit/tablet/reference-video.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/anim-freeze-audit/tablet/local-video.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/anim-freeze-audit/tablet/diff/video-diff.png",
+      "width": 768,
+      "height": 1032,
+      "changedPixels": 31126,
+      "changedPercent": 3.9272
+    }
+  },
+  "mobile": {
+    "overlap-copy": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/anim-freeze-audit/mobile/reference-overlap-copy.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/anim-freeze-audit/mobile/local-overlap-copy.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/anim-freeze-audit/mobile/diff/overlap-copy-diff.png",
+      "width": 358,
+      "height": 324,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "work": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/anim-freeze-audit/mobile/reference-work.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/anim-freeze-audit/mobile/local-work.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/anim-freeze-audit/mobile/diff/work-diff.png",
+      "width": 390,
+      "height": 2261,
+      "changedPixels": 48086,
+      "changedPercent": 5.4532
+    },
+    "video": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/anim-freeze-audit/mobile/reference-video.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/anim-freeze-audit/mobile/local-video.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/anim-freeze-audit/mobile/diff/video-diff.png",
+      "width": 390,
+      "height": 660,
+      "changedPixels": 10782,
+      "changedPercent": 4.1888
+    }
+  }
+}

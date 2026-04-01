@@ -1,0 +1,101 @@
+[
+  {
+    "name": "nav",
+    "selector": ".nav-wrap-animation",
+    "missing": false,
+    "box": {
+      "x": 0,
+      "y": -80,
+      "width": 1440,
+      "height": 80
+    }
+  },
+  {
+    "name": "hero",
+    "selector": "section.hero-home-section",
+    "missing": false,
+    "box": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 900
+    }
+  },
+  {
+    "name": "overlap",
+    "selector": "section.home-overlap-section",
+    "missing": false,
+    "box": {
+      "x": 0,
+      "y": 900,
+      "width": 1440,
+      "height": 1172
+    }
+  },
+  {
+    "name": "work",
+    "selector": "section.home-work-section",
+    "missing": false,
+    "box": {
+      "x": 0,
+      "y": 2072,
+      "width": 1440,
+      "height": 3314
+    }
+  },
+  {
+    "name": "services",
+    "selector": "section.home-services-section",
+    "missing": false,
+    "box": {
+      "x": 0,
+      "y": 5386,
+      "width": 1440,
+      "height": 1266
+    }
+  },
+  {
+    "name": "video",
+    "selector": "section.home-video-section",
+    "missing": false,
+    "box": {
+      "x": 0,
+      "y": 6652,
+      "width": 1440,
+      "height": 1032
+    }
+  },
+  {
+    "name": "numbers",
+    "selector": "section.home-numbers-section",
+    "missing": false,
+    "box": {
+      "x": 0,
+      "y": 7684,
+      "width": 1440,
+      "height": 260
+    }
+  },
+  {
+    "name": "journal",
+    "selector": "section.home-slider-section",
+    "missing": false,
+    "box": {
+      "x": 0,
+      "y": 7944,
+      "width": 1440,
+      "height": 1065
+    }
+  },
+  {
+    "name": "footer",
+    "selector": "section.footer",
+    "missing": false,
+    "box": {
+      "x": 0,
+      "y": 9009,
+      "width": 1440,
+      "height": 901
+    }
+  }
+]

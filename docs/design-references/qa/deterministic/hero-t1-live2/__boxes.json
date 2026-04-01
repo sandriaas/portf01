@@ -1,0 +1,32 @@
+[
+  {
+    "name": "nav",
+    "selector": ".nav-wrap-animation",
+    "box": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 80
+    }
+  },
+  {
+    "name": "hero",
+    "selector": "section.hero-home-section",
+    "box": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 900
+    }
+  },
+  {
+    "name": "overlap",
+    "selector": "section.home-overlap-section",
+    "box": {
+      "x": 0,
+      "y": 900,
+      "width": 1440,
+      "height": 1172
+    }
+  }
+]

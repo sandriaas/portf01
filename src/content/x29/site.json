@@ -1,0 +1,139 @@
+{
+  "targetUrl": "https://www.x29.ai/",
+  "targetOrigin": "https://www.x29.ai",
+  "htmlAttributes": {
+    "data-wf-domain": "www.x29.ai",
+    "data-wf-site": "68a07b4456582bc42d1b3e95"
+  },
+  "rootRoute": "/",
+  "notFoundRoute": "/404",
+  "protectedRoute": "/401",
+  "pageCount": 14,
+  "brokenRouteCount": 2,
+  "pages": [
+    {
+      "route": "/",
+      "key": "home",
+      "status": 200,
+      "title": "X29.ai | An Experimental Lab for AI-Native Enterprise",
+      "bodyPath": "src/content/x29/pages/home.body.html",
+      "configPath": "src/content/x29/pages/home.config.json"
+    },
+    {
+      "route": "/401",
+      "key": "401",
+      "status": 200,
+      "title": "Protected page",
+      "bodyPath": "src/content/x29/pages/401.body.html",
+      "configPath": "src/content/x29/pages/401.config.json"
+    },
+    {
+      "route": "/404",
+      "key": "404",
+      "status": 200,
+      "title": "Not Found",
+      "bodyPath": "src/content/x29/pages/404.body.html",
+      "configPath": "src/content/x29/pages/404.config.json"
+    },
+    {
+      "route": "/about",
+      "key": "about",
+      "status": 200,
+      "title": "About | X29.Ai",
+      "bodyPath": "src/content/x29/pages/about.body.html",
+      "configPath": "src/content/x29/pages/about.config.json"
+    },
+    {
+      "route": "/blog/engineering-the-ai-native-enterprise",
+      "key": "blog__engineering-the-ai-native-enterprise",
+      "status": 200,
+      "title": "Engineering the AI-Native Enterprise",
+      "bodyPath": "src/content/x29/pages/blog__engineering-the-ai-native-enterprise.body.html",
+      "configPath": "src/content/x29/pages/blog__engineering-the-ai-native-enterprise.config.json"
+    },
+    {
+      "route": "/blog/the-ai-native-operating-model",
+      "key": "blog__the-ai-native-operating-model",
+      "status": 200,
+      "title": "The AI-Native Operating Model",
+      "bodyPath": "src/content/x29/pages/blog__the-ai-native-operating-model.body.html",
+      "configPath": "src/content/x29/pages/blog__the-ai-native-operating-model.config.json"
+    },
+    {
+      "route": "/blog/the-x-29-lesson",
+      "key": "blog__the-x-29-lesson",
+      "status": 200,
+      "title": "The X-29 Lesson",
+      "bodyPath": "src/content/x29/pages/blog__the-x-29-lesson.body.html",
+      "configPath": "src/content/x29/pages/blog__the-x-29-lesson.config.json"
+    },
+    {
+      "route": "/contact",
+      "key": "contact",
+      "status": 200,
+      "title": "Contact | X29.AI",
+      "bodyPath": "src/content/x29/pages/contact.body.html",
+      "configPath": "src/content/x29/pages/contact.config.json"
+    },
+    {
+      "route": "/projects",
+      "key": "projects",
+      "status": 200,
+      "title": "Projects | Human+Machine - Webflow HTML website template",
+      "bodyPath": "src/content/x29/pages/projects.body.html",
+      "configPath": "src/content/x29/pages/projects.config.json"
+    },
+    {
+      "route": "/we-are-for/ai-agencies",
+      "key": "we-are-for__ai-agencies",
+      "status": 200,
+      "title": "For AI Agencies",
+      "bodyPath": "src/content/x29/pages/we-are-for__ai-agencies.body.html",
+      "configPath": "src/content/x29/pages/we-are-for__ai-agencies.config.json"
+    },
+    {
+      "route": "/we-are-for/ai-researchers",
+      "key": "we-are-for__ai-researchers",
+      "status": 200,
+      "title": "For AI Leads &amp; Researchers",
+      "bodyPath": "src/content/x29/pages/we-are-for__ai-researchers.body.html",
+      "configPath": "src/content/x29/pages/we-are-for__ai-researchers.config.json"
+    },
+    {
+      "route": "/we-are-for/businesses",
+      "key": "we-are-for__businesses",
+      "status": 200,
+      "title": "For Businesses",
+      "bodyPath": "src/content/x29/pages/we-are-for__businesses.body.html",
+      "configPath": "src/content/x29/pages/we-are-for__businesses.config.json"
+    },
+    {
+      "route": "/we-are-for/interns",
+      "key": "we-are-for__interns",
+      "status": 200,
+      "title": "Intern at X29.ai",
+      "bodyPath": "src/content/x29/pages/we-are-for__interns.body.html",
+      "configPath": "src/content/x29/pages/we-are-for__interns.config.json"
+    },
+    {
+      "route": "/we-are-for/livingless",
+      "key": "we-are-for__livingless",
+      "status": 200,
+      "title": "Livingless",
+      "bodyPath": "src/content/x29/pages/we-are-for__livingless.body.html",
+      "configPath": "src/content/x29/pages/we-are-for__livingless.config.json"
+    }
+  ],
+  "brokenRoutes": [
+    {
+      "route": "/blog/why-human-ai-is-the-future-of-creative-agencies",
+      "status": 404,
+      "sourceUrl": "https://www.x29.ai/blog/why-human-ai-is-the-future-of-creative-agencies"
+    },
+    {
+      "route": "/projects/livingless-3",
+      "status": 404,
+      "sourceUrl": "https://www.x29.ai/projects/livingless-3"
+    }
+  ]
+}

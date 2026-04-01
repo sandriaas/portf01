@@ -1,0 +1,35 @@
+{
+  "desktop": {
+    "overlap-slider": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/overlap-mask-audit/desktop/reference-overlap-slider.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/overlap-mask-audit/desktop/local-overlap-slider.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/overlap-mask-audit/desktop/diff/overlap-slider-diff.png",
+      "width": 670,
+      "height": 500,
+      "changedPixels": 152439,
+      "changedPercent": 45.5042
+    }
+  },
+  "tablet": {
+    "overlap-slider": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/overlap-mask-audit/tablet/reference-overlap-slider.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/overlap-mask-audit/tablet/local-overlap-slider.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/overlap-mask-audit/tablet/diff/overlap-slider-diff.png",
+      "width": 670,
+      "height": 500,
+      "changedPixels": 149343,
+      "changedPercent": 44.58
+    }
+  },
+  "mobile": {
+    "overlap-slider": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/overlap-mask-audit/mobile/reference-overlap-slider.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/overlap-mask-audit/mobile/local-overlap-slider.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/overlap-mask-audit/mobile/diff/overlap-slider-diff.png",
+      "width": 390,
+      "height": 216,
+      "changedPixels": 48758,
+      "changedPercent": 57.8799
+    }
+  }
+}

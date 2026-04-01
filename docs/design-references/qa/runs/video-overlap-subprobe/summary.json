@@ -1,0 +1,116 @@
+{
+  "desktop": {
+    "video-heading": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/desktop/reference-video-heading.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/desktop/local-video-heading.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/desktop/diff/video-heading-diff.png",
+      "width": 619,
+      "height": 240,
+      "changedPixels": 23074,
+      "changedPercent": 15.5318
+    },
+    "video-copy": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/desktop/reference-video-copy.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/desktop/local-video-copy.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/desktop/diff/video-copy-diff.png",
+      "width": 440,
+      "height": 128,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "video-content": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/desktop/reference-video-content.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/desktop/local-video-content.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/desktop/diff/video-content-diff.png",
+      "width": 1376,
+      "height": 568,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "overlap-copy": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/desktop/reference-overlap-copy.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/desktop/local-overlap-copy.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/desktop/diff/overlap-copy-diff.png",
+      "width": 764,
+      "height": 312,
+      "changedPixels": 0,
+      "changedPercent": 0
+    }
+  },
+  "tablet": {
+    "video-heading": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/tablet/reference-video-heading.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/tablet/local-video-heading.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/tablet/diff/video-heading-diff.png",
+      "width": 619,
+      "height": 240,
+      "changedPixels": 23627,
+      "changedPercent": 15.904
+    },
+    "video-copy": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/tablet/reference-video-copy.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/tablet/local-video-copy.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/tablet/diff/video-copy-diff.png",
+      "width": 440,
+      "height": 128,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "video-content": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/tablet/reference-video-content.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/tablet/local-video-content.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/tablet/diff/video-content-diff.png",
+      "width": 704,
+      "height": 568,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "overlap-copy": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/tablet/reference-overlap-copy.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/tablet/local-overlap-copy.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/tablet/diff/overlap-copy-diff.png",
+      "width": 704,
+      "height": 312,
+      "changedPixels": 0,
+      "changedPercent": 0
+    }
+  },
+  "mobile": {
+    "video-heading": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/mobile/reference-video-heading.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/mobile/local-video-heading.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/mobile/diff/video-heading-diff.png",
+      "width": 358,
+      "height": 240,
+      "changedPixels": 12836,
+      "changedPercent": 14.9395
+    },
+    "video-copy": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/mobile/reference-video-copy.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/mobile/local-video-copy.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/mobile/diff/video-copy-diff.png",
+      "width": 358,
+      "height": 108,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "video-content": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/mobile/reference-video-content.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/mobile/local-video-content.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/mobile/diff/video-content-diff.png",
+      "width": 358,
+      "height": 468,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "overlap-copy": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/mobile/reference-overlap-copy.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/mobile/local-overlap-copy.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/video-overlap-subprobe/mobile/diff/overlap-copy-diff.png",
+      "width": 358,
+      "height": 324,
+      "changedPixels": 0,
+      "changedPercent": 0
+    }
+  }
+}

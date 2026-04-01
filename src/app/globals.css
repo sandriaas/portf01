@@ -1,0 +1,14 @@
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background: #101012;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#x29-root {
+  display: contents;
+}

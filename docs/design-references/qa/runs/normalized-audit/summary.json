@@ -1,0 +1,89 @@
+{
+  "desktop": {
+    "overlap-copy": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/normalized-audit/desktop/reference-overlap-copy.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/normalized-audit/desktop/local-overlap-copy.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/normalized-audit/desktop/diff/overlap-copy-diff.png",
+      "width": 764,
+      "height": 312,
+      "changedPixels": 1222,
+      "changedPercent": 0.5127
+    },
+    "work": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/normalized-audit/desktop/reference-work.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/normalized-audit/desktop/local-work.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/normalized-audit/desktop/diff/work-diff.png",
+      "width": 1440,
+      "height": 3314,
+      "changedPixels": 68598,
+      "changedPercent": 1.4375
+    },
+    "video": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/normalized-audit/desktop/reference-video.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/normalized-audit/desktop/local-video.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/normalized-audit/desktop/diff/video-diff.png",
+      "width": 1440,
+      "height": 1032,
+      "changedPixels": 32105,
+      "changedPercent": 2.1604
+    }
+  },
+  "tablet": {
+    "overlap-copy": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/normalized-audit/tablet/reference-overlap-copy.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/normalized-audit/tablet/local-overlap-copy.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/normalized-audit/tablet/diff/overlap-copy-diff.png",
+      "width": 704,
+      "height": 312,
+      "changedPixels": 1242,
+      "changedPercent": 0.5655
+    },
+    "work": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/normalized-audit/tablet/reference-work.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/normalized-audit/tablet/local-work.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/normalized-audit/tablet/diff/work-diff.png",
+      "width": 768,
+      "height": 3454,
+      "changedPixels": 39332,
+      "changedPercent": 1.4827
+    },
+    "video": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/normalized-audit/tablet/reference-video.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/normalized-audit/tablet/local-video.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/normalized-audit/tablet/diff/video-diff.png",
+      "width": 768,
+      "height": 1032,
+      "changedPixels": 37611,
+      "changedPercent": 4.7454
+    }
+  },
+  "mobile": {
+    "overlap-copy": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/normalized-audit/mobile/reference-overlap-copy.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/normalized-audit/mobile/local-overlap-copy.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/normalized-audit/mobile/diff/overlap-copy-diff.png",
+      "width": 358,
+      "height": 324,
+      "changedPixels": 567,
+      "changedPercent": 0.4888
+    },
+    "work": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/normalized-audit/mobile/reference-work.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/normalized-audit/mobile/local-work.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/normalized-audit/mobile/diff/work-diff.png",
+      "width": 390,
+      "height": 2261,
+      "changedPixels": 83251,
+      "changedPercent": 9.4411
+    },
+    "video": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/normalized-audit/mobile/reference-video.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/normalized-audit/mobile/local-video.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/normalized-audit/mobile/diff/video-diff.png",
+      "width": 390,
+      "height": 660,
+      "changedPixels": 11179,
+      "changedPercent": 4.343
+    }
+  }
+}

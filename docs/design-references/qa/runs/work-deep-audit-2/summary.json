@@ -1,0 +1,467 @@
+{
+  "desktop": {
+    "work-intro": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/reference-work-intro.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/local-work-intro.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/diff/work-intro-diff.png",
+      "width": 1376,
+      "height": 120,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "work-marquee": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/reference-work-marquee.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/local-work-marquee.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/diff/work-marquee-diff.png",
+      "width": 1440,
+      "height": 268,
+      "changedPixels": 202185,
+      "changedPercent": 52.3904
+    },
+    "work-marquee-track": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/reference-work-marquee-track.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/local-work-marquee-track.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/diff/work-marquee-track-diff.png",
+      "width": 1440,
+      "height": 216,
+      "changedPixels": 176062,
+      "changedPercent": 56.6043
+    },
+    "work-marquee-text": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/reference-work-marquee-text.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/local-work-marquee-text.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/diff/work-marquee-text-diff.png",
+      "width": 1440,
+      "height": 120,
+      "changedPixels": 89505,
+      "changedPercent": 51.7969
+    },
+    "work-marquee-blur": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/reference-work-marquee-blur.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/local-work-marquee-blur.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/diff/work-marquee-blur-diff.png",
+      "width": 1440,
+      "height": 268,
+      "changedPixels": 168689,
+      "changedPercent": 43.7109
+    },
+    "work-projects": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/reference-work-projects.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/local-work-projects.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/diff/work-projects-diff.png",
+      "width": 1376,
+      "height": 900,
+      "changedPixels": 177910,
+      "changedPercent": 14.3661
+    },
+    "work-project-card-1": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/reference-work-project-card-1.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/local-work-project-card-1.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/diff/work-project-card-1-diff.png",
+      "width": 688,
+      "height": 600,
+      "changedPixels": 35153,
+      "changedPercent": 8.5157
+    },
+    "work-project-card-1-image": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/reference-work-project-card-1-image.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/local-work-project-card-1-image.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/diff/work-project-card-1-image-diff.png",
+      "width": 688,
+      "height": 548,
+      "changedPixels": 140,
+      "changedPercent": 0.0371
+    },
+    "work-project-card-1-copy": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/reference-work-project-card-1-copy.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/local-work-project-card-1-copy.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/diff/work-project-card-1-copy-diff.png",
+      "width": 688,
+      "height": 36,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "work-project-card-2": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/reference-work-project-card-2.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/local-work-project-card-2.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/diff/work-project-card-2-diff.png",
+      "width": 688,
+      "height": 600,
+      "changedPixels": 35251,
+      "changedPercent": 8.5395
+    },
+    "work-project-card-2-image": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/reference-work-project-card-2-image.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/local-work-project-card-2-image.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/diff/work-project-card-2-image-diff.png",
+      "width": 688,
+      "height": 548,
+      "changedPixels": 142,
+      "changedPercent": 0.0377
+    },
+    "work-project-card-2-copy": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/reference-work-project-card-2-copy.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/local-work-project-card-2-copy.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/diff/work-project-card-2-copy-diff.png",
+      "width": 688,
+      "height": 36,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "work-project-card-3": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/reference-work-project-card-3.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/local-work-project-card-3.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/diff/work-project-card-3-diff.png",
+      "width": 688,
+      "height": 600,
+      "changedPixels": 22588,
+      "changedPercent": 5.4719
+    },
+    "work-project-card-3-image": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/reference-work-project-card-3-image.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/local-work-project-card-3-image.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/diff/work-project-card-3-image-diff.png",
+      "width": 688,
+      "height": 548,
+      "changedPixels": 145,
+      "changedPercent": 0.0385
+    },
+    "work-project-card-3-copy": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/reference-work-project-card-3-copy.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/local-work-project-card-3-copy.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/diff/work-project-card-3-copy-diff.png",
+      "width": 688,
+      "height": 36,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "work-cta": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/reference-work-cta.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/local-work-cta.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/diff/work-cta-diff.png",
+      "width": 1376,
+      "height": 48,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "work-dots": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/reference-work-dots.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/local-work-dots.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/desktop/diff/work-dots-diff.png",
+      "width": 1400,
+      "height": 900,
+      "changedPixels": 234888,
+      "changedPercent": 18.6419
+    }
+  },
+  "tablet": {
+    "work-intro": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/reference-work-intro.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/local-work-intro.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/diff/work-intro-diff.png",
+      "width": 704,
+      "height": 240,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "work-marquee": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/reference-work-marquee.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/local-work-marquee.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/diff/work-marquee-diff.png",
+      "width": 768,
+      "height": 268,
+      "changedPixels": 108794,
+      "changedPercent": 52.8578
+    },
+    "work-marquee-track": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/reference-work-marquee-track.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/local-work-marquee-track.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/diff/work-marquee-track-diff.png",
+      "width": 768,
+      "height": 216,
+      "changedPixels": 120025,
+      "changedPercent": 72.353
+    },
+    "work-marquee-text": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/reference-work-marquee-text.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/local-work-marquee-text.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/diff/work-marquee-text-diff.png",
+      "width": 768,
+      "height": 120,
+      "changedPixels": 49497,
+      "changedPercent": 53.7077
+    },
+    "work-marquee-blur": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/reference-work-marquee-blur.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/local-work-marquee-blur.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/diff/work-marquee-blur-diff.png",
+      "width": 768,
+      "height": 268,
+      "changedPixels": 78249,
+      "changedPercent": 38.0174
+    },
+    "work-projects": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/reference-work-projects.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/local-work-projects.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/diff/work-projects-diff.png",
+      "width": 704,
+      "height": 1024,
+      "changedPixels": 97790,
+      "changedPercent": 13.5651
+    },
+    "work-project-card-1": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/reference-work-project-card-1.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/local-work-project-card-1.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/diff/work-project-card-1-diff.png",
+      "width": 352,
+      "height": 600,
+      "changedPixels": 17853,
+      "changedPercent": 8.4531
+    },
+    "work-project-card-1-image": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/reference-work-project-card-1-image.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/local-work-project-card-1-image.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/diff/work-project-card-1-image-diff.png",
+      "width": 352,
+      "height": 548,
+      "changedPixels": 142,
+      "changedPercent": 0.0736
+    },
+    "work-project-card-1-copy": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/reference-work-project-card-1-copy.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/local-work-project-card-1-copy.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/diff/work-project-card-1-copy-diff.png",
+      "width": 352,
+      "height": 36,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "work-project-card-2": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/reference-work-project-card-2.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/local-work-project-card-2.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/diff/work-project-card-2-diff.png",
+      "width": 352,
+      "height": 600,
+      "changedPixels": 17861,
+      "changedPercent": 8.4569
+    },
+    "work-project-card-2-image": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/reference-work-project-card-2-image.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/local-work-project-card-2-image.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/diff/work-project-card-2-image-diff.png",
+      "width": 352,
+      "height": 548,
+      "changedPixels": 144,
+      "changedPercent": 0.0747
+    },
+    "work-project-card-2-copy": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/reference-work-project-card-2-copy.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/local-work-project-card-2-copy.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/diff/work-project-card-2-copy-diff.png",
+      "width": 352,
+      "height": 36,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "work-project-card-3": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/reference-work-project-card-3.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/local-work-project-card-3.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/diff/work-project-card-3-diff.png",
+      "width": 352,
+      "height": 620,
+      "changedPixels": 12068,
+      "changedPercent": 5.5297
+    },
+    "work-project-card-3-image": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/reference-work-project-card-3-image.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/local-work-project-card-3-image.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/diff/work-project-card-3-image-diff.png",
+      "width": 352,
+      "height": 548,
+      "changedPixels": 137,
+      "changedPercent": 0.071
+    },
+    "work-project-card-3-copy": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/reference-work-project-card-3-copy.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/local-work-project-card-3-copy.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/diff/work-project-card-3-copy-diff.png",
+      "width": 352,
+      "height": 56,
+      "changedPixels": 2601,
+      "changedPercent": 13.195
+    },
+    "work-cta": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/reference-work-cta.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/local-work-cta.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/diff/work-cta-diff.png",
+      "width": 704,
+      "height": 48,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "work-dots": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/reference-work-dots.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/local-work-dots.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/tablet/diff/work-dots-diff.png",
+      "width": 768,
+      "height": 1024,
+      "changedPixels": 142374,
+      "changedPercent": 18.1038
+    }
+  },
+  "mobile": {
+    "work-intro": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/reference-work-intro.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/local-work-intro.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/diff/work-intro-diff.png",
+      "width": 358,
+      "height": 190,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "work-marquee": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/reference-work-marquee.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/local-work-marquee.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/diff/work-marquee-diff.png",
+      "width": 390,
+      "height": 228,
+      "changedPixels": 4525,
+      "changedPercent": 5.0888
+    },
+    "work-marquee-track": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/reference-work-marquee-track.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/local-work-marquee-track.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/diff/work-marquee-track-diff.png",
+      "width": 390,
+      "height": 176,
+      "changedPixels": 4801,
+      "changedPercent": 6.9945
+    },
+    "work-marquee-text": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/reference-work-marquee-text.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/local-work-marquee-text.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/diff/work-marquee-text-diff.png",
+      "width": 390,
+      "height": 80,
+      "changedPixels": 2441,
+      "changedPercent": 7.8237
+    },
+    "work-marquee-blur": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/reference-work-marquee-blur.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/local-work-marquee-blur.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/diff/work-marquee-blur-diff.png",
+      "width": 390,
+      "height": 228,
+      "changedPixels": 34654,
+      "changedPercent": 38.9721
+    },
+    "work-projects": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/reference-work-projects.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/local-work-projects.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/diff/work-projects-diff.png",
+      "width": 358,
+      "height": 844,
+      "changedPixels": 16227,
+      "changedPercent": 5.3705
+    },
+    "work-project-card-1": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/reference-work-project-card-1.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/local-work-project-card-1.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/diff/work-project-card-1-diff.png",
+      "width": 358,
+      "height": 402,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "work-project-card-1-image": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/reference-work-project-card-1-image.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/local-work-project-card-1-image.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/diff/work-project-card-1-image-diff.png",
+      "width": 358,
+      "height": 360,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "work-project-card-1-copy": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/reference-work-project-card-1-copy.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/local-work-project-card-1-copy.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/diff/work-project-card-1-copy-diff.png",
+      "width": 358,
+      "height": 30,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "work-project-card-2": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/reference-work-project-card-2.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/local-work-project-card-2.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/diff/work-project-card-2-diff.png",
+      "width": 358,
+      "height": 402,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "work-project-card-2-image": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/reference-work-project-card-2-image.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/local-work-project-card-2-image.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/diff/work-project-card-2-image-diff.png",
+      "width": 358,
+      "height": 360,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "work-project-card-2-copy": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/reference-work-project-card-2-copy.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/local-work-project-card-2-copy.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/diff/work-project-card-2-copy-diff.png",
+      "width": 358,
+      "height": 30,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "work-project-card-3": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/reference-work-project-card-3.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/local-work-project-card-3.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/diff/work-project-card-3-diff.png",
+      "width": 358,
+      "height": 412,
+      "changedPixels": 18029,
+      "changedPercent": 12.2234
+    },
+    "work-project-card-3-image": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/reference-work-project-card-3-image.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/local-work-project-card-3-image.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/diff/work-project-card-3-image-diff.png",
+      "width": 358,
+      "height": 360,
+      "changedPixels": 37,
+      "changedPercent": 0.0287
+    },
+    "work-project-card-3-copy": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/reference-work-project-card-3-copy.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/local-work-project-card-3-copy.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/diff/work-project-card-3-copy-diff.png",
+      "width": 358,
+      "height": 40,
+      "changedPixels": 11710,
+      "changedPercent": 81.7737
+    },
+    "work-cta": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/reference-work-cta.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/local-work-cta.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/diff/work-cta-diff.png",
+      "width": 358,
+      "height": 48,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "work-dots": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/reference-work-dots.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/local-work-dots.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-deep-audit-2/mobile/diff/work-dots-diff.png",
+      "width": 390,
+      "height": 844,
+      "changedPixels": 52962,
+      "changedPercent": 16.09
+    }
+  }
+}

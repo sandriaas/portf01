@@ -1,0 +1,31 @@
+{
+  "desktop": {
+    "overlap": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/desktop-check-2/desktop/reference-overlap.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/desktop-check-2/desktop/local-overlap.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/desktop-check-2/desktop/diff/overlap-diff.png",
+      "width": 1440,
+      "height": 1172,
+      "changedPixels": 808492,
+      "changedPercent": 47.9055
+    },
+    "work": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/desktop-check-2/desktop/reference-work.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/desktop-check-2/desktop/local-work.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/desktop-check-2/desktop/diff/work-diff.png",
+      "width": 1440,
+      "height": 3314,
+      "changedPixels": 154761,
+      "changedPercent": 3.243
+    },
+    "video": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/desktop-check-2/desktop/reference-video.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/desktop-check-2/desktop/local-video.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/desktop-check-2/desktop/diff/video-diff.png",
+      "width": 1440,
+      "height": 1032,
+      "changedPixels": 54147,
+      "changedPercent": 3.6436
+    }
+  }
+}

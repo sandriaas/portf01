@@ -1,0 +1,2530 @@
+{
+  "generatedAt": "2026-04-01T05:15:50.917Z",
+  "liveOrigin": "https://www.x29.ai",
+  "localOrigin": "http://127.0.0.1:3012",
+  "routeCount": 16,
+  "viewports": [
+    "desktop"
+  ],
+  "stepRatios": [
+    0,
+    0.5,
+    1
+  ],
+  "htmlTitleChecks": [
+    {
+      "route": "/",
+      "live": {
+        "status": 200,
+        "titleHtml": "X29.ai | An Experimental Lab for AI-Native Enterprise"
+      },
+      "local": {
+        "status": 200,
+        "titleHtml": "X29.ai | An Experimental Lab for AI-Native Enterprise"
+      },
+      "matches": {
+        "htmlTitle": true
+      }
+    },
+    {
+      "route": "/401",
+      "live": {
+        "status": 200,
+        "titleHtml": "Protected page"
+      },
+      "local": {
+        "status": 200,
+        "titleHtml": "Protected page"
+      },
+      "matches": {
+        "htmlTitle": true
+      }
+    },
+    {
+      "route": "/404",
+      "live": {
+        "status": 200,
+        "titleHtml": "Not Found"
+      },
+      "local": {
+        "status": 200,
+        "titleHtml": "Not Found"
+      },
+      "matches": {
+        "htmlTitle": true
+      }
+    },
+    {
+      "route": "/about",
+      "live": {
+        "status": 200,
+        "titleHtml": "About | X29.Ai"
+      },
+      "local": {
+        "status": 200,
+        "titleHtml": "About | X29.Ai"
+      },
+      "matches": {
+        "htmlTitle": true
+      }
+    },
+    {
+      "route": "/blog/engineering-the-ai-native-enterprise",
+      "live": {
+        "status": 200,
+        "titleHtml": "Engineering the AI-Native Enterprise"
+      },
+      "local": {
+        "status": 200,
+        "titleHtml": "Engineering the AI-Native Enterprise"
+      },
+      "matches": {
+        "htmlTitle": true
+      }
+    },
+    {
+      "route": "/blog/the-ai-native-operating-model",
+      "live": {
+        "status": 200,
+        "titleHtml": "The AI-Native Operating Model"
+      },
+      "local": {
+        "status": 200,
+        "titleHtml": "The AI-Native Operating Model"
+      },
+      "matches": {
+        "htmlTitle": true
+      }
+    },
+    {
+      "route": "/blog/the-x-29-lesson",
+      "live": {
+        "status": 200,
+        "titleHtml": "The X-29 Lesson"
+      },
+      "local": {
+        "status": 200,
+        "titleHtml": "The X-29 Lesson"
+      },
+      "matches": {
+        "htmlTitle": true
+      }
+    },
+    {
+      "route": "/contact",
+      "live": {
+        "status": 200,
+        "titleHtml": "Contact | X29.AI"
+      },
+      "local": {
+        "status": 200,
+        "titleHtml": "Contact | X29.AI"
+      },
+      "matches": {
+        "htmlTitle": true
+      }
+    },
+    {
+      "route": "/projects",
+      "live": {
+        "status": 200,
+        "titleHtml": "Projects | Human+Machine - Webflow HTML website template"
+      },
+      "local": {
+        "status": 200,
+        "titleHtml": "Projects | Human+Machine - Webflow HTML website template"
+      },
+      "matches": {
+        "htmlTitle": true
+      }
+    },
+    {
+      "route": "/we-are-for/ai-agencies",
+      "live": {
+        "status": 200,
+        "titleHtml": "For AI Agencies"
+      },
+      "local": {
+        "status": 200,
+        "titleHtml": "For AI Agencies"
+      },
+      "matches": {
+        "htmlTitle": true
+      }
+    },
+    {
+      "route": "/we-are-for/ai-researchers",
+      "live": {
+        "status": 200,
+        "titleHtml": "For AI Leads &amp; Researchers"
+      },
+      "local": {
+        "status": 200,
+        "titleHtml": "For AI Leads &amp;amp; Researchers"
+      },
+      "matches": {
+        "htmlTitle": false
+      }
+    },
+    {
+      "route": "/we-are-for/businesses",
+      "live": {
+        "status": 200,
+        "titleHtml": "For Businesses"
+      },
+      "local": {
+        "status": 200,
+        "titleHtml": "For Businesses"
+      },
+      "matches": {
+        "htmlTitle": true
+      }
+    },
+    {
+      "route": "/we-are-for/interns",
+      "live": {
+        "status": 200,
+        "titleHtml": "Intern at X29.ai"
+      },
+      "local": {
+        "status": 200,
+        "titleHtml": "Intern at X29.ai"
+      },
+      "matches": {
+        "htmlTitle": true
+      }
+    },
+    {
+      "route": "/we-are-for/livingless",
+      "live": {
+        "status": 200,
+        "titleHtml": "Livingless"
+      },
+      "local": {
+        "status": 200,
+        "titleHtml": "Livingless"
+      },
+      "matches": {
+        "htmlTitle": true
+      }
+    },
+    {
+      "route": "/blog/why-human-ai-is-the-future-of-creative-agencies",
+      "live": {
+        "status": 404,
+        "titleHtml": "Not Found"
+      },
+      "local": {
+        "status": 404,
+        "titleHtml": "Not Found"
+      },
+      "matches": {
+        "htmlTitle": true
+      }
+    },
+    {
+      "route": "/projects/livingless-3",
+      "live": {
+        "status": 404,
+        "titleHtml": "Not Found"
+      },
+      "local": {
+        "status": 404,
+        "titleHtml": "Not Found"
+      },
+      "matches": {
+        "htmlTitle": true
+      }
+    }
+  ],
+  "sliceSummary": {
+    "total": 16,
+    "zeroDiff": 11,
+    "linkClean": 16,
+    "statusMatch": 16,
+    "titleMatch": 15
+  },
+  "sliceChecks": [
+    {
+      "route": "/",
+      "viewport": "desktop",
+      "live": {
+        "status": 200,
+        "titleBrowser": "X29.ai | An Experimental Lab for AI-Native Enterprise"
+      },
+      "local": {
+        "status": 200,
+        "titleBrowser": "X29.ai | An Experimental Lab for AI-Native Enterprise"
+      },
+      "matches": {
+        "browserTitle": true
+      },
+      "linkRewriteClean": true,
+      "localLinkData": {
+        "title": "X29.ai | An Experimental Lab for AI-Native Enterprise",
+        "htmlClass": "w-mod-js w-mod-ix w-mod-ix3",
+        "hrefCount": 30,
+        "actionCount": 0,
+        "absoluteInternalHrefs": [],
+        "protocolRelativeInternalHrefs": [],
+        "absoluteInternalActions": [],
+        "protocolRelativeInternalActions": []
+      },
+      "liveLinkData": {
+        "title": "X29.ai | An Experimental Lab for AI-Native Enterprise",
+        "htmlClass": "w-mod-js w-mod-ix w-mod-ix3",
+        "hrefCount": 30,
+        "actionCount": 0,
+        "absoluteInternalHrefs": [
+          "https://www.x29.ai/we-are-for/businesses",
+          "https://www.x29.ai/we-are-for/ai-agencies",
+          "https://www.x29.ai/we-are-for/interns",
+          "https://www.x29.ai"
+        ],
+        "protocolRelativeInternalHrefs": [],
+        "absoluteInternalActions": [],
+        "protocolRelativeInternalActions": []
+      },
+      "slices": [
+        {
+          "stepIndex": 0,
+          "ratio": 0,
+          "liveScroll": {
+            "scrollY": 0,
+            "scrollHeight": 9886,
+            "viewportHeight": 900,
+            "maxScroll": 8986
+          },
+          "localScroll": {
+            "scrollY": 0,
+            "scrollHeight": 9886,
+            "viewportHeight": 900,
+            "maxScroll": 8986
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/home/desktop-step-0.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/home/desktop-step-0.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/home/desktop-step-0.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 1211130,
+            "diffRatio": 0.934512,
+            "diffPercentage": 93.45138888888889
+          }
+        },
+        {
+          "stepIndex": 1,
+          "ratio": 0.5,
+          "liveScroll": {
+            "scrollY": 4493,
+            "scrollHeight": 9886,
+            "viewportHeight": 900,
+            "maxScroll": 8986
+          },
+          "localScroll": {
+            "scrollY": 4493,
+            "scrollHeight": 9886,
+            "viewportHeight": 900,
+            "maxScroll": 8986
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/home/desktop-step-1.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/home/desktop-step-1.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/home/desktop-step-1.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 155454,
+            "diffRatio": 0.119949,
+            "diffPercentage": 11.994907407407407
+          }
+        },
+        {
+          "stepIndex": 2,
+          "ratio": 1,
+          "liveScroll": {
+            "scrollY": 8986,
+            "scrollHeight": 9886,
+            "viewportHeight": 900,
+            "maxScroll": 8986
+          },
+          "localScroll": {
+            "scrollY": 8986,
+            "scrollHeight": 9886,
+            "viewportHeight": 900,
+            "maxScroll": 8986
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/home/desktop-step-2.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/home/desktop-step-2.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/home/desktop-step-2.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        }
+      ],
+      "diffSummary": {
+        "maxDiffPercentage": 93.45138888888889,
+        "totalDiffPercentage": 105.4462962962963,
+        "zeroDiffSlices": 1,
+        "avgDiffPercentage": 35.14876543209876
+      },
+      "runtimeError": null
+    },
+    {
+      "route": "/401",
+      "viewport": "desktop",
+      "live": {
+        "status": 200,
+        "titleBrowser": "Protected page"
+      },
+      "local": {
+        "status": 200,
+        "titleBrowser": "Protected page"
+      },
+      "matches": {
+        "browserTitle": true
+      },
+      "linkRewriteClean": true,
+      "localLinkData": {
+        "title": "Protected page",
+        "htmlClass": "w-mod-js w-mod-ix w-mod-ix3",
+        "hrefCount": 9,
+        "actionCount": 1,
+        "absoluteInternalHrefs": [],
+        "protocolRelativeInternalHrefs": [],
+        "absoluteInternalActions": [],
+        "protocolRelativeInternalActions": []
+      },
+      "liveLinkData": {
+        "title": "Protected page",
+        "htmlClass": "w-mod-js w-mod-ix w-mod-ix3",
+        "hrefCount": 9,
+        "actionCount": 1,
+        "absoluteInternalHrefs": [
+          "https://www.x29.ai/we-are-for/businesses",
+          "https://www.x29.ai/we-are-for/ai-agencies",
+          "https://www.x29.ai/we-are-for/interns",
+          "https://www.x29.ai"
+        ],
+        "protocolRelativeInternalHrefs": [],
+        "absoluteInternalActions": [],
+        "protocolRelativeInternalActions": []
+      },
+      "slices": [
+        {
+          "stepIndex": 0,
+          "ratio": 0,
+          "liveScroll": {
+            "scrollY": 0,
+            "scrollHeight": 900,
+            "viewportHeight": 900,
+            "maxScroll": 0
+          },
+          "localScroll": {
+            "scrollY": 0,
+            "scrollHeight": 900,
+            "viewportHeight": 900,
+            "maxScroll": 0
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/401/desktop-step-0.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/401/desktop-step-0.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/401/desktop-step-0.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        },
+        {
+          "stepIndex": 1,
+          "ratio": 0.5,
+          "liveScroll": {
+            "scrollY": 0,
+            "scrollHeight": 900,
+            "viewportHeight": 900,
+            "maxScroll": 0
+          },
+          "localScroll": {
+            "scrollY": 0,
+            "scrollHeight": 900,
+            "viewportHeight": 900,
+            "maxScroll": 0
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/401/desktop-step-1.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/401/desktop-step-1.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/401/desktop-step-1.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        },
+        {
+          "stepIndex": 2,
+          "ratio": 1,
+          "liveScroll": {
+            "scrollY": 0,
+            "scrollHeight": 900,
+            "viewportHeight": 900,
+            "maxScroll": 0
+          },
+          "localScroll": {
+            "scrollY": 0,
+            "scrollHeight": 900,
+            "viewportHeight": 900,
+            "maxScroll": 0
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/401/desktop-step-2.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/401/desktop-step-2.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/401/desktop-step-2.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        }
+      ],
+      "diffSummary": {
+        "maxDiffPercentage": 0,
+        "totalDiffPercentage": 0,
+        "zeroDiffSlices": 3,
+        "avgDiffPercentage": 0
+      },
+      "runtimeError": null
+    },
+    {
+      "route": "/404",
+      "viewport": "desktop",
+      "live": {
+        "status": 200,
+        "titleBrowser": "Not Found"
+      },
+      "local": {
+        "status": 200,
+        "titleBrowser": "Not Found"
+      },
+      "matches": {
+        "browserTitle": true
+      },
+      "linkRewriteClean": true,
+      "localLinkData": {
+        "title": "Not Found",
+        "htmlClass": "w-mod-js w-mod-ix w-mod-ix3",
+        "hrefCount": 10,
+        "actionCount": 0,
+        "absoluteInternalHrefs": [],
+        "protocolRelativeInternalHrefs": [],
+        "absoluteInternalActions": [],
+        "protocolRelativeInternalActions": []
+      },
+      "liveLinkData": {
+        "title": "Not Found",
+        "htmlClass": "w-mod-js w-mod-ix w-mod-ix3",
+        "hrefCount": 10,
+        "actionCount": 0,
+        "absoluteInternalHrefs": [
+          "https://www.x29.ai/we-are-for/businesses",
+          "https://www.x29.ai/we-are-for/ai-agencies",
+          "https://www.x29.ai/we-are-for/interns",
+          "https://www.x29.ai"
+        ],
+        "protocolRelativeInternalHrefs": [],
+        "absoluteInternalActions": [],
+        "protocolRelativeInternalActions": []
+      },
+      "slices": [
+        {
+          "stepIndex": 0,
+          "ratio": 0,
+          "liveScroll": {
+            "scrollY": 0,
+            "scrollHeight": 1338,
+            "viewportHeight": 900,
+            "maxScroll": 438
+          },
+          "localScroll": {
+            "scrollY": 0,
+            "scrollHeight": 1338,
+            "viewportHeight": 900,
+            "maxScroll": 438
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/404/desktop-step-0.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/404/desktop-step-0.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/404/desktop-step-0.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 257578,
+            "diffRatio": 0.198748,
+            "diffPercentage": 19.874845679012346
+          }
+        },
+        {
+          "stepIndex": 1,
+          "ratio": 0.5,
+          "liveScroll": {
+            "scrollY": 219,
+            "scrollHeight": 1338,
+            "viewportHeight": 900,
+            "maxScroll": 438
+          },
+          "localScroll": {
+            "scrollY": 219,
+            "scrollHeight": 1338,
+            "viewportHeight": 900,
+            "maxScroll": 438
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/404/desktop-step-1.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/404/desktop-step-1.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/404/desktop-step-1.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 295681,
+            "diffRatio": 0.228149,
+            "diffPercentage": 22.814891975308644
+          }
+        },
+        {
+          "stepIndex": 2,
+          "ratio": 1,
+          "liveScroll": {
+            "scrollY": 438,
+            "scrollHeight": 1338,
+            "viewportHeight": 900,
+            "maxScroll": 438
+          },
+          "localScroll": {
+            "scrollY": 438,
+            "scrollHeight": 1338,
+            "viewportHeight": 900,
+            "maxScroll": 438
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/404/desktop-step-2.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/404/desktop-step-2.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/404/desktop-step-2.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 214315,
+            "diffRatio": 0.165367,
+            "diffPercentage": 16.536651234567902
+          }
+        }
+      ],
+      "diffSummary": {
+        "maxDiffPercentage": 22.814891975308644,
+        "totalDiffPercentage": 59.22638888888889,
+        "zeroDiffSlices": 0,
+        "avgDiffPercentage": 19.74212962962963
+      },
+      "runtimeError": null
+    },
+    {
+      "route": "/about",
+      "viewport": "desktop",
+      "live": {
+        "status": 200,
+        "titleBrowser": "About | X29.Ai"
+      },
+      "local": {
+        "status": 200,
+        "titleBrowser": "About | X29.Ai"
+      },
+      "matches": {
+        "browserTitle": true
+      },
+      "linkRewriteClean": true,
+      "localLinkData": {
+        "title": "About | X29.Ai",
+        "htmlClass": "w-mod-js w-mod-ix w-mod-ix3",
+        "hrefCount": 18,
+        "actionCount": 0,
+        "absoluteInternalHrefs": [],
+        "protocolRelativeInternalHrefs": [],
+        "absoluteInternalActions": [],
+        "protocolRelativeInternalActions": []
+      },
+      "liveLinkData": {
+        "title": "About | X29.Ai",
+        "htmlClass": "w-mod-js w-mod-ix w-mod-ix3",
+        "hrefCount": 18,
+        "actionCount": 0,
+        "absoluteInternalHrefs": [
+          "https://www.x29.ai/we-are-for/businesses",
+          "https://www.x29.ai/we-are-for/ai-agencies",
+          "https://www.x29.ai/we-are-for/interns",
+          "https://www.x29.ai"
+        ],
+        "protocolRelativeInternalHrefs": [],
+        "absoluteInternalActions": [],
+        "protocolRelativeInternalActions": []
+      },
+      "slices": [
+        {
+          "stepIndex": 0,
+          "ratio": 0,
+          "liveScroll": {
+            "scrollY": 0,
+            "scrollHeight": 9583,
+            "viewportHeight": 900,
+            "maxScroll": 8683
+          },
+          "localScroll": {
+            "scrollY": 0,
+            "scrollHeight": 9583,
+            "viewportHeight": 900,
+            "maxScroll": 8683
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/about/desktop-step-0.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/about/desktop-step-0.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/about/desktop-step-0.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 30274,
+            "diffRatio": 0.0233596,
+            "diffPercentage": 2.335956790123457
+          }
+        },
+        {
+          "stepIndex": 1,
+          "ratio": 0.5,
+          "liveScroll": {
+            "scrollY": 4342,
+            "scrollHeight": 9583,
+            "viewportHeight": 900,
+            "maxScroll": 8683
+          },
+          "localScroll": {
+            "scrollY": 4342,
+            "scrollHeight": 9583,
+            "viewportHeight": 900,
+            "maxScroll": 8683
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/about/desktop-step-1.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/about/desktop-step-1.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/about/desktop-step-1.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        },
+        {
+          "stepIndex": 2,
+          "ratio": 1,
+          "liveScroll": {
+            "scrollY": 8683,
+            "scrollHeight": 9583,
+            "viewportHeight": 900,
+            "maxScroll": 8683
+          },
+          "localScroll": {
+            "scrollY": 8683,
+            "scrollHeight": 9583,
+            "viewportHeight": 900,
+            "maxScroll": 8683
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/about/desktop-step-2.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/about/desktop-step-2.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/about/desktop-step-2.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        }
+      ],
+      "diffSummary": {
+        "maxDiffPercentage": 2.335956790123457,
+        "totalDiffPercentage": 2.335956790123457,
+        "zeroDiffSlices": 2,
+        "avgDiffPercentage": 0.7786522633744856
+      },
+      "runtimeError": null
+    },
+    {
+      "route": "/blog/engineering-the-ai-native-enterprise",
+      "viewport": "desktop",
+      "live": {
+        "status": 200,
+        "titleBrowser": "Engineering the AI-Native Enterprise"
+      },
+      "local": {
+        "status": 200,
+        "titleBrowser": "Engineering the AI-Native Enterprise"
+      },
+      "matches": {
+        "browserTitle": true
+      },
+      "linkRewriteClean": true,
+      "localLinkData": {
+        "title": "Engineering the AI-Native Enterprise",
+        "htmlClass": "w-mod-js w-mod-ix w-mod-ix3",
+        "hrefCount": 24,
+        "actionCount": 0,
+        "absoluteInternalHrefs": [],
+        "protocolRelativeInternalHrefs": [],
+        "absoluteInternalActions": [],
+        "protocolRelativeInternalActions": []
+      },
+      "liveLinkData": {
+        "title": "Engineering the AI-Native Enterprise",
+        "htmlClass": "w-mod-js w-mod-ix w-mod-ix3",
+        "hrefCount": 24,
+        "actionCount": 0,
+        "absoluteInternalHrefs": [
+          "https://www.x29.ai/we-are-for/businesses",
+          "https://www.x29.ai/we-are-for/ai-agencies",
+          "https://www.x29.ai/we-are-for/interns",
+          "https://www.x29.ai"
+        ],
+        "protocolRelativeInternalHrefs": [],
+        "absoluteInternalActions": [],
+        "protocolRelativeInternalActions": []
+      },
+      "slices": [
+        {
+          "stepIndex": 0,
+          "ratio": 0,
+          "liveScroll": {
+            "scrollY": 0,
+            "scrollHeight": 6538,
+            "viewportHeight": 900,
+            "maxScroll": 5638
+          },
+          "localScroll": {
+            "scrollY": 0,
+            "scrollHeight": 6538,
+            "viewportHeight": 900,
+            "maxScroll": 5638
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__engineering-the-ai-native-enterprise/desktop-step-0.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__engineering-the-ai-native-enterprise/desktop-step-0.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__engineering-the-ai-native-enterprise/desktop-step-0.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        },
+        {
+          "stepIndex": 1,
+          "ratio": 0.5,
+          "liveScroll": {
+            "scrollY": 2819,
+            "scrollHeight": 6538,
+            "viewportHeight": 900,
+            "maxScroll": 5638
+          },
+          "localScroll": {
+            "scrollY": 2819,
+            "scrollHeight": 6538,
+            "viewportHeight": 900,
+            "maxScroll": 5638
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__engineering-the-ai-native-enterprise/desktop-step-1.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__engineering-the-ai-native-enterprise/desktop-step-1.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__engineering-the-ai-native-enterprise/desktop-step-1.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        },
+        {
+          "stepIndex": 2,
+          "ratio": 1,
+          "liveScroll": {
+            "scrollY": 5998,
+            "scrollHeight": 6898,
+            "viewportHeight": 900,
+            "maxScroll": 5998
+          },
+          "localScroll": {
+            "scrollY": 5998,
+            "scrollHeight": 6898,
+            "viewportHeight": 900,
+            "maxScroll": 5998
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__engineering-the-ai-native-enterprise/desktop-step-2.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__engineering-the-ai-native-enterprise/desktop-step-2.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__engineering-the-ai-native-enterprise/desktop-step-2.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        }
+      ],
+      "diffSummary": {
+        "maxDiffPercentage": 0,
+        "totalDiffPercentage": 0,
+        "zeroDiffSlices": 3,
+        "avgDiffPercentage": 0
+      },
+      "runtimeError": null
+    },
+    {
+      "route": "/blog/the-ai-native-operating-model",
+      "viewport": "desktop",
+      "live": {
+        "status": 200,
+        "titleBrowser": "The AI-Native Operating Model"
+      },
+      "local": {
+        "status": 200,
+        "titleBrowser": "The AI-Native Operating Model"
+      },
+      "matches": {
+        "browserTitle": true
+      },
+      "linkRewriteClean": true,
+      "localLinkData": {
+        "title": "The AI-Native Operating Model",
+        "htmlClass": "w-mod-js w-mod-ix w-mod-ix3",
+        "hrefCount": 24,
+        "actionCount": 0,
+        "absoluteInternalHrefs": [],
+        "protocolRelativeInternalHrefs": [],
+        "absoluteInternalActions": [],
+        "protocolRelativeInternalActions": []
+      },
+      "liveLinkData": {
+        "title": "The AI-Native Operating Model",
+        "htmlClass": "w-mod-js w-mod-ix w-mod-ix3",
+        "hrefCount": 24,
+        "actionCount": 0,
+        "absoluteInternalHrefs": [
+          "https://www.x29.ai/we-are-for/businesses",
+          "https://www.x29.ai/we-are-for/ai-agencies",
+          "https://www.x29.ai/we-are-for/interns",
+          "https://www.x29.ai"
+        ],
+        "protocolRelativeInternalHrefs": [],
+        "absoluteInternalActions": [],
+        "protocolRelativeInternalActions": []
+      },
+      "slices": [
+        {
+          "stepIndex": 0,
+          "ratio": 0,
+          "liveScroll": {
+            "scrollY": 0,
+            "scrollHeight": 5239,
+            "viewportHeight": 900,
+            "maxScroll": 4339
+          },
+          "localScroll": {
+            "scrollY": 0,
+            "scrollHeight": 5239,
+            "viewportHeight": 900,
+            "maxScroll": 4339
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__the-ai-native-operating-model/desktop-step-0.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__the-ai-native-operating-model/desktop-step-0.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__the-ai-native-operating-model/desktop-step-0.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        },
+        {
+          "stepIndex": 1,
+          "ratio": 0.5,
+          "liveScroll": {
+            "scrollY": 2170,
+            "scrollHeight": 5239,
+            "viewportHeight": 900,
+            "maxScroll": 4339
+          },
+          "localScroll": {
+            "scrollY": 2170,
+            "scrollHeight": 5239,
+            "viewportHeight": 900,
+            "maxScroll": 4339
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__the-ai-native-operating-model/desktop-step-1.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__the-ai-native-operating-model/desktop-step-1.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__the-ai-native-operating-model/desktop-step-1.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        },
+        {
+          "stepIndex": 2,
+          "ratio": 1,
+          "liveScroll": {
+            "scrollY": 4699,
+            "scrollHeight": 5599,
+            "viewportHeight": 900,
+            "maxScroll": 4699
+          },
+          "localScroll": {
+            "scrollY": 4699,
+            "scrollHeight": 5599,
+            "viewportHeight": 900,
+            "maxScroll": 4699
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__the-ai-native-operating-model/desktop-step-2.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__the-ai-native-operating-model/desktop-step-2.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__the-ai-native-operating-model/desktop-step-2.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        }
+      ],
+      "diffSummary": {
+        "maxDiffPercentage": 0,
+        "totalDiffPercentage": 0,
+        "zeroDiffSlices": 3,
+        "avgDiffPercentage": 0
+      },
+      "runtimeError": null
+    },
+    {
+      "route": "/blog/the-x-29-lesson",
+      "viewport": "desktop",
+      "live": {
+        "status": 200,
+        "titleBrowser": "The X-29 Lesson"
+      },
+      "local": {
+        "status": 200,
+        "titleBrowser": "The X-29 Lesson"
+      },
+      "matches": {
+        "browserTitle": true
+      },
+      "linkRewriteClean": true,
+      "localLinkData": {
+        "title": "The X-29 Lesson",
+        "htmlClass": "w-mod-js w-mod-ix w-mod-ix3",
+        "hrefCount": 24,
+        "actionCount": 0,
+        "absoluteInternalHrefs": [],
+        "protocolRelativeInternalHrefs": [],
+        "absoluteInternalActions": [],
+        "protocolRelativeInternalActions": []
+      },
+      "liveLinkData": {
+        "title": "The X-29 Lesson",
+        "htmlClass": "w-mod-js w-mod-ix w-mod-ix3",
+        "hrefCount": 24,
+        "actionCount": 0,
+        "absoluteInternalHrefs": [
+          "https://www.x29.ai/we-are-for/businesses",
+          "https://www.x29.ai/we-are-for/ai-agencies",
+          "https://www.x29.ai/we-are-for/interns",
+          "https://www.x29.ai"
+        ],
+        "protocolRelativeInternalHrefs": [],
+        "absoluteInternalActions": [],
+        "protocolRelativeInternalActions": []
+      },
+      "slices": [
+        {
+          "stepIndex": 0,
+          "ratio": 0,
+          "liveScroll": {
+            "scrollY": 0,
+            "scrollHeight": 5269,
+            "viewportHeight": 900,
+            "maxScroll": 4369
+          },
+          "localScroll": {
+            "scrollY": 0,
+            "scrollHeight": 5269,
+            "viewportHeight": 900,
+            "maxScroll": 4369
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__the-x-29-lesson/desktop-step-0.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__the-x-29-lesson/desktop-step-0.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__the-x-29-lesson/desktop-step-0.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        },
+        {
+          "stepIndex": 1,
+          "ratio": 0.5,
+          "liveScroll": {
+            "scrollY": 2185,
+            "scrollHeight": 5269,
+            "viewportHeight": 900,
+            "maxScroll": 4369
+          },
+          "localScroll": {
+            "scrollY": 2185,
+            "scrollHeight": 5269,
+            "viewportHeight": 900,
+            "maxScroll": 4369
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__the-x-29-lesson/desktop-step-1.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__the-x-29-lesson/desktop-step-1.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__the-x-29-lesson/desktop-step-1.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        },
+        {
+          "stepIndex": 2,
+          "ratio": 1,
+          "liveScroll": {
+            "scrollY": 4729,
+            "scrollHeight": 5629,
+            "viewportHeight": 900,
+            "maxScroll": 4729
+          },
+          "localScroll": {
+            "scrollY": 4729,
+            "scrollHeight": 5629,
+            "viewportHeight": 900,
+            "maxScroll": 4729
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__the-x-29-lesson/desktop-step-2.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__the-x-29-lesson/desktop-step-2.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__the-x-29-lesson/desktop-step-2.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        }
+      ],
+      "diffSummary": {
+        "maxDiffPercentage": 0,
+        "totalDiffPercentage": 0,
+        "zeroDiffSlices": 3,
+        "avgDiffPercentage": 0
+      },
+      "runtimeError": null
+    },
+    {
+      "route": "/contact",
+      "viewport": "desktop",
+      "live": {
+        "status": 200,
+        "titleBrowser": "Contact | X29.AI"
+      },
+      "local": {
+        "status": 200,
+        "titleBrowser": "Contact | X29.AI"
+      },
+      "matches": {
+        "browserTitle": true
+      },
+      "linkRewriteClean": true,
+      "localLinkData": {
+        "title": "Contact | X29.AI",
+        "htmlClass": "w-mod-js w-mod-ix w-mod-ix3",
+        "hrefCount": 18,
+        "actionCount": 0,
+        "absoluteInternalHrefs": [],
+        "protocolRelativeInternalHrefs": [],
+        "absoluteInternalActions": [],
+        "protocolRelativeInternalActions": []
+      },
+      "liveLinkData": {
+        "title": "Contact | X29.AI",
+        "htmlClass": "w-mod-js w-mod-ix w-mod-ix3",
+        "hrefCount": 18,
+        "actionCount": 0,
+        "absoluteInternalHrefs": [
+          "https://www.x29.ai/we-are-for/businesses",
+          "https://www.x29.ai/we-are-for/ai-agencies",
+          "https://www.x29.ai/we-are-for/interns",
+          "https://www.x29.ai"
+        ],
+        "protocolRelativeInternalHrefs": [],
+        "absoluteInternalActions": [],
+        "protocolRelativeInternalActions": []
+      },
+      "slices": [
+        {
+          "stepIndex": 0,
+          "ratio": 0,
+          "liveScroll": {
+            "scrollY": 0,
+            "scrollHeight": 900,
+            "viewportHeight": 900,
+            "maxScroll": 0
+          },
+          "localScroll": {
+            "scrollY": 0,
+            "scrollHeight": 900,
+            "viewportHeight": 900,
+            "maxScroll": 0
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/contact/desktop-step-0.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/contact/desktop-step-0.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/contact/desktop-step-0.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        },
+        {
+          "stepIndex": 1,
+          "ratio": 0.5,
+          "liveScroll": {
+            "scrollY": 0,
+            "scrollHeight": 900,
+            "viewportHeight": 900,
+            "maxScroll": 0
+          },
+          "localScroll": {
+            "scrollY": 0,
+            "scrollHeight": 900,
+            "viewportHeight": 900,
+            "maxScroll": 0
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/contact/desktop-step-1.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/contact/desktop-step-1.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/contact/desktop-step-1.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        },
+        {
+          "stepIndex": 2,
+          "ratio": 1,
+          "liveScroll": {
+            "scrollY": 0,
+            "scrollHeight": 900,
+            "viewportHeight": 900,
+            "maxScroll": 0
+          },
+          "localScroll": {
+            "scrollY": 0,
+            "scrollHeight": 900,
+            "viewportHeight": 900,
+            "maxScroll": 0
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/contact/desktop-step-2.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/contact/desktop-step-2.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/contact/desktop-step-2.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        }
+      ],
+      "diffSummary": {
+        "maxDiffPercentage": 0,
+        "totalDiffPercentage": 0,
+        "zeroDiffSlices": 3,
+        "avgDiffPercentage": 0
+      },
+      "runtimeError": null
+    },
+    {
+      "route": "/projects",
+      "viewport": "desktop",
+      "live": {
+        "status": 200,
+        "titleBrowser": "Projects | Human+Machine - Webflow HTML website template"
+      },
+      "local": {
+        "status": 200,
+        "titleBrowser": "Projects | Human+Machine - Webflow HTML website template"
+      },
+      "matches": {
+        "browserTitle": true
+      },
+      "linkRewriteClean": true,
+      "localLinkData": {
+        "title": "Projects | Human+Machine - Webflow HTML website template",
+        "htmlClass": "w-mod-js w-mod-ix w-mod-ix3",
+        "hrefCount": 23,
+        "actionCount": 0,
+        "absoluteInternalHrefs": [],
+        "protocolRelativeInternalHrefs": [],
+        "absoluteInternalActions": [],
+        "protocolRelativeInternalActions": []
+      },
+      "liveLinkData": {
+        "title": "Projects | Human+Machine - Webflow HTML website template",
+        "htmlClass": "w-mod-js w-mod-ix w-mod-ix3",
+        "hrefCount": 23,
+        "actionCount": 0,
+        "absoluteInternalHrefs": [
+          "https://www.x29.ai/we-are-for/businesses",
+          "https://www.x29.ai/we-are-for/ai-agencies",
+          "https://www.x29.ai/we-are-for/interns",
+          "https://www.x29.ai"
+        ],
+        "protocolRelativeInternalHrefs": [],
+        "absoluteInternalActions": [],
+        "protocolRelativeInternalActions": []
+      },
+      "slices": [
+        {
+          "stepIndex": 0,
+          "ratio": 0,
+          "liveScroll": {
+            "scrollY": 0,
+            "scrollHeight": 5417,
+            "viewportHeight": 900,
+            "maxScroll": 4517
+          },
+          "localScroll": {
+            "scrollY": 0,
+            "scrollHeight": 5417,
+            "viewportHeight": 900,
+            "maxScroll": 4517
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/projects/desktop-step-0.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/projects/desktop-step-0.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/projects/desktop-step-0.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        },
+        {
+          "stepIndex": 1,
+          "ratio": 0.5,
+          "liveScroll": {
+            "scrollY": 2259,
+            "scrollHeight": 5417,
+            "viewportHeight": 900,
+            "maxScroll": 4517
+          },
+          "localScroll": {
+            "scrollY": 2259,
+            "scrollHeight": 5417,
+            "viewportHeight": 900,
+            "maxScroll": 4517
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/projects/desktop-step-1.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/projects/desktop-step-1.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/projects/desktop-step-1.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        },
+        {
+          "stepIndex": 2,
+          "ratio": 1,
+          "liveScroll": {
+            "scrollY": 4877,
+            "scrollHeight": 5777,
+            "viewportHeight": 900,
+            "maxScroll": 4877
+          },
+          "localScroll": {
+            "scrollY": 4877,
+            "scrollHeight": 5777,
+            "viewportHeight": 900,
+            "maxScroll": 4877
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/projects/desktop-step-2.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/projects/desktop-step-2.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/projects/desktop-step-2.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        }
+      ],
+      "diffSummary": {
+        "maxDiffPercentage": 0,
+        "totalDiffPercentage": 0,
+        "zeroDiffSlices": 3,
+        "avgDiffPercentage": 0
+      },
+      "runtimeError": null
+    },
+    {
+      "route": "/we-are-for/ai-agencies",
+      "viewport": "desktop",
+      "live": {
+        "status": 200,
+        "titleBrowser": "For AI Agencies"
+      },
+      "local": {
+        "status": 200,
+        "titleBrowser": "For AI Agencies"
+      },
+      "matches": {
+        "browserTitle": true
+      },
+      "linkRewriteClean": true,
+      "localLinkData": {
+        "title": "For AI Agencies",
+        "htmlClass": "w-mod-js w-mod-ix w-mod-ix3",
+        "hrefCount": 20,
+        "actionCount": 0,
+        "absoluteInternalHrefs": [],
+        "protocolRelativeInternalHrefs": [],
+        "absoluteInternalActions": [],
+        "protocolRelativeInternalActions": []
+      },
+      "liveLinkData": {
+        "title": "For AI Agencies",
+        "htmlClass": "w-mod-js w-mod-ix w-mod-ix3",
+        "hrefCount": 20,
+        "actionCount": 0,
+        "absoluteInternalHrefs": [
+          "https://www.x29.ai/we-are-for/businesses",
+          "https://www.x29.ai/we-are-for/ai-agencies",
+          "https://www.x29.ai/we-are-for/interns",
+          "https://www.x29.ai"
+        ],
+        "protocolRelativeInternalHrefs": [],
+        "absoluteInternalActions": [],
+        "protocolRelativeInternalActions": []
+      },
+      "slices": [
+        {
+          "stepIndex": 0,
+          "ratio": 0,
+          "liveScroll": {
+            "scrollY": 0,
+            "scrollHeight": 5125,
+            "viewportHeight": 900,
+            "maxScroll": 4225
+          },
+          "localScroll": {
+            "scrollY": 0,
+            "scrollHeight": 5125,
+            "viewportHeight": 900,
+            "maxScroll": 4225
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__ai-agencies/desktop-step-0.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__ai-agencies/desktop-step-0.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__ai-agencies/desktop-step-0.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        },
+        {
+          "stepIndex": 1,
+          "ratio": 0.5,
+          "liveScroll": {
+            "scrollY": 2113,
+            "scrollHeight": 5125,
+            "viewportHeight": 900,
+            "maxScroll": 4225
+          },
+          "localScroll": {
+            "scrollY": 2113,
+            "scrollHeight": 5125,
+            "viewportHeight": 900,
+            "maxScroll": 4225
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__ai-agencies/desktop-step-1.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__ai-agencies/desktop-step-1.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__ai-agencies/desktop-step-1.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        },
+        {
+          "stepIndex": 2,
+          "ratio": 1,
+          "liveScroll": {
+            "scrollY": 4585,
+            "scrollHeight": 5485,
+            "viewportHeight": 900,
+            "maxScroll": 4585
+          },
+          "localScroll": {
+            "scrollY": 4585,
+            "scrollHeight": 5485,
+            "viewportHeight": 900,
+            "maxScroll": 4585
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__ai-agencies/desktop-step-2.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__ai-agencies/desktop-step-2.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__ai-agencies/desktop-step-2.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        }
+      ],
+      "diffSummary": {
+        "maxDiffPercentage": 0,
+        "totalDiffPercentage": 0,
+        "zeroDiffSlices": 3,
+        "avgDiffPercentage": 0
+      },
+      "runtimeError": null
+    },
+    {
+      "route": "/we-are-for/ai-researchers",
+      "viewport": "desktop",
+      "live": {
+        "status": 200,
+        "titleBrowser": "For AI Leads & Researchers"
+      },
+      "local": {
+        "status": 200,
+        "titleBrowser": "For AI Leads &amp; Researchers"
+      },
+      "matches": {
+        "browserTitle": false
+      },
+      "linkRewriteClean": true,
+      "localLinkData": {
+        "title": "For AI Leads &amp; Researchers",
+        "htmlClass": "w-mod-js w-mod-ix w-mod-ix3",
+        "hrefCount": 20,
+        "actionCount": 0,
+        "absoluteInternalHrefs": [],
+        "protocolRelativeInternalHrefs": [],
+        "absoluteInternalActions": [],
+        "protocolRelativeInternalActions": []
+      },
+      "liveLinkData": {
+        "title": "For AI Leads & Researchers",
+        "htmlClass": "w-mod-js w-mod-ix w-mod-ix3",
+        "hrefCount": 20,
+        "actionCount": 0,
+        "absoluteInternalHrefs": [
+          "https://www.x29.ai/we-are-for/businesses",
+          "https://www.x29.ai/we-are-for/ai-agencies",
+          "https://www.x29.ai/we-are-for/interns",
+          "https://www.x29.ai"
+        ],
+        "protocolRelativeInternalHrefs": [],
+        "absoluteInternalActions": [],
+        "protocolRelativeInternalActions": []
+      },
+      "slices": [
+        {
+          "stepIndex": 0,
+          "ratio": 0,
+          "liveScroll": {
+            "scrollY": 0,
+            "scrollHeight": 5076,
+            "viewportHeight": 900,
+            "maxScroll": 4176
+          },
+          "localScroll": {
+            "scrollY": 0,
+            "scrollHeight": 5076,
+            "viewportHeight": 900,
+            "maxScroll": 4176
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__ai-researchers/desktop-step-0.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__ai-researchers/desktop-step-0.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__ai-researchers/desktop-step-0.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        },
+        {
+          "stepIndex": 1,
+          "ratio": 0.5,
+          "liveScroll": {
+            "scrollY": 2088,
+            "scrollHeight": 5076,
+            "viewportHeight": 900,
+            "maxScroll": 4176
+          },
+          "localScroll": {
+            "scrollY": 2088,
+            "scrollHeight": 5076,
+            "viewportHeight": 900,
+            "maxScroll": 4176
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__ai-researchers/desktop-step-1.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__ai-researchers/desktop-step-1.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__ai-researchers/desktop-step-1.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        },
+        {
+          "stepIndex": 2,
+          "ratio": 1,
+          "liveScroll": {
+            "scrollY": 4536,
+            "scrollHeight": 5436,
+            "viewportHeight": 900,
+            "maxScroll": 4536
+          },
+          "localScroll": {
+            "scrollY": 4536,
+            "scrollHeight": 5436,
+            "viewportHeight": 900,
+            "maxScroll": 4536
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__ai-researchers/desktop-step-2.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__ai-researchers/desktop-step-2.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__ai-researchers/desktop-step-2.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        }
+      ],
+      "diffSummary": {
+        "maxDiffPercentage": 0,
+        "totalDiffPercentage": 0,
+        "zeroDiffSlices": 3,
+        "avgDiffPercentage": 0
+      },
+      "runtimeError": null
+    },
+    {
+      "route": "/we-are-for/businesses",
+      "viewport": "desktop",
+      "live": {
+        "status": 200,
+        "titleBrowser": "For Businesses"
+      },
+      "local": {
+        "status": 200,
+        "titleBrowser": "For Businesses"
+      },
+      "matches": {
+        "browserTitle": true
+      },
+      "linkRewriteClean": true,
+      "localLinkData": {
+        "title": "For Businesses",
+        "htmlClass": "w-mod-js w-mod-ix w-mod-ix3",
+        "hrefCount": 20,
+        "actionCount": 0,
+        "absoluteInternalHrefs": [],
+        "protocolRelativeInternalHrefs": [],
+        "absoluteInternalActions": [],
+        "protocolRelativeInternalActions": []
+      },
+      "liveLinkData": {
+        "title": "For Businesses",
+        "htmlClass": "w-mod-js w-mod-ix w-mod-ix3",
+        "hrefCount": 20,
+        "actionCount": 0,
+        "absoluteInternalHrefs": [
+          "https://www.x29.ai/we-are-for/businesses",
+          "https://www.x29.ai/we-are-for/ai-agencies",
+          "https://www.x29.ai/we-are-for/interns",
+          "https://www.x29.ai"
+        ],
+        "protocolRelativeInternalHrefs": [],
+        "absoluteInternalActions": [],
+        "protocolRelativeInternalActions": []
+      },
+      "slices": [
+        {
+          "stepIndex": 0,
+          "ratio": 0,
+          "liveScroll": {
+            "scrollY": 0,
+            "scrollHeight": 5572,
+            "viewportHeight": 900,
+            "maxScroll": 4672
+          },
+          "localScroll": {
+            "scrollY": 0,
+            "scrollHeight": 5572,
+            "viewportHeight": 900,
+            "maxScroll": 4672
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__businesses/desktop-step-0.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__businesses/desktop-step-0.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__businesses/desktop-step-0.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        },
+        {
+          "stepIndex": 1,
+          "ratio": 0.5,
+          "liveScroll": {
+            "scrollY": 2336,
+            "scrollHeight": 5572,
+            "viewportHeight": 900,
+            "maxScroll": 4672
+          },
+          "localScroll": {
+            "scrollY": 2336,
+            "scrollHeight": 5572,
+            "viewportHeight": 900,
+            "maxScroll": 4672
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__businesses/desktop-step-1.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__businesses/desktop-step-1.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__businesses/desktop-step-1.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        },
+        {
+          "stepIndex": 2,
+          "ratio": 1,
+          "liveScroll": {
+            "scrollY": 5032,
+            "scrollHeight": 5932,
+            "viewportHeight": 900,
+            "maxScroll": 5032
+          },
+          "localScroll": {
+            "scrollY": 5032,
+            "scrollHeight": 5932,
+            "viewportHeight": 900,
+            "maxScroll": 5032
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__businesses/desktop-step-2.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__businesses/desktop-step-2.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__businesses/desktop-step-2.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        }
+      ],
+      "diffSummary": {
+        "maxDiffPercentage": 0,
+        "totalDiffPercentage": 0,
+        "zeroDiffSlices": 3,
+        "avgDiffPercentage": 0
+      },
+      "runtimeError": null
+    },
+    {
+      "route": "/we-are-for/interns",
+      "viewport": "desktop",
+      "live": {
+        "status": 200,
+        "titleBrowser": "Intern at X29.ai"
+      },
+      "local": {
+        "status": 200,
+        "titleBrowser": "Intern at X29.ai"
+      },
+      "matches": {
+        "browserTitle": true
+      },
+      "linkRewriteClean": true,
+      "localLinkData": {
+        "title": "Intern at X29.ai",
+        "htmlClass": "w-mod-js w-mod-ix w-mod-ix3",
+        "hrefCount": 20,
+        "actionCount": 0,
+        "absoluteInternalHrefs": [],
+        "protocolRelativeInternalHrefs": [],
+        "absoluteInternalActions": [],
+        "protocolRelativeInternalActions": []
+      },
+      "liveLinkData": {
+        "title": "Intern at X29.ai",
+        "htmlClass": "w-mod-js w-mod-ix w-mod-ix3",
+        "hrefCount": 20,
+        "actionCount": 0,
+        "absoluteInternalHrefs": [
+          "https://www.x29.ai/we-are-for/businesses",
+          "https://www.x29.ai/we-are-for/ai-agencies",
+          "https://www.x29.ai/we-are-for/interns",
+          "https://www.x29.ai"
+        ],
+        "protocolRelativeInternalHrefs": [],
+        "absoluteInternalActions": [],
+        "protocolRelativeInternalActions": []
+      },
+      "slices": [
+        {
+          "stepIndex": 0,
+          "ratio": 0,
+          "liveScroll": {
+            "scrollY": 0,
+            "scrollHeight": 6103,
+            "viewportHeight": 900,
+            "maxScroll": 5203
+          },
+          "localScroll": {
+            "scrollY": 0,
+            "scrollHeight": 6103,
+            "viewportHeight": 900,
+            "maxScroll": 5203
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__interns/desktop-step-0.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__interns/desktop-step-0.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__interns/desktop-step-0.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        },
+        {
+          "stepIndex": 1,
+          "ratio": 0.5,
+          "liveScroll": {
+            "scrollY": 2602,
+            "scrollHeight": 6103,
+            "viewportHeight": 900,
+            "maxScroll": 5203
+          },
+          "localScroll": {
+            "scrollY": 2602,
+            "scrollHeight": 6103,
+            "viewportHeight": 900,
+            "maxScroll": 5203
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__interns/desktop-step-1.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__interns/desktop-step-1.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__interns/desktop-step-1.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        },
+        {
+          "stepIndex": 2,
+          "ratio": 1,
+          "liveScroll": {
+            "scrollY": 5563,
+            "scrollHeight": 6463,
+            "viewportHeight": 900,
+            "maxScroll": 5563
+          },
+          "localScroll": {
+            "scrollY": 5563,
+            "scrollHeight": 6463,
+            "viewportHeight": 900,
+            "maxScroll": 5563
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__interns/desktop-step-2.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__interns/desktop-step-2.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__interns/desktop-step-2.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        }
+      ],
+      "diffSummary": {
+        "maxDiffPercentage": 0,
+        "totalDiffPercentage": 0,
+        "zeroDiffSlices": 3,
+        "avgDiffPercentage": 0
+      },
+      "runtimeError": null
+    },
+    {
+      "route": "/we-are-for/livingless",
+      "viewport": "desktop",
+      "live": {
+        "status": 200,
+        "titleBrowser": "Livingless"
+      },
+      "local": {
+        "status": 200,
+        "titleBrowser": "Livingless"
+      },
+      "matches": {
+        "browserTitle": true
+      },
+      "linkRewriteClean": true,
+      "localLinkData": {
+        "title": "Livingless",
+        "htmlClass": "w-mod-js w-mod-ix w-mod-ix3",
+        "hrefCount": 20,
+        "actionCount": 0,
+        "absoluteInternalHrefs": [],
+        "protocolRelativeInternalHrefs": [],
+        "absoluteInternalActions": [],
+        "protocolRelativeInternalActions": []
+      },
+      "liveLinkData": {
+        "title": "Livingless",
+        "htmlClass": "w-mod-js w-mod-ix w-mod-ix3",
+        "hrefCount": 20,
+        "actionCount": 0,
+        "absoluteInternalHrefs": [
+          "https://www.x29.ai/we-are-for/businesses",
+          "https://www.x29.ai/we-are-for/ai-agencies",
+          "https://www.x29.ai/we-are-for/interns",
+          "https://www.x29.ai"
+        ],
+        "protocolRelativeInternalHrefs": [],
+        "absoluteInternalActions": [],
+        "protocolRelativeInternalActions": []
+      },
+      "slices": [
+        {
+          "stepIndex": 0,
+          "ratio": 0,
+          "liveScroll": {
+            "scrollY": 0,
+            "scrollHeight": 3361,
+            "viewportHeight": 900,
+            "maxScroll": 2461
+          },
+          "localScroll": {
+            "scrollY": 0,
+            "scrollHeight": 3361,
+            "viewportHeight": 900,
+            "maxScroll": 2461
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__livingless/desktop-step-0.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__livingless/desktop-step-0.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__livingless/desktop-step-0.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        },
+        {
+          "stepIndex": 1,
+          "ratio": 0.5,
+          "liveScroll": {
+            "scrollY": 1231,
+            "scrollHeight": 3361,
+            "viewportHeight": 900,
+            "maxScroll": 2461
+          },
+          "localScroll": {
+            "scrollY": 1231,
+            "scrollHeight": 3361,
+            "viewportHeight": 900,
+            "maxScroll": 2461
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__livingless/desktop-step-1.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__livingless/desktop-step-1.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__livingless/desktop-step-1.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        },
+        {
+          "stepIndex": 2,
+          "ratio": 1,
+          "liveScroll": {
+            "scrollY": 2461,
+            "scrollHeight": 3361,
+            "viewportHeight": 900,
+            "maxScroll": 2461
+          },
+          "localScroll": {
+            "scrollY": 2461,
+            "scrollHeight": 3361,
+            "viewportHeight": 900,
+            "maxScroll": 2461
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__livingless/desktop-step-2.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__livingless/desktop-step-2.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/we-are-for__livingless/desktop-step-2.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 0,
+            "diffRatio": 0,
+            "diffPercentage": 0
+          }
+        }
+      ],
+      "diffSummary": {
+        "maxDiffPercentage": 0,
+        "totalDiffPercentage": 0,
+        "zeroDiffSlices": 3,
+        "avgDiffPercentage": 0
+      },
+      "runtimeError": null
+    },
+    {
+      "route": "/blog/why-human-ai-is-the-future-of-creative-agencies",
+      "viewport": "desktop",
+      "live": {
+        "status": 404,
+        "titleBrowser": "Not Found"
+      },
+      "local": {
+        "status": 404,
+        "titleBrowser": "Not Found"
+      },
+      "matches": {
+        "browserTitle": true
+      },
+      "linkRewriteClean": true,
+      "localLinkData": {
+        "title": "Not Found",
+        "htmlClass": "w-mod-js w-mod-ix w-mod-ix3",
+        "hrefCount": 10,
+        "actionCount": 0,
+        "absoluteInternalHrefs": [],
+        "protocolRelativeInternalHrefs": [],
+        "absoluteInternalActions": [],
+        "protocolRelativeInternalActions": []
+      },
+      "liveLinkData": {
+        "title": "Not Found",
+        "htmlClass": "w-mod-js w-mod-ix w-mod-ix3",
+        "hrefCount": 10,
+        "actionCount": 0,
+        "absoluteInternalHrefs": [
+          "https://www.x29.ai/we-are-for/businesses",
+          "https://www.x29.ai/we-are-for/ai-agencies",
+          "https://www.x29.ai/we-are-for/interns",
+          "https://www.x29.ai"
+        ],
+        "protocolRelativeInternalHrefs": [],
+        "absoluteInternalActions": [],
+        "protocolRelativeInternalActions": []
+      },
+      "slices": [
+        {
+          "stepIndex": 0,
+          "ratio": 0,
+          "liveScroll": {
+            "scrollY": 0,
+            "scrollHeight": 1338,
+            "viewportHeight": 900,
+            "maxScroll": 438
+          },
+          "localScroll": {
+            "scrollY": 0,
+            "scrollHeight": 1338,
+            "viewportHeight": 900,
+            "maxScroll": 438
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__why-human-ai-is-the-future-of-creative-agencies/desktop-step-0.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__why-human-ai-is-the-future-of-creative-agencies/desktop-step-0.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__why-human-ai-is-the-future-of-creative-agencies/desktop-step-0.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 1134190,
+            "diffRatio": 0.875144,
+            "diffPercentage": 87.51466049382715
+          }
+        },
+        {
+          "stepIndex": 1,
+          "ratio": 0.5,
+          "liveScroll": {
+            "scrollY": 219,
+            "scrollHeight": 1338,
+            "viewportHeight": 900,
+            "maxScroll": 438
+          },
+          "localScroll": {
+            "scrollY": 219,
+            "scrollHeight": 1338,
+            "viewportHeight": 900,
+            "maxScroll": 438
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__why-human-ai-is-the-future-of-creative-agencies/desktop-step-1.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__why-human-ai-is-the-future-of-creative-agencies/desktop-step-1.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__why-human-ai-is-the-future-of-creative-agencies/desktop-step-1.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 1174170,
+            "diffRatio": 0.905996,
+            "diffPercentage": 90.59953703703704
+          }
+        },
+        {
+          "stepIndex": 2,
+          "ratio": 1,
+          "liveScroll": {
+            "scrollY": 438,
+            "scrollHeight": 1338,
+            "viewportHeight": 900,
+            "maxScroll": 438
+          },
+          "localScroll": {
+            "scrollY": 438,
+            "scrollHeight": 1338,
+            "viewportHeight": 900,
+            "maxScroll": 438
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__why-human-ai-is-the-future-of-creative-agencies/desktop-step-2.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__why-human-ai-is-the-future-of-creative-agencies/desktop-step-2.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/blog__why-human-ai-is-the-future-of-creative-agencies/desktop-step-2.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 1203270,
+            "diffRatio": 0.928448,
+            "diffPercentage": 92.8449074074074
+          }
+        }
+      ],
+      "diffSummary": {
+        "maxDiffPercentage": 92.8449074074074,
+        "totalDiffPercentage": 270.9591049382716,
+        "zeroDiffSlices": 0,
+        "avgDiffPercentage": 90.31970164609054
+      },
+      "runtimeError": null
+    },
+    {
+      "route": "/projects/livingless-3",
+      "viewport": "desktop",
+      "live": {
+        "status": 404,
+        "titleBrowser": "Not Found"
+      },
+      "local": {
+        "status": 404,
+        "titleBrowser": "Not Found"
+      },
+      "matches": {
+        "browserTitle": true
+      },
+      "linkRewriteClean": true,
+      "localLinkData": {
+        "title": "Not Found",
+        "htmlClass": "w-mod-js w-mod-ix w-mod-ix3",
+        "hrefCount": 10,
+        "actionCount": 0,
+        "absoluteInternalHrefs": [],
+        "protocolRelativeInternalHrefs": [],
+        "absoluteInternalActions": [],
+        "protocolRelativeInternalActions": []
+      },
+      "liveLinkData": {
+        "title": "Not Found",
+        "htmlClass": "w-mod-js w-mod-ix w-mod-ix3",
+        "hrefCount": 10,
+        "actionCount": 0,
+        "absoluteInternalHrefs": [
+          "https://www.x29.ai/we-are-for/businesses",
+          "https://www.x29.ai/we-are-for/ai-agencies",
+          "https://www.x29.ai/we-are-for/interns",
+          "https://www.x29.ai"
+        ],
+        "protocolRelativeInternalHrefs": [],
+        "absoluteInternalActions": [],
+        "protocolRelativeInternalActions": []
+      },
+      "slices": [
+        {
+          "stepIndex": 0,
+          "ratio": 0,
+          "liveScroll": {
+            "scrollY": 0,
+            "scrollHeight": 1338,
+            "viewportHeight": 900,
+            "maxScroll": 438
+          },
+          "localScroll": {
+            "scrollY": 0,
+            "scrollHeight": 1338,
+            "viewportHeight": 900,
+            "maxScroll": 438
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/projects__livingless-3/desktop-step-0.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/projects__livingless-3/desktop-step-0.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/projects__livingless-3/desktop-step-0.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 1135500,
+            "diffRatio": 0.876157,
+            "diffPercentage": 87.61574074074075
+          }
+        },
+        {
+          "stepIndex": 1,
+          "ratio": 0.5,
+          "liveScroll": {
+            "scrollY": 219,
+            "scrollHeight": 1338,
+            "viewportHeight": 900,
+            "maxScroll": 438
+          },
+          "localScroll": {
+            "scrollY": 219,
+            "scrollHeight": 1338,
+            "viewportHeight": 900,
+            "maxScroll": 438
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/projects__livingless-3/desktop-step-1.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/projects__livingless-3/desktop-step-1.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/projects__livingless-3/desktop-step-1.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 1174650,
+            "diffRatio": 0.906363,
+            "diffPercentage": 90.63657407407408
+          }
+        },
+        {
+          "stepIndex": 2,
+          "ratio": 1,
+          "liveScroll": {
+            "scrollY": 438,
+            "scrollHeight": 1338,
+            "viewportHeight": 900,
+            "maxScroll": 438
+          },
+          "localScroll": {
+            "scrollY": 438,
+            "scrollHeight": 1338,
+            "viewportHeight": 900,
+            "maxScroll": 438
+          },
+          "screenshotPaths": {
+            "live": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/projects__livingless-3/desktop-step-2.live.png",
+            "local": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/projects__livingless-3/desktop-step-2.local.png",
+            "diff": "docs/design-references/qa/runs/site-flow-audit-desktop-current/routes/projects__livingless-3/desktop-step-2.diff.png"
+          },
+          "diff": {
+            "width": 1440,
+            "height": 900,
+            "pixels": 1296000,
+            "diffPixels": 1205260,
+            "diffRatio": 0.929982,
+            "diffPercentage": 92.99845679012346
+          }
+        }
+      ],
+      "diffSummary": {
+        "maxDiffPercentage": 92.99845679012346,
+        "totalDiffPercentage": 271.2507716049383,
+        "zeroDiffSlices": 0,
+        "avgDiffPercentage": 90.41692386831276
+      },
+      "runtimeError": null
+    }
+  ],
+  "linkCoverage": {
+    "absoluteInternalLinks": 0,
+    "protocolRelativeInternalLinks": 0,
+    "unresolvedTargets": []
+  },
+  "flowSummary": {
+    "total": 9,
+    "passed": 9
+  },
+  "flowChecks": [
+    {
+      "id": "home-nav-toggle",
+      "passed": true,
+      "details": {
+        "menuVisible": true
+      }
+    },
+    {
+      "id": "home-nav-about-link",
+      "passed": true,
+      "details": {
+        "url": "/about",
+        "title": "About | X29.Ai",
+        "text": "CONTACT US\nX29\nAI\nX29.AI\nPORT CO: CONDUCTING AI\nWe believe this is the most exciting moment in human history — a time when intelligence is being redefined and companies must be rebuilt.\nOur mission is to research, design, and prototype operating models where AI is the foundation, not the add-on.\nWe "
+      }
+    },
+    {
+      "id": "footer-contact-link",
+      "passed": true,
+      "details": {
+        "url": "/contact",
+        "title": "Contact | X29.AI",
+        "text": "CONTACT US\ncontact@X29.ai"
+      }
+    },
+    {
+      "id": "broken-project-route",
+      "passed": true,
+      "details": {
+        "url": "/projects/livingless-3",
+        "title": "Not Found",
+        "text": "CONTACT US\nX49AI% meets Machine\n+\nHuman% meets M@chine\n+\nHuman% meets M@chine\n+\nHuman% meets M@chine\n+\nHuman% meets M@chine\n+\nHuman% meets M@chine\n+\n404\n404: Ordinary Not Found\n+\n404: Ordinary Not Found\n+\n404: Ordinary Not Found\n+\n404: Ordinary Not Found\n+\n404: Ordinary Not Found\n+\n404: Ordinary Not"
+      }
+    },
+    {
+      "id": "broken-blog-route",
+      "passed": true,
+      "details": {
+        "url": "/blog/why-human-ai-is-the-future-of-creative-agencies",
+        "title": "Not Found",
+        "text": "CONTACT US\nX49AI% meets Machine\n+\nHuman% meets M@chine\n+\nHuman% meets M@chine\n+\nHuman% meets M@chine\n+\nHuman% meets M@chine\n+\nHuman% meets M@chine\n+\n404\n404: Ordinary Not Found\n+\n404: Ordinary Not Found\n+\n404: Ordinary Not Found\n+\n404: Ordinary Not Found\n+\n404: Ordinary Not Found\n+\n404: Ordinary Not"
+      }
+    },
+    {
+      "id": "local-password-error-state",
+      "passed": true,
+      "details": {
+        "url": "/401?e=1",
+        "title": "Protected page",
+        "text": "CONTACT US\nPassword\nprotected\nDEFAULT\nIncorrect password. Please try again.",
+        "failVisible": true
+      }
+    },
+    {
+      "id": "local-password-submit",
+      "passed": true,
+      "details": {
+        "url": "/.wf_auth",
+        "title": "Not Found",
+        "text": "CONTACT US\nX49AI% meets Machine\n+\nHuman% meets M@chine\n+\nHuman% meets M@chine\n+\nHuman% meets M@chine\n+\nHuman% meets M@chine\n+\nHuman% meets M@chine\n+\n404\n404: Ordinary Not Found\n+\n404: Ordinary Not Found\n+\n404: Ordinary Not Found\n+\n404: Ordinary Not Found\n+\n404: Ordinary Not Found\n+\n404: Ordinary Not"
+      }
+    },
+    {
+      "id": "live-password-submit-reference",
+      "passed": true,
+      "details": {
+        "url": "/.wf_auth",
+        "title": "Not Found",
+        "text": "CONTACT US\nX49AI% meets Machine\n+\nHuman% meets M@chine\n+\nHuman% meets M@chine\n+\nHuman% meets M@chine\n+\nHuman% meets M@chine\n+\nHuman% meets M@chine\n+\n404\n404: Ordinary Not Found\n+\n404: Ordinary Not Found\n+\n404: Ordinary Not Found\n+\n404: Ordinary Not Found\n+\n404: Ordinary Not Found\n+\n404: Ordinary Not"
+      }
+    },
+    {
+      "id": "contact-mailto-link",
+      "passed": true,
+      "details": {
+        "href": "mailto:contact@X29.ai"
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "name": "nav",
+    "dimensionsMatch": true,
+    "liveDimensions": {
+      "width": 1440,
+      "height": 80
+    },
+    "localDimensions": {
+      "width": 1440,
+      "height": 80
+    },
+    "diffPixels": 0,
+    "diffPercent": 0
+  },
+  {
+    "name": "hero",
+    "dimensionsMatch": true,
+    "liveDimensions": {
+      "width": 1440,
+      "height": 900
+    },
+    "localDimensions": {
+      "width": 1440,
+      "height": 900
+    },
+    "diffPixels": 0,
+    "diffPercent": 0
+  },
+  {
+    "name": "overlap",
+    "dimensionsMatch": true,
+    "liveDimensions": {
+      "width": 1440,
+      "height": 1172
+    },
+    "localDimensions": {
+      "width": 1440,
+      "height": 1172
+    },
+    "diffPixels": 810090,
+    "diffPercent": 48.0002
+  },
+  {
+    "name": "work",
+    "missing": true
+  },
+  {
+    "name": "services",
+    "missing": true
+  },
+  {
+    "name": "video",
+    "missing": true
+  },
+  {
+    "name": "numbers",
+    "missing": true
+  },
+  {
+    "name": "journal",
+    "missing": true
+  },
+  {
+    "name": "footer",
+    "missing": true
+  }
+]

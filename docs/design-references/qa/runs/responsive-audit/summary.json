@@ -1,0 +1,168 @@
+{
+  "tablet": {
+    "top": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/tablet/reference-top.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/tablet/local-top.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/tablet/diff/top-diff.png",
+      "width": 768,
+      "height": 1024,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "overlap-copy": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/tablet/reference-overlap-copy.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/tablet/local-overlap-copy.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/tablet/diff/overlap-copy-diff.png",
+      "width": 704,
+      "height": 312,
+      "changedPixels": 717,
+      "changedPercent": 0.3264
+    },
+    "overlap-slider": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/tablet/reference-overlap-slider.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/tablet/local-overlap-slider.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/tablet/diff/overlap-slider-diff.png",
+      "width": 768,
+      "height": 500,
+      "changedPixels": 380481,
+      "changedPercent": 99.0836
+    },
+    "work": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/tablet/reference-work.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/tablet/local-work.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/tablet/diff/work-diff.png",
+      "width": 768,
+      "height": 3454,
+      "changedPixels": 37623,
+      "changedPercent": 1.4183
+    },
+    "services": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/tablet/reference-services.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/tablet/local-services.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/tablet/diff/services-diff.png",
+      "width": 768,
+      "height": 2454,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "video": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/tablet/reference-video.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/tablet/local-video.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/tablet/diff/video-diff.png",
+      "width": 768,
+      "height": 1032,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "numbers": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/tablet/reference-numbers.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/tablet/local-numbers.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/tablet/diff/numbers-diff.png",
+      "width": 768,
+      "height": 284,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "journal": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/tablet/reference-journal.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/tablet/local-journal.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/tablet/diff/journal-diff.png",
+      "width": 768,
+      "height": 1113,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "footer": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/tablet/reference-footer.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/tablet/local-footer.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/tablet/diff/footer-diff.png",
+      "width": 768,
+      "height": 1086,
+      "changedPixels": 0,
+      "changedPercent": 0
+    }
+  },
+  "mobile": {
+    "top": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/mobile/reference-top.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/mobile/local-top.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/mobile/diff/top-diff.png",
+      "width": 390,
+      "height": 844,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "overlap-copy": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/mobile/reference-overlap-copy.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/mobile/local-overlap-copy.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/mobile/diff/overlap-copy-diff.png",
+      "width": 358,
+      "height": 324,
+      "changedPixels": 618,
+      "changedPercent": 0.5328
+    },
+    "overlap-slider": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/mobile/reference-overlap-slider.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/mobile/local-overlap-slider.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/mobile/diff/overlap-slider-diff.png",
+      "width": 390,
+      "height": 216,
+      "changedPixels": 78061,
+      "changedPercent": 92.665
+    },
+    "work": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/mobile/reference-work.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/mobile/local-work.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/mobile/diff/work-diff.png",
+      "width": 390,
+      "height": 2261,
+      "changedPixels": 50956,
+      "changedPercent": 5.7787
+    },
+    "services": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/mobile/reference-services.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/mobile/local-services.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/mobile/diff/services-diff.png",
+      "width": 390,
+      "height": 1424,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "video": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/mobile/reference-video.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/mobile/local-video.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/mobile/diff/video-diff.png",
+      "width": 390,
+      "height": 660,
+      "changedPixels": 3268,
+      "changedPercent": 1.2696
+    },
+    "numbers": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/mobile/reference-numbers.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/mobile/local-numbers.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/mobile/diff/numbers-diff.png",
+      "width": 390,
+      "height": 216,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "journal": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/mobile/reference-journal.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/mobile/local-journal.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/mobile/diff/journal-diff.png",
+      "width": 390,
+      "height": 719,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "footer": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/mobile/reference-footer.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/mobile/local-footer.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/responsive-audit/mobile/diff/footer-diff.png",
+      "width": 390,
+      "height": 885,
+      "changedPixels": 0,
+      "changedPercent": 0
+    }
+  }
+}

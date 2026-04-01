@@ -1,0 +1,27 @@
+{
+  "config": {
+    "url": "http://127.0.0.1:3011/",
+    "outputDir": "/home/sandriaas/_projects/portf01/docs/design-references/qa/deterministic/hero-t1-local2",
+    "viewportWidth": 1440,
+    "viewportHeight": 900,
+    "heroTime": 1,
+    "footerTime": 0,
+    "sliderIndex": 0,
+    "readyTimeoutMs": 0,
+    "holdMs": 1400,
+    "captureFullPage": false
+  },
+  "snapshot": {
+    "url": "http://127.0.0.1:3011/",
+    "title": "X29.ai | An Experimental Lab for AI-Native Enterprise",
+    "qaFrozen": "1",
+    "sections": 8
+  },
+  "freezeStatus": {
+    "ready": true,
+    "runtimeReady": true,
+    "heroReady": true,
+    "footerReady": true,
+    "sliderReady": true
+  }
+}

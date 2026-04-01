@@ -1,0 +1,103 @@
+{
+  "tablet": {
+    "work-intro": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-tablet-reverify-20260401/tablet/reference-work-intro.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-tablet-reverify-20260401/tablet/local-work-intro.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-tablet-reverify-20260401/tablet/diff/work-intro-diff.png",
+      "width": 704,
+      "height": 240,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "work-marquee": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-tablet-reverify-20260401/tablet/reference-work-marquee.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-tablet-reverify-20260401/tablet/local-work-marquee.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-tablet-reverify-20260401/tablet/diff/work-marquee-diff.png",
+      "width": 768,
+      "height": 269,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "work-marquee-track": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-tablet-reverify-20260401/tablet/reference-work-marquee-track.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-tablet-reverify-20260401/tablet/local-work-marquee-track.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-tablet-reverify-20260401/tablet/diff/work-marquee-track-diff.png",
+      "width": 768,
+      "height": 217,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "work-marquee-text": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-tablet-reverify-20260401/tablet/reference-work-marquee-text.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-tablet-reverify-20260401/tablet/local-work-marquee-text.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-tablet-reverify-20260401/tablet/diff/work-marquee-text-diff.png",
+      "width": 769,
+      "height": 121,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "work-marquee-blur": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-tablet-reverify-20260401/tablet/reference-work-marquee-blur.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-tablet-reverify-20260401/tablet/local-work-marquee-blur.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-tablet-reverify-20260401/tablet/diff/work-marquee-blur-diff.png",
+      "width": 768,
+      "height": 269,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "work-projects": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-tablet-reverify-20260401/tablet/reference-work-projects.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-tablet-reverify-20260401/tablet/local-work-projects.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-tablet-reverify-20260401/tablet/diff/work-projects-diff.png",
+      "width": 704,
+      "height": 1948,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "work-project-card-2": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-tablet-reverify-20260401/tablet/reference-work-project-card-2.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-tablet-reverify-20260401/tablet/local-work-project-card-2.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-tablet-reverify-20260401/tablet/diff/work-project-card-2-diff.png",
+      "width": 352,
+      "height": 600,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "work-project-card-2-image": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-tablet-reverify-20260401/tablet/reference-work-project-card-2-image.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-tablet-reverify-20260401/tablet/local-work-project-card-2-image.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-tablet-reverify-20260401/tablet/diff/work-project-card-2-image-diff.png",
+      "width": 352,
+      "height": 548,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "work-project-card-2-copy": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-tablet-reverify-20260401/tablet/reference-work-project-card-2-copy.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-tablet-reverify-20260401/tablet/local-work-project-card-2-copy.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-tablet-reverify-20260401/tablet/diff/work-project-card-2-copy-diff.png",
+      "width": 352,
+      "height": 36,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "work-dots": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-tablet-reverify-20260401/tablet/reference-work-dots.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-tablet-reverify-20260401/tablet/local-work-dots.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-tablet-reverify-20260401/tablet/diff/work-dots-diff.png",
+      "width": 1400,
+      "height": 1080,
+      "changedPixels": 0,
+      "changedPercent": 0
+    },
+    "work": {
+      "referencePath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-tablet-reverify-20260401/tablet/reference-work.png",
+      "localPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-tablet-reverify-20260401/tablet/local-work.png",
+      "diffPath": "/home/sandriaas/_projects/portf01/docs/design-references/qa/runs/work-tablet-reverify-20260401/tablet/diff/work-diff.png",
+      "width": 768,
+      "height": 3454,
+      "changedPixels": 0,
+      "changedPercent": 0
+    }
+  }
+}
