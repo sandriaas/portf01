@@ -4,27 +4,35 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "generate:x29-site-data": "node scripts/generate-x29-site-data.mjs",
+    "build": "npm run generate:x29-site-data && next build",
     "start": "next start",
     "lint": "eslint",
+    "cf:build": "npm run generate:x29-site-data && opennextjs-cloudflare build",
+    "cf:preview": "npm run cf:build && opennextjs-cloudflare preview",
+    "cf:deploy": "npm run cf:build && opennextjs-cloudflare deploy",
+    "cf:typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts",
+    "upload:hero-media": "node scripts/upload-hero-media.mjs",
     "qa:x29-parity": "node scripts/qa-x29-parity.mjs",
     "qa:x29-site-flows": "node scripts/qa-x29-site-flows.mjs"
   },
   "dependencies": {
-    "next": "16.2.1",
+    "next": "16.2.4",
     "react": "19.2.4",
     "react-dom": "19.2.4"
   },
   "devDependencies": {
+    "@opennextjs/cloudflare": "1.19.3",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.2.1",
+    "eslint-config-next": "16.2.4",
     "playwright": "^1.59.0",
     "playwright-core": "^1.59.0",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "wrangler": "4.84.1"
   }
 }

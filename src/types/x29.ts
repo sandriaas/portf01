@@ -46,3 +46,13 @@ export interface X29PageManifest {
   notFoundRoute?: string;
   protectedRoute?: string;
 }
+
+export interface X29RouteData {
+  config: X29PageConfig;
+  bodyHtml: string;
+}
+
+export interface X29GeneratedSiteData {
+  manifest: X29PageManifest;
+  routes: Record<string, X29RouteData>;
+}

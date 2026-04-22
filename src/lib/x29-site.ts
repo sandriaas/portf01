@@ -1,29 +1,5 @@
-import { existsSync, readFileSync } from "node:fs";
-import path from "node:path";
-
-import type {
-  X29Config,
-  X29PageConfig,
-  X29PageManifest,
-  X29PageManifestEntry,
-} from "@/types/x29";
-
-const ROOT = process.cwd();
-const CONTENT_DIR = path.join(ROOT, "src", "content");
-const LEGACY_CONFIG_PATH = path.join(CONTENT_DIR, "x29-config.json");
-const LEGACY_BODY_PATH = path.join(CONTENT_DIR, "x29-body.html");
-const SITE_MANIFEST_PATH = path.join(CONTENT_DIR, "x29", "site.json");
-const MANIFEST_PATH = path.join(CONTENT_DIR, "x29-pages", "manifest.json");
-type MaybeLegacyPageConfig = X29Config & {
-  route?: string;
-  bodyInlineScripts?: string[];
-  bodyScriptHrefs?: string[];
-  stylesheetHrefs?: string[];
-};
-
-function readJson<T>(filePath: string): T {
-  return JSON.parse(readFileSync(filePath, "utf8")) as T;
-}
+import { X29_SITE_DATA } from "@/generated/x29-site-data";
+import { applyX29HomeHeroOverride } from "@/lib/x29-home-hero";
 
 function normalizeRoute(route: string) {
   if (route === "" || route === "/") {
@@ -41,134 +17,31 @@ function routeFromSlug(slug?: string[]) {
   return normalizeRoute(slug.join("/"));
 }
 
-function legacyConfig(): X29PageConfig {
-  const config = readJson<MaybeLegacyPageConfig>(LEGACY_CONFIG_PATH);
-
-  return {
-    ...config,
-    route: normalizeRoute(config.route ?? "/"),
-    title: decodeHtmlEntities(config.title),
-    description: decodeHtmlEntities(config.description),
-    bodyInlineScripts: config.bodyInlineScripts ?? [],
-    bodyScriptHrefs: config.bodyScriptHrefs ?? config.scriptHrefs ?? [],
-    stylesheetHrefs: config.stylesheetHrefs ?? [config.stylesheetHref],
-  };
-}
-
-function legacyBody() {
-  return readFileSync(LEGACY_BODY_PATH, "utf8");
-}
-
-function manifestPathForEntry(entry: X29PageManifestEntry) {
-  return {
-    configPath: resolveContentPath(entry.configPath),
-    bodyPath: resolveContentPath(entry.bodyPath),
-  };
-}
-
-export function getX29PageManifest(): X29PageManifest {
-  if (pathExists(SITE_MANIFEST_PATH)) {
-    return readJson<X29PageManifest>(SITE_MANIFEST_PATH);
-  }
-
-  if (!pathExists(MANIFEST_PATH)) {
-    return {
-      defaultRoute: "/",
-      pages: [
-        {
-          route: "/",
-          configPath: "x29-config.json",
-          bodyPath: "x29-body.html",
-        },
-      ],
-    };
-  }
-
-  return readJson<X29PageManifest>(MANIFEST_PATH);
-}
-
-function pathExists(filePath: string) {
-  return existsSync(filePath);
-}
-
-function resolveContentPath(relativeOrProjectPath: string) {
-  if (path.isAbsolute(relativeOrProjectPath)) {
-    return relativeOrProjectPath;
-  }
-
-  if (relativeOrProjectPath.startsWith("src/content/")) {
-    return path.join(ROOT, relativeOrProjectPath);
-  }
-
-  return path.resolve(CONTENT_DIR, relativeOrProjectPath);
-}
-
-function readPageConfigFromEntry(entry: X29PageManifestEntry): X29PageConfig {
-  const { configPath } = manifestPathForEntry(entry);
-  const rawConfig = readJson<MaybeLegacyPageConfig>(configPath);
-
-  return {
-    ...rawConfig,
-    route: normalizeRoute(rawConfig.route ?? entry.route),
-    title: decodeHtmlEntities(rawConfig.title),
-    description: decodeHtmlEntities(rawConfig.description),
-    bodyInlineScripts: rawConfig.bodyInlineScripts ?? [],
-    bodyScriptHrefs: rawConfig.bodyScriptHrefs ?? rawConfig.scriptHrefs ?? [],
-    stylesheetHrefs: rawConfig.stylesheetHrefs ?? [rawConfig.stylesheetHref],
-  };
-}
-
-function readPageBodyFromEntry(entry: X29PageManifestEntry) {
-  const { bodyPath } = manifestPathForEntry(entry);
-  return readFileSync(bodyPath, "utf8");
-}
-
-function decodeHtmlEntities(value: string) {
-  let currentValue = value;
-
-  for (let index = 0; index < 5; index += 1) {
-    const nextValue = currentValue
-      .replace(/&amp;/g, "&")
-      .replace(/&quot;/g, '"')
-      .replace(/&#39;/g, "'")
-      .replace(/&lt;/g, "<")
-      .replace(/&gt;/g, ">")
-      .replace(/&nbsp;/g, " ");
-
-    if (nextValue === currentValue) {
-      return nextValue;
-    }
-
-    currentValue = nextValue;
-  }
-
-  return currentValue;
-}
-
 function findPageEntry(route: string) {
   const manifest = getX29PageManifest();
   return manifest.pages.find((entry) => normalizeRoute(entry.route) === route);
 }
 
+export function getX29PageManifest() {
+  return X29_SITE_DATA.manifest;
+}
+
 export function getX29RouteData(route: string) {
   const normalizedRoute = normalizeRoute(route);
-  const entry = findPageEntry(normalizedRoute);
+  const data = X29_SITE_DATA.routes[normalizedRoute];
 
-  if (entry) {
-    return {
-      config: readPageConfigFromEntry(entry),
-      bodyHtml: readPageBodyFromEntry(entry),
-    };
+  if (!data) {
+    return null;
   }
 
-  if (normalizedRoute === "/") {
-    return {
-      config: legacyConfig(),
-      bodyHtml: legacyBody(),
-    };
+  if (normalizedRoute !== "/") {
+    return data;
   }
 
-  return null;
+  return {
+    config: data.config,
+    bodyHtml: applyX29HomeHeroOverride(normalizedRoute, data.bodyHtml),
+  };
 }
 
 export function getX29PagePaths() {
@@ -183,26 +56,26 @@ export function getX29MetadataForRoute(route: string) {
     return null;
   }
 
-  const title = decodeHtmlEntities(data.config.title);
-  const description = decodeHtmlEntities(data.config.description);
+  const { title, description, iconHref, appleTouchIconHref, ogImageHref, twitterImageHref } =
+    data.config;
 
   return {
     title,
     description,
     icons: {
-      icon: data.config.iconHref,
-      apple: data.config.appleTouchIconHref,
+      icon: iconHref,
+      apple: appleTouchIconHref,
     },
     openGraph: {
       title,
       description,
-      images: data.config.ogImageHref ? [data.config.ogImageHref] : [],
+      images: ogImageHref ? [ogImageHref] : [],
     },
     twitter: {
       card: "summary_large_image" as const,
       title,
       description,
-      images: data.config.twitterImageHref ? [data.config.twitterImageHref] : [],
+      images: twitterImageHref ? [twitterImageHref] : [],
     },
   };
 }
@@ -218,4 +91,8 @@ export function normalizeX29InternalLinks(bodyHtml: string) {
 
 export function buildRouteFromSlug(slug?: string[]) {
   return routeFromSlug(slug);
+}
+
+export function hasX29Route(route: string) {
+  return Boolean(findPageEntry(normalizeRoute(route)));
 }
