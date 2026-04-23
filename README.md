@@ -32,6 +32,7 @@ The homepage hero intentionally diverges from live `x29.ai`: it uses a custom re
 - Small mirrored assets stay in [public/x29/](/home/sandriaas/_projects/portf01/public/x29/).
 - The custom homepage hero MP4s live in the public R2 bucket `oregea-media`.
 - Poster images are committed locally in [public/x29/media/](/home/sandriaas/_projects/portf01/public/x29/media/) so first paint does not depend on R2.
+- [upload-hero-media.mjs](/home/sandriaas/_projects/portf01/scripts/upload-hero-media.mjs) takes the local source MP4s, transcodes them to web-optimized H.264 uploads, strips audio, and then publishes the optimized outputs to R2.
 - Only large media is offloaded to R2 in this setup; the rest of the mirrored site assets remain local to the Worker asset bundle.
 
 ## Commands
@@ -52,6 +53,8 @@ npm run upload:hero-media
 npm run qa:x29-site-flows
 npm run qa:x29-parity
 ```
+
+Set `HERO_SKIP_OPTIMIZE=1` only if you intentionally want to upload the raw source files.
 
 Cloudflare deploy and upload commands expect credentials in the shell environment. Cloudflare secrets and API tokens are not stored in git.
 

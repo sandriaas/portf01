@@ -2,19 +2,41 @@
 
 import { spawnSync } from "node:child_process";
 import fs from "node:fs";
+import os from "node:os";
 import path from "node:path";
 
 const ROOT = process.cwd();
 const BUCKET_NAME = "oregea-media";
+const DEFAULT_DEV_URL =
+  process.env.HERO_BUCKET_DEV_URL ??
+  "https://pub-a05e3eced20c4330baf5fb0f632f2d5f.r2.dev";
 const DEFAULT_LANDSCAPE_SOURCE =
-  "/home/sandriaas/Downloads/compose_video_1776851666830.mp4";
+  "/home/sandriaas/Downloads/lv_0_20260422193147.mp4";
 const DEFAULT_PORTRAIT_SOURCE =
-  "/home/sandriaas/Downloads/compose_video_1776847743640.mp4";
+  "/home/sandriaas/Downloads/lv_0_20260422194230.mp4";
 
 const landscapeSource =
   process.env.HERO_LANDSCAPE_SOURCE ?? DEFAULT_LANDSCAPE_SOURCE;
 const portraitSource =
   process.env.HERO_PORTRAIT_SOURCE ?? DEFAULT_PORTRAIT_SOURCE;
+const optimizeMedia = process.env.HERO_SKIP_OPTIMIZE !== "1";
+
+const heroVariants = [
+  {
+    key: "hero/home/landscape.mp4",
+    name: "landscape",
+    sourcePath: landscapeSource,
+    width: 1920,
+    height: 1080,
+  },
+  {
+    key: "hero/home/portrait.mp4",
+    name: "portrait",
+    sourcePath: portraitSource,
+    width: 1080,
+    height: 1920,
+  },
+];
 
 function fail(message) {
   console.error(message);
@@ -33,32 +55,62 @@ for (const filePath of [landscapeSource, portraitSource]) {
   }
 }
 
-function runWrangler(args, { allowFailure = false } = {}) {
-  const result = spawnSync("npx", ["wrangler", ...args], {
-    cwd: ROOT,
-    encoding: "utf8",
-    env: process.env,
-  });
+function runProcess(command, args, { allowFailure = false } = {}) {
+  const maxAttempts = allowFailure ? 1 : 3;
+  let result;
+
+  for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
+    result = spawnSync(command, args, {
+      cwd: ROOT,
+      encoding: "utf8",
+      env: process.env,
+    });
+
+    const stderr = result.stderr.trim();
+    const stdout = result.stdout.trim();
+    const combinedOutput = `${stdout}\n${stderr}`;
+    const isTransientFailure =
+      result.status !== 0 &&
+      /502|503|504|bad gateway|timed out|malformed response|internal error/i.test(
+        combinedOutput,
+      );
+
+    if (result.status === 0 || !isTransientFailure || attempt === maxAttempts) {
+      break;
+    }
+  }
 
   if (!allowFailure && result.status !== 0) {
     const stderr = result.stderr.trim();
     const stdout = result.stdout.trim();
     fail(
-      `wrangler ${args.join(" ")} failed.\n${stderr || stdout || "No output."}`,
+      `${command} ${args.join(" ")} failed.\n${stderr || stdout || "No output."}`,
     );
   }
 
   return result;
 }
 
-function ensureBucket() {
-  const listResult = runWrangler(["r2", "bucket", "list"]);
+function runWrangler(args, { allowFailure = false } = {}) {
+  return runProcess("npx", ["wrangler", ...args], { allowFailure });
+}
 
-  if (listResult.stdout.includes(`name:           ${BUCKET_NAME}`)) {
-    return;
+function ensureBucket() {
+  const listResult = runWrangler(["r2", "bucket", "list"], { allowFailure: true });
+
+  if (listResult.status !== 0) {
+    return false;
   }
 
-  runWrangler(["r2", "bucket", "create", BUCKET_NAME]);
+  if (listResult.stdout.includes(`name:           ${BUCKET_NAME}`)) {
+    return true;
+  }
+
+  const createResult = runWrangler(["r2", "bucket", "create", BUCKET_NAME], {
+    allowFailure: true,
+  });
+
+  return createResult.status === 0;
 }
 
 function ensureDevUrl() {
@@ -78,11 +130,7 @@ function ensureDevUrl() {
 
   const match = infoResult.stdout.match(/https:\/\/[^\s']+\.r2\.dev/);
 
-  if (!match) {
-    fail(`Unable to determine r2.dev URL for ${BUCKET_NAME}.`);
-  }
-
-  return match[0];
+  return match ? match[0] : DEFAULT_DEV_URL;
 }
 
 function uploadObject(key, filePath) {
@@ -101,11 +149,61 @@ function uploadObject(key, filePath) {
   ]);
 }
 
+function optimizeVideo({ sourcePath, name, width, height }) {
+  const outputPath = path.join(os.tmpdir(), `oregea-home-hero-${name}.mp4`);
+
+  if (!optimizeMedia) {
+    return {
+      outputPath: path.resolve(sourcePath),
+      optimized: false,
+    };
+  }
+
+  runProcess("ffmpeg", [
+    "-y",
+    "-i",
+    path.resolve(sourcePath),
+    "-vf",
+    `scale=${width}:${height}:force_original_aspect_ratio=increase,crop=${width}:${height},fps=30,format=yuv420p`,
+    "-an",
+    "-c:v",
+    "libx264",
+    "-preset",
+    "slow",
+    "-crf",
+    "23",
+    "-movflags",
+    "+faststart",
+    "-profile:v",
+    "high",
+    "-level:v",
+    "4.1",
+    outputPath,
+  ]);
+
+  return {
+    outputPath,
+    optimized: true,
+  };
+}
+
 ensureBucket();
 const devUrl = ensureDevUrl();
 
-uploadObject("hero/home/landscape.mp4", landscapeSource);
-uploadObject("hero/home/portrait.mp4", portraitSource);
+const uploadedObjects = heroVariants.map((variant) => {
+  const optimized = optimizeVideo(variant);
+  uploadObject(variant.key, optimized.outputPath);
+
+  return {
+    name: variant.name,
+    sourcePath: path.resolve(variant.sourcePath),
+    sourceBytes: fs.statSync(variant.sourcePath).size,
+    uploadedPath: optimized.outputPath,
+    uploadedBytes: fs.statSync(optimized.outputPath).size,
+    optimized: optimized.optimized,
+    publicUrl: `${devUrl}/${variant.key}`,
+  };
+});
 
 console.log(
   JSON.stringify(
@@ -114,6 +212,7 @@ console.log(
       devUrl,
       landscapeMp4Url: `${devUrl}/hero/home/landscape.mp4`,
       portraitMp4Url: `${devUrl}/hero/home/portrait.mp4`,
+      uploads: uploadedObjects,
     },
     null,
     2,
