@@ -1,13 +1,22 @@
 const HOME_HERO_SECTION_PATTERN =
   /<section class="section hero-home-section">[\s\S]*?<\/section>/;
 
+const X29_HOME_HERO_MEDIA_VERSION = "20260423b";
+
+function withVersion(url: string) {
+  const separator = url.includes("?") ? "&" : "?";
+  return `${url}${separator}v=${X29_HOME_HERO_MEDIA_VERSION}`;
+}
+
 export const X29_HOME_HERO_MEDIA = {
-  landscapeMp4Url:
+  landscapeMp4Url: withVersion(
     "https://pub-a05e3eced20c4330baf5fb0f632f2d5f.r2.dev/hero/home/landscape.mp4",
-  portraitMp4Url:
+  ),
+  portraitMp4Url: withVersion(
     "https://pub-a05e3eced20c4330baf5fb0f632f2d5f.r2.dev/hero/home/portrait.mp4",
-  landscapePosterUrl: "/x29/media/home-hero-landscape-poster.jpg",
-  portraitPosterUrl: "/x29/media/home-hero-portrait-poster.jpg",
+  ),
+  landscapePosterUrl: withVersion("/x29/media/home-hero-landscape-poster.jpg"),
+  portraitPosterUrl: withVersion("/x29/media/home-hero-portrait-poster.jpg"),
   portraitMaxWidth: 767,
 } as const;
 
