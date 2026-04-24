@@ -23,16 +23,18 @@ The homepage hero intentionally diverges from live `x29.ai`: it uses a custom re
 - [x29-document.ts](/home/sandriaas/_projects/portf01/src/lib/x29-document.ts) rebuilds full HTML documents from page config, body HTML, metadata, and asset references.
 - [x29-site.ts](/home/sandriaas/_projects/portf01/src/lib/x29-site.ts) reads from generated in-memory route data, normalizes routes, and rewrites internal links to stay local.
 - [x29-site-data.ts](/home/sandriaas/_projects/portf01/src/generated/x29-site-data.ts) is the checked-in generated payload that replaces request-time filesystem reads, which keeps the app Workers-safe.
-- [x29-home-hero.ts](/home/sandriaas/_projects/portf01/src/lib/x29-home-hero.ts) overrides the homepage hero with responsive landscape/portrait video selection.
+- [x29-home-hero.ts](/home/sandriaas/_projects/portf01/src/lib/x29-home-hero.ts) overrides the homepage hero with responsive landscape/portrait video selection, immediate poster-first rendering, and Safari-oriented autoplay fallback handling.
+- [route.ts](/home/sandriaas/_projects/portf01/src/app/x29/media/hero/home/[asset]/route.ts) serves the hero MP4s from the Worker over same-origin URLs with byte-range support, backed by the `MEDIA_BUCKET` R2 binding.
 - [middleware.ts](/home/sandriaas/_projects/portf01/src/middleware.ts) rewrites literal `/404` requests to the internal alias route that matches live-site behavior.
 - [site.json](/home/sandriaas/_projects/portf01/src/content/x29/site.json) is the mirrored route manifest. It currently includes `14` cloned pages plus the broken-route entries audited against the live site.
 
 ## Media Strategy
 
 - Small mirrored assets stay in [public/x29/](/home/sandriaas/_projects/portf01/public/x29/).
-- The custom homepage hero MP4s live in the public R2 bucket `oregea-media`.
+- The custom homepage hero MP4s live in the public R2 bucket `oregea-media`, but browsers load them through same-origin Worker routes under `/x29/media/hero/home/`.
 - Poster images are committed locally in [public/x29/media/](/home/sandriaas/_projects/portf01/public/x29/media/) so first paint does not depend on R2.
 - [upload-hero-media.mjs](/home/sandriaas/_projects/portf01/scripts/upload-hero-media.mjs) takes the local source MP4s, transcodes them to web-optimized H.264 uploads, strips audio, and then publishes the optimized outputs to R2.
+- Default optimization targets are `1280x720 @ 24fps` for landscape and `720x1280 @ 24fps` for portrait.
 - Only large media is offloaded to R2 in this setup; the rest of the mirrored site assets remain local to the Worker asset bundle.
 
 ## Commands
@@ -76,6 +78,7 @@ npm run cf:deploy
 
 The Worker name is `oregea`. The hero media bucket is `oregea-media`.
 The current `workers.dev` URL is `https://oregea.vonzbern.workers.dev`.
+Hero media is served from the same origin at `/x29/media/hero/home/landscape.mp4` and `/x29/media/hero/home/portrait.mp4`, with the Worker proxying byte-range reads from R2.
 
 ## QA And Parity
 
@@ -104,6 +107,7 @@ src/
   lib/x29-home-hero.ts
   lib/x29-site.ts
   middleware.ts
+  app/x29/media/hero/home/[asset]/route.ts
 scripts/
   generate-x29-site-data.mjs
   qa-x29-parity.mjs

@@ -26,15 +26,29 @@ const heroVariants = [
     key: "hero/home/landscape.mp4",
     name: "landscape",
     sourcePath: landscapeSource,
-    width: 1920,
-    height: 1080,
+    width: 1280,
+    height: 720,
+    fps: 24,
+    crf: 24,
+    maxrate: "2500k",
+    bufsize: "5000k",
+    profile: "main",
+    level: "4.0",
+    sameOriginPath: "/x29/media/hero/home/landscape.mp4",
   },
   {
     key: "hero/home/portrait.mp4",
     name: "portrait",
     sourcePath: portraitSource,
-    width: 1080,
-    height: 1920,
+    width: 720,
+    height: 1280,
+    fps: 24,
+    crf: 24,
+    maxrate: "1800k",
+    bufsize: "3600k",
+    profile: "main",
+    level: "4.0",
+    sameOriginPath: "/x29/media/hero/home/portrait.mp4",
   },
 ];
 
@@ -71,7 +85,7 @@ function runProcess(command, args, { allowFailure = false } = {}) {
     const combinedOutput = `${stdout}\n${stderr}`;
     const isTransientFailure =
       result.status !== 0 &&
-      /502|503|504|bad gateway|timed out|malformed response|internal error/i.test(
+      /502|503|504|bad gateway|timed out|malformed response|internal error|fetch failed/i.test(
         combinedOutput,
       );
 
@@ -124,8 +138,12 @@ function ensureDevUrl() {
     infoResult.stdout.toLowerCase().includes("not enabled") ||
     infoResult.stdout.toLowerCase().includes("disabled")
   ) {
-    runWrangler(["r2", "bucket", "dev-url", "enable", BUCKET_NAME]);
-    infoResult = runWrangler(["r2", "bucket", "dev-url", "get", BUCKET_NAME]);
+    runWrangler(["r2", "bucket", "dev-url", "enable", BUCKET_NAME], {
+      allowFailure: true,
+    });
+    infoResult = runWrangler(["r2", "bucket", "dev-url", "get", BUCKET_NAME], {
+      allowFailure: true,
+    });
   }
 
   const match = infoResult.stdout.match(/https:\/\/[^\s']+\.r2\.dev/);
@@ -149,7 +167,18 @@ function uploadObject(key, filePath) {
   ]);
 }
 
-function optimizeVideo({ sourcePath, name, width, height }) {
+function optimizeVideo({
+  sourcePath,
+  name,
+  width,
+  height,
+  fps,
+  crf,
+  maxrate,
+  bufsize,
+  profile,
+  level,
+}) {
   const outputPath = path.join(os.tmpdir(), `oregea-home-hero-${name}.mp4`);
 
   if (!optimizeMedia) {
@@ -164,20 +193,24 @@ function optimizeVideo({ sourcePath, name, width, height }) {
     "-i",
     path.resolve(sourcePath),
     "-vf",
-    `scale=${width}:${height}:force_original_aspect_ratio=increase,crop=${width}:${height},fps=30,format=yuv420p`,
+    `scale=${width}:${height}:force_original_aspect_ratio=increase,crop=${width}:${height},fps=${fps},format=yuv420p`,
     "-an",
     "-c:v",
     "libx264",
     "-preset",
     "slow",
     "-crf",
-    "23",
+    String(crf),
+    "-maxrate",
+    maxrate,
+    "-bufsize",
+    bufsize,
     "-movflags",
     "+faststart",
     "-profile:v",
-    "high",
+    profile,
     "-level:v",
-    "4.1",
+    level,
     outputPath,
   ]);
 
@@ -201,7 +234,8 @@ const uploadedObjects = heroVariants.map((variant) => {
     uploadedPath: optimized.outputPath,
     uploadedBytes: fs.statSync(optimized.outputPath).size,
     optimized: optimized.optimized,
-    publicUrl: `${devUrl}/${variant.key}`,
+    sameOriginUrl: variant.sameOriginPath,
+    r2Url: `${devUrl}/${variant.key}`,
   };
 });
 
@@ -210,8 +244,8 @@ console.log(
     {
       bucketName: BUCKET_NAME,
       devUrl,
-      landscapeMp4Url: `${devUrl}/hero/home/landscape.mp4`,
-      portraitMp4Url: `${devUrl}/hero/home/portrait.mp4`,
+      landscapeMp4Url: "/x29/media/hero/home/landscape.mp4",
+      portraitMp4Url: "/x29/media/hero/home/portrait.mp4",
       uploads: uploadedObjects,
     },
     null,
