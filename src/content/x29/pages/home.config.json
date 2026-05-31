@@ -1,12 +1,12 @@
 {
   "route": "/",
   "key": "home",
-  "sourceUrl": "https://www.x29.ai/",
+  "sourceUrl": "https://www.DelveBlue/",
   "status": 200,
-  "title": "X29.ai | An Experimental Lab for AI-Native Enterprise",
-  "description": "The Grumman X-29 was never built for production - it was built to prove what the future could look like. That same ethos drives us. We don’t just adapt to AI -we bend it, stress-test it, and turn research into reality",
+  "title": "DelveBlue | An Experimental Lab for AI-Native Enterprise",
+  "description": "The DelveBlue was never built for production - it was built to prove what the future could look like. That same ethos drives us. We don’t just adapt to AI -we bend it, stress-test it, and turn research into reality",
   "htmlAttributes": {
-    "data-wf-domain": "www.x29.ai",
+    "data-wf-domain": "www.DelveBlue",
     "data-wf-page": "68a07b4456582bc42d1b3ecd",
     "data-wf-site": "68a07b4456582bc42d1b3e95"
   },
@@ -21,10 +21,10 @@
   "stylesheetHrefs": [
     "/x29/cdn.prod.website-files.com/68a07b4456582bc42d1b3e95/css/x29-ai.webflow.shared.719ab589f.css"
   ],
-  "iconHref": "/x29/cdn.prod.website-files.com/68a07b4456582bc42d1b3e95/68a515e1340749cb0c0109d5_Studio-40-x-40-px-1-.png",
-  "appleTouchIconHref": "/x29/cdn.prod.website-files.com/68a07b4456582bc42d1b3e95/68a516087b3b640ec198a474_Studio-40-x-40-px-256-x-256-px-.png",
-  "ogImageHref": "/x29/cdn.prod.website-files.com/68a07b4456582bc42d1b3e95/68a14c66be603756ab6e3a6b_Image-17-8-2025-at-1.27-pm.jpeg",
-  "twitterImageHref": "/x29/cdn.prod.website-files.com/68a07b4456582bc42d1b3e95/68a14c66be603756ab6e3a6b_Image-17-8-2025-at-1.27-pm.jpeg",
+  "iconHref": "/x29/brand/icons/favicon-96x96.png",
+  "appleTouchIconHref": "/x29/brand/icons/apple-touch-icon.png",
+  "ogImageHref": "/x29/brand/logo-full.png",
+  "twitterImageHref": "/x29/brand/logo-full.png",
   "bodyScriptEntries": [
     {
       "kind": "external",

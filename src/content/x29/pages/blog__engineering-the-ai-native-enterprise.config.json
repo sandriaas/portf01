@@ -1,12 +1,12 @@
 {
   "route": "/blog/engineering-the-ai-native-enterprise",
   "key": "blog__engineering-the-ai-native-enterprise",
-  "sourceUrl": "https://www.x29.ai/blog/engineering-the-ai-native-enterprise",
+  "sourceUrl": "https://www.DelveBlue/blog/engineering-the-ai-native-enterprise",
   "status": 200,
   "title": "Engineering the AI-Native Enterprise",
-  "description": "Our Heritage: Inspired by the Grumman X-29",
+  "description": "Our Heritage: Inspired by the DelveBlue",
   "htmlAttributes": {
-    "data-wf-domain": "www.x29.ai",
+    "data-wf-domain": "www.DelveBlue",
     "data-wf-page": "68a07b4456582bc42d1b3edb",
     "data-wf-site": "68a07b4456582bc42d1b3e95",
     "data-wf-collection": "68a07b4456582bc42d1b3f25",
@@ -22,10 +22,10 @@
   "stylesheetHrefs": [
     "/x29/cdn.prod.website-files.com/68a07b4456582bc42d1b3e95/css/x29-ai.webflow.shared.719ab589f.css"
   ],
-  "iconHref": "/x29/cdn.prod.website-files.com/68a07b4456582bc42d1b3e95/68a515e1340749cb0c0109d5_Studio-40-x-40-px-1-.png",
-  "appleTouchIconHref": "/x29/cdn.prod.website-files.com/68a07b4456582bc42d1b3e95/68a516087b3b640ec198a474_Studio-40-x-40-px-256-x-256-px-.png",
-  "ogImageHref": "/x29/cdn.prod.website-files.com/68a07b4456582bc42d1b3eff/68a07b4456582bc42d1b408d_0e6107609ed36df7faea259f0849ce3b693d6642.png",
-  "twitterImageHref": "/x29/cdn.prod.website-files.com/68a07b4456582bc42d1b3eff/68a07b4456582bc42d1b408d_0e6107609ed36df7faea259f0849ce3b693d6642.png",
+  "iconHref": "/x29/brand/icons/favicon-96x96.png",
+  "appleTouchIconHref": "/x29/brand/icons/apple-touch-icon.png",
+  "ogImageHref": "/x29/local-assets/journal/1.jpg",
+  "twitterImageHref": "/x29/local-assets/journal/1.jpg",
   "bodyScriptEntries": [
     {
       "kind": "external",

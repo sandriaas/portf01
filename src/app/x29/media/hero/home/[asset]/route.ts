@@ -173,7 +173,7 @@ async function serveHeroVideo(request: NextRequest, assetName: string) {
   }
 
   const { env } = await getCloudflareContext({ async: true });
-  const bucket = env.MEDIA_BUCKET;
+  const bucket = (env as { MEDIA_BUCKET?: R2Bucket }).MEDIA_BUCKET;
 
   if (!bucket) {
     return proxyFallback(request, asset.fallbackUrl);

@@ -1,12 +1,12 @@
 {
   "route": "/contact",
   "key": "contact",
-  "sourceUrl": "https://www.x29.ai/contact",
+  "sourceUrl": "https://www.DelveBlue/contact",
   "status": 200,
-  "title": "Contact | X29.AI",
-  "description": "Get in touch with X29.ai — an experimental lab pioneering AI-native enterprises through research, collaboration, and value creation.",
+  "title": "Contact | DelveBlue",
+  "description": "Get in touch with DelveBlue — an experimental lab pioneering AI-native enterprises through research, collaboration, and value creation.",
   "htmlAttributes": {
-    "data-wf-domain": "www.x29.ai",
+    "data-wf-domain": "www.DelveBlue",
     "data-wf-page": "68a07b4456582bc42d1b3ed6",
     "data-wf-site": "68a07b4456582bc42d1b3e95"
   },
@@ -20,9 +20,9 @@
   "stylesheetHrefs": [
     "/x29/cdn.prod.website-files.com/68a07b4456582bc42d1b3e95/css/x29-ai.webflow.shared.719ab589f.css"
   ],
-  "iconHref": "/x29/cdn.prod.website-files.com/68a07b4456582bc42d1b3e95/68a515e1340749cb0c0109d5_Studio-40-x-40-px-1-.png",
-  "appleTouchIconHref": "/x29/cdn.prod.website-files.com/68a07b4456582bc42d1b3e95/68a516087b3b640ec198a474_Studio-40-x-40-px-256-x-256-px-.png",
-  "ogImageHref": "/x29/cdn.prod.website-files.com/68a07b4456582bc42d1b3e95/68a14c66be603756ab6e3a6b_Image-17-8-2025-at-1.27-pm.jpeg",
+  "iconHref": "/x29/brand/icons/favicon-96x96.png",
+  "appleTouchIconHref": "/x29/brand/icons/apple-touch-icon.png",
+  "ogImageHref": "/x29/brand/logo-full.png",
   "twitterImageHref": "",
   "bodyScriptEntries": [
     {

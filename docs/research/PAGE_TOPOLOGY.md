@@ -1,43 +1,16 @@
-# X29.ai Homepage Topology
+# Page topology — x29.ai homepage
 
-## Global structure
-- Fixed overlay nav: `.nav-wrap-animation`
-- Flow content begins after the nav and is composed of eight primary sections plus the hidden sales menu overlay
-- Footer is a full-height media section with an autoplay background video
+| order | id       | selector                            | parent layout                                              | interaction model |
+|-------|----------|-------------------------------------|------------------------------------------------------------|-------------------|
+| 0     | nav      | `.master-navigation`                | fixed-ish wrapper, sits above hero                         | Webflow IX3 (no per-section override)            |
+| 1     | hero     | `section.hero-home-section`         | full-bleed; first flow item                                | static autoplay video (overridden locally)       |
+| 2     | overlap  | `section.home-overlap-section`      | follows hero; sticky inner copy                             | scroll-driven slider w/ Webflow tabs               |
+| 3     | work     | `section.home-work-section`         | marquee + project cards                                    | scroll/marquee + hover                              |
+| 4     | services | `section.home-services-section`    | grid                                                        | static + hover                                      |
+| 5     | video    | `section.home-video-section`        | full-bleed background-video                                 | autoplay video (Webflow CDN-served)                 |
+| 6     | numbers  | `section.home-numbers-section`      | grid w/ counters                                            | scroll-triggered count-up (Webflow IX3)             |
+| 7     | footer   | `.footer`                           | last flow item                                              | autoplay background video + marquee                  |
 
-## Section order
-1. `section.hero-home-section`
-   - Full-height hero
-   - Background video
-   - Primary H1 and CTA
-   - Small two-column label row at the bottom
-2. `section.home-overlap-section`
-   - Introductory serif statement
-   - Circular image slider with overlaid X29 mark
-3. `section.home-work-section`
-   - Long-form narrative blocks
-   - Alternating image and text groupings
-   - Dark theme section
-4. `section.home-services-section`
-   - "What we do" list
-   - Four service rows with linked detail states and hover media
-5. `section.home-video-section`
-   - Full-width CTA / story section
-   - Autoplay background video with headline and CTA
-6. `section.home-numbers-section`
-   - Three metrics in a horizontal strip
-7. `section.home-slider-section`
-   - Journal carousel
-   - Multiple card slides with arrows
-8. `div.sales-cta-master`
-   - Hidden overlay sales menu for additional site pages
-9. `section.footer`
-   - Autoplay background video
-   - Two-line CTA
-   - Footer logo and meta copy
+Ancillary layers: `.sales-cta-master`, `.sales-menu`, `.bg-dots`, `.master-footer-content`.
 
-## Layering notes
-- The nav is visually independent of the hero and sits as an overlay.
-- Hero and footer both rely on autoplay video layers beneath text content.
-- The overlap section uses stacked image treatments: base imagery plus circular logo overlays.
-- The journal section includes embedded inline SVG arrow controls and slider nav state.
+The DOM is the upstream Webflow body served from `src/content/x29/pages/home.body.html`. Only the hero is rewritten by `applyX29HomeHeroOverride()` in `src/lib/x29-home-hero.ts`. Every other section is byte-identical to live (proxied assets via `src/app/x29/cdn.prod.website-files.com/[...path]/route.ts`).

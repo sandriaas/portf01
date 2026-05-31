@@ -1,12 +1,12 @@
 {
   "route": "/we-are-for/ai-agencies",
   "key": "we-are-for__ai-agencies",
-  "sourceUrl": "https://www.x29.ai/we-are-for/ai-agencies",
+  "sourceUrl": "https://www.DelveBlue/we-are-for/ai-agencies",
   "status": 200,
   "title": "For AI Agencies",
   "description": "Clear Roadmaps and Repeatable Delivery",
   "htmlAttributes": {
-    "data-wf-domain": "www.x29.ai",
+    "data-wf-domain": "www.DelveBlue",
     "data-wf-page": "68a07b4456582bc42d1b3eda",
     "data-wf-site": "68a07b4456582bc42d1b3e95",
     "data-wf-collection": "68a07b4456582bc42d1b3f01",
@@ -22,10 +22,10 @@
   "stylesheetHrefs": [
     "/x29/cdn.prod.website-files.com/68a07b4456582bc42d1b3e95/css/x29-ai.webflow.shared.719ab589f.css"
   ],
-  "iconHref": "/x29/cdn.prod.website-files.com/68a07b4456582bc42d1b3e95/68a515e1340749cb0c0109d5_Studio-40-x-40-px-1-.png",
-  "appleTouchIconHref": "/x29/cdn.prod.website-files.com/68a07b4456582bc42d1b3e95/68a516087b3b640ec198a474_Studio-40-x-40-px-256-x-256-px-.png",
-  "ogImageHref": "/x29/cdn.prod.website-files.com/68a07b4456582bc42d1b3eff/68a07b4456582bc42d1b3f26_Contact-Image2.webp",
-  "twitterImageHref": "/x29/cdn.prod.website-files.com/68a07b4456582bc42d1b3eff/68a07b4456582bc42d1b3f26_Contact-Image2.webp",
+  "iconHref": "/x29/brand/icons/favicon-96x96.png",
+  "appleTouchIconHref": "/x29/brand/icons/apple-touch-icon.png",
+  "ogImageHref": "/x29/local-assets/slider/4.jpg",
+  "twitterImageHref": "/x29/local-assets/slider/4.jpg",
   "bodyScriptEntries": [
     {
       "kind": "external",

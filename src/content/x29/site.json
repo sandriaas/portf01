@@ -1,8 +1,8 @@
 {
-  "targetUrl": "https://www.x29.ai/",
-  "targetOrigin": "https://www.x29.ai",
+  "targetUrl": "https://www.DelveBlue/",
+  "targetOrigin": "https://www.DelveBlue",
   "htmlAttributes": {
-    "data-wf-domain": "www.x29.ai",
+    "data-wf-domain": "www.DelveBlue",
     "data-wf-site": "68a07b4456582bc42d1b3e95"
   },
   "rootRoute": "/",
@@ -15,7 +15,7 @@
       "route": "/",
       "key": "home",
       "status": 200,
-      "title": "X29.ai | An Experimental Lab for AI-Native Enterprise",
+      "title": "DelveBlue | An Experimental Lab for AI-Native Enterprise",
       "bodyPath": "src/content/x29/pages/home.body.html",
       "configPath": "src/content/x29/pages/home.config.json"
     },
@@ -39,7 +39,7 @@
       "route": "/about",
       "key": "about",
       "status": 200,
-      "title": "About | X29.Ai",
+      "title": "About | DelveBlue",
       "bodyPath": "src/content/x29/pages/about.body.html",
       "configPath": "src/content/x29/pages/about.config.json"
     },
@@ -63,7 +63,7 @@
       "route": "/blog/the-x-29-lesson",
       "key": "blog__the-x-29-lesson",
       "status": 200,
-      "title": "The X-29 Lesson",
+      "title": "The DelveBlue Lesson",
       "bodyPath": "src/content/x29/pages/blog__the-x-29-lesson.body.html",
       "configPath": "src/content/x29/pages/blog__the-x-29-lesson.config.json"
     },
@@ -71,7 +71,7 @@
       "route": "/contact",
       "key": "contact",
       "status": 200,
-      "title": "Contact | X29.AI",
+      "title": "Contact | DelveBlue",
       "bodyPath": "src/content/x29/pages/contact.body.html",
       "configPath": "src/content/x29/pages/contact.config.json"
     },
@@ -111,7 +111,7 @@
       "route": "/we-are-for/interns",
       "key": "we-are-for__interns",
       "status": 200,
-      "title": "Intern at X29.ai",
+      "title": "Intern at DelveBlue",
       "bodyPath": "src/content/x29/pages/we-are-for__interns.body.html",
       "configPath": "src/content/x29/pages/we-are-for__interns.config.json"
     },
@@ -128,12 +128,12 @@
     {
       "route": "/blog/why-human-ai-is-the-future-of-creative-agencies",
       "status": 404,
-      "sourceUrl": "https://www.x29.ai/blog/why-human-ai-is-the-future-of-creative-agencies"
+      "sourceUrl": "https://www.DelveBlue/blog/why-human-ai-is-the-future-of-creative-agencies"
     },
     {
       "route": "/projects/livingless-3",
       "status": 404,
-      "sourceUrl": "https://www.x29.ai/projects/livingless-3"
+      "sourceUrl": "https://www.DelveBlue/projects/livingless-3"
     }
   ]
 }

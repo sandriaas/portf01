@@ -1,9 +1,9 @@
 const HOME_HERO_SECTION_PATTERN =
   /<section class="section hero-home-section">[\s\S]*?<\/section>/;
 
-const X29_HOME_HERO_MEDIA_VERSION = "20260424a";
-const X29_HOME_HERO_R2_BASE_URL =
-  "https://pub-a05e3eced20c4330baf5fb0f632f2d5f.r2.dev/hero/home";
+const X29_HOME_HERO_MEDIA_VERSION = "20260531i";
+const X29_HOME_HERO_B2_BASE_URL =
+  "https://f001.backblazeb2.com/file/san001/x29/media/hero/home";
 
 function withVersion(url: string) {
   const separator = url.includes("?") ? "&" : "?";
@@ -12,25 +12,29 @@ function withVersion(url: string) {
 
 export const X29_HOME_HERO_BUCKET_OBJECTS = {
   landscape: {
-    key: "hero/home/landscape.mp4",
-    fallbackUrl: `${X29_HOME_HERO_R2_BASE_URL}/landscape.mp4`,
+    key: "hero/home/minima-manifesto.mp4",
+    fallbackUrl: `${X29_HOME_HERO_B2_BASE_URL}/minima-manifesto.mp4`,
   },
   portrait: {
-    key: "hero/home/portrait.mp4",
-    fallbackUrl: `${X29_HOME_HERO_R2_BASE_URL}/portrait.mp4`,
+    key: "hero/home/minima-manifesto.mp4",
+    fallbackUrl: `${X29_HOME_HERO_B2_BASE_URL}/minima-manifesto.mp4`,
   },
 } as const;
 
 export const X29_HOME_HERO_MEDIA = {
-  landscapeMp4Url: withVersion("/x29/media/hero/home/landscape.mp4"),
-  portraitMp4Url: withVersion("/x29/media/hero/home/portrait.mp4"),
+  // Big video assets stay on B2 (over CF Worker 25 MiB asset cap).
+  landscapeMp4Url: withVersion(`${X29_HOME_HERO_B2_BASE_URL}/minima-manifesto.mp4`),
+  landscapeWebmUrl: withVersion(`${X29_HOME_HERO_B2_BASE_URL}/minima-manifesto.webm`),
+  portraitMp4Url: withVersion(`${X29_HOME_HERO_B2_BASE_URL}/minima-manifesto.mp4`),
+  portraitWebmUrl: withVersion(`${X29_HOME_HERO_B2_BASE_URL}/minima-manifesto.webm`),
+  // Small posters stay local (Worker assets) for fast first paint.
   landscapePosterUrl: withVersion("/x29/media/home-hero-landscape-poster.jpg"),
   portraitPosterUrl: withVersion("/x29/media/home-hero-portrait-poster.jpg"),
   portraitMaxWidth: 767,
 } as const;
 
 function renderHomeHeroStyles() {
-  return `<style>.x29-home-hero-media{padding-top:var(--_spacing---spacing--top-padding);padding-bottom:var(--_spacing---spacing--32);border-radius:var(--radius--radius-3);background-color:#000;color:var(--_colors---color--light);width:100%;min-height:calc(100vh - (var(--_spacing---spacing--8) * 2));display:flex;position:relative;overflow:hidden;isolation:isolate;}.x29-home-hero-stack{position:absolute;inset:0;z-index:0;background:#000;}.x29-home-hero-video,.x29-home-hero-poster{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;}.x29-home-hero-video{background-position:50%;background-size:cover;}.x29-home-hero-poster{z-index:1;opacity:1;transition:opacity .28s ease;pointer-events:none;}.x29-home-hero-media[data-home-hero-state="video"] .x29-home-hero-poster{opacity:0;}.x29-home-hero-content{z-index:2;position:relative;display:flex;}@media screen and (max-width:767px){.x29-home-hero-media{min-height:calc(100vh - (var(--_spacing---spacing--8) * 2));}}</style>`;
+  return `<style>.x29-home-hero-media{padding-top:var(--_spacing---spacing--top-padding);padding-bottom:var(--_spacing---spacing--32);border-radius:var(--radius--radius-3);background-color:#000;color:var(--_colors---color--light);width:100%;min-height:calc(100vh - (var(--_spacing---spacing--8) * 2));display:flex;position:relative;overflow:hidden;isolation:isolate;}.x29-home-hero-stack{position:absolute;inset:0;z-index:0;background:#000;}.x29-home-hero-video,.x29-home-hero-poster{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;}.x29-home-hero-video{background-position:50%;background-size:cover;}.x29-home-hero-poster{z-index:1;opacity:1;transition:opacity .28s ease;pointer-events:none;}.x29-home-hero-media[data-home-hero-state="video"] .x29-home-hero-poster{opacity:0;}.x29-home-hero-content{z-index:2;position:relative;display:block;width:100%;}@media screen and (max-width:767px){.x29-home-hero-media{min-height:calc(100vh - (var(--_spacing---spacing--8) * 2));}}</style>`;
 }
 
 function renderHomeHeroScript() {
@@ -43,7 +47,7 @@ function renderHomeHeroScript() {
 }
 
 function renderHomeHeroSection() {
-  return `<section class="section hero-home-section">${renderHomeHeroStyles()}<div data-home-hero="" data-home-hero-state="poster" data-poster-url="${X29_HOME_HERO_MEDIA.landscapePosterUrl}" data-video-url="${X29_HOME_HERO_MEDIA.landscapeMp4Url}" class="x29-home-hero-media"><div class="x29-home-hero-stack"><video id="x29-home-hero-video" autoplay="" loop="" muted="" playsinline="" webkit-playsinline="" preload="auto" poster="${X29_HOME_HERO_MEDIA.landscapePosterUrl}" src="${X29_HOME_HERO_MEDIA.landscapeMp4Url}" aria-hidden="true" class="x29-home-hero-video"></video><img id="x29-home-hero-poster" src="${X29_HOME_HERO_MEDIA.landscapePosterUrl}" alt="" decoding="async" fetchpriority="high" class="x29-home-hero-poster"/></div>${renderHomeHeroScript()}<div class="w-layout-blockcontainer main-container w-container x29-home-hero-content"><div class="home-hero-wrap"><div class="headline-home-hero"><h1>An Experimental Lab for AI-Native Enterprise.</h1><a href="/contact" button="" data-wf--cta-main--variant="base" class="cta-main w-inline-block"><div class="button-text-mask"><div button-text="" class="button-text">Contact Us</div></div><div button-bg="" class="button-bg"></div></a></div><div class="home-hero-bottom-tile"><div class="label-small text-light-48">Port Co:&nbsp;<br/>Conducting AI</div><div class="text-align-right label-small text-light-48">Special<br/>Projects</div></div></div></div></div></section>`;
+  return `<section class="section hero-home-section">${renderHomeHeroStyles()}<div data-home-hero="" data-home-hero-state="poster" data-poster-url="${X29_HOME_HERO_MEDIA.landscapePosterUrl}" data-video-url="${X29_HOME_HERO_MEDIA.landscapeMp4Url}" class="x29-home-hero-media"><div class="x29-home-hero-stack"><video id="x29-home-hero-video" autoplay="" loop="" muted="" playsinline="" webkit-playsinline="" preload="auto" poster="${X29_HOME_HERO_MEDIA.landscapePosterUrl}" style="background-image:url('${X29_HOME_HERO_MEDIA.landscapePosterUrl}')" aria-hidden="true" class="x29-home-hero-video"><source src="${X29_HOME_HERO_MEDIA.landscapeWebmUrl}" type="video/webm"/><source src="${X29_HOME_HERO_MEDIA.landscapeMp4Url}" type="video/mp4"/></video><img id="x29-home-hero-poster" src="${X29_HOME_HERO_MEDIA.landscapePosterUrl}" alt="" decoding="async" fetchpriority="high" class="x29-home-hero-poster"/></div>${renderHomeHeroScript()}<div class="w-layout-blockcontainer main-container w-container x29-home-hero-content"><div class="home-hero-wrap"><div class="headline-home-hero"><h1>An Experimental Lab for AI-Native Enterprise.</h1><a href="/contact" button="" data-wf--cta-main--variant="base" class="cta-main w-inline-block"><div class="button-text-mask"><div button-text="" class="button-text">Contact Us</div></div><div button-bg="" class="button-bg"></div></a></div><div class="home-hero-bottom-tile"><div class="label-small text-light-48">Port Co:&nbsp;<br/>Conducting AI</div><div class="text-align-right label-small text-light-48">Special<br/>Projects</div></div></div></div></div></section>`;
 }
 
 export function applyX29HomeHeroOverride(route: string, bodyHtml: string) {

@@ -1,12 +1,12 @@
 {
   "route": "/we-are-for/interns",
   "key": "we-are-for__interns",
-  "sourceUrl": "https://www.x29.ai/we-are-for/interns",
+  "sourceUrl": "https://www.DelveBlue/we-are-for/interns",
   "status": 200,
-  "title": "Intern at X29.ai",
+  "title": "Intern at DelveBlue",
   "description": "Play a Role in Engineering the AI Native Enterprise",
   "htmlAttributes": {
-    "data-wf-domain": "www.x29.ai",
+    "data-wf-domain": "www.DelveBlue",
     "data-wf-page": "68a07b4456582bc42d1b3eda",
     "data-wf-site": "68a07b4456582bc42d1b3e95",
     "data-wf-collection": "68a07b4456582bc42d1b3f01",
@@ -22,10 +22,10 @@
   "stylesheetHrefs": [
     "/x29/cdn.prod.website-files.com/68a07b4456582bc42d1b3e95/css/x29-ai.webflow.shared.719ab589f.css"
   ],
-  "iconHref": "/x29/cdn.prod.website-files.com/68a07b4456582bc42d1b3e95/68a515e1340749cb0c0109d5_Studio-40-x-40-px-1-.png",
-  "appleTouchIconHref": "/x29/cdn.prod.website-files.com/68a07b4456582bc42d1b3e95/68a516087b3b640ec198a474_Studio-40-x-40-px-256-x-256-px-.png",
-  "ogImageHref": "/x29/cdn.prod.website-files.com/68a07b4456582bc42d1b3eff/68a07b4456582bc42d1b3fdb_b78233390b8dda5eff2d15a0ac856116bedd29a0.png",
-  "twitterImageHref": "/x29/cdn.prod.website-files.com/68a07b4456582bc42d1b3eff/68a07b4456582bc42d1b3fdb_b78233390b8dda5eff2d15a0ac856116bedd29a0.png",
+  "iconHref": "/x29/brand/icons/favicon-96x96.png",
+  "appleTouchIconHref": "/x29/brand/icons/apple-touch-icon.png",
+  "ogImageHref": "/x29/local-assets/our-story/big_hero_image.jpg",
+  "twitterImageHref": "/x29/local-assets/our-story/big_hero_image.jpg",
   "bodyScriptEntries": [
     {
       "kind": "external",

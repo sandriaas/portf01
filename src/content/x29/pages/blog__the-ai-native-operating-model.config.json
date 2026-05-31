@@ -1,12 +1,12 @@
 {
   "route": "/blog/the-ai-native-operating-model",
   "key": "blog__the-ai-native-operating-model",
-  "sourceUrl": "https://www.x29.ai/blog/the-ai-native-operating-model",
+  "sourceUrl": "https://www.DelveBlue/blog/the-ai-native-operating-model",
   "status": 200,
   "title": "The AI-Native Operating Model",
   "description": "Retrofitting enterprises and building AI-first companies.",
   "htmlAttributes": {
-    "data-wf-domain": "www.x29.ai",
+    "data-wf-domain": "www.DelveBlue",
     "data-wf-page": "68a07b4456582bc42d1b3edb",
     "data-wf-site": "68a07b4456582bc42d1b3e95",
     "data-wf-collection": "68a07b4456582bc42d1b3f25",
@@ -22,10 +22,10 @@
   "stylesheetHrefs": [
     "/x29/cdn.prod.website-files.com/68a07b4456582bc42d1b3e95/css/x29-ai.webflow.shared.719ab589f.css"
   ],
-  "iconHref": "/x29/cdn.prod.website-files.com/68a07b4456582bc42d1b3e95/68a515e1340749cb0c0109d5_Studio-40-x-40-px-1-.png",
-  "appleTouchIconHref": "/x29/cdn.prod.website-files.com/68a07b4456582bc42d1b3e95/68a516087b3b640ec198a474_Studio-40-x-40-px-256-x-256-px-.png",
-  "ogImageHref": "/x29/cdn.prod.website-files.com/68a07b4456582bc42d1b3eff/68a07b4456582bc42d1b406b_5d2249c6f5c46e64ac0f663c6784337c9d8fc70c.png",
-  "twitterImageHref": "/x29/cdn.prod.website-files.com/68a07b4456582bc42d1b3eff/68a07b4456582bc42d1b406b_5d2249c6f5c46e64ac0f663c6784337c9d8fc70c.png",
+  "iconHref": "/x29/brand/icons/favicon-96x96.png",
+  "appleTouchIconHref": "/x29/brand/icons/apple-touch-icon.png",
+  "ogImageHref": "/x29/local-assets/journal/3.jpeg",
+  "twitterImageHref": "/x29/local-assets/journal/3.jpeg",
   "bodyScriptEntries": [
     {
       "kind": "external",
