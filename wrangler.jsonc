@@ -1,6 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "oregea",
+  "name": "delveblue-001",
+  "account_id": "96d55ad87e6bb93a52d0d2728f0f093d",
   "main": ".open-next/worker.js",
   "assets": {
     "directory": ".open-next/assets",
@@ -11,5 +12,12 @@
   "compatibility_flags": ["nodejs_compat"],
   "observability": {
     "enabled": true
-  }
+  },
+  "workers_dev": true,
+  "routes": [
+    {
+      "pattern": "arvi.qzz.io",
+      "custom_domain": true
+    }
+  ]
 }
