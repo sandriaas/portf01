@@ -1,0 +1,46 @@
+{
+  "name": "@delveblue/gallery",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build --webpack",
+    "localize:shopify-home": "node scripts/localize-shopify-mirror.mjs",
+    "localize:shopify-home:fallback": "SHOPIFY_ENABLE_LOADING_FALLBACK=1 node scripts/localize-shopify-mirror.mjs",
+    "verify:shopify-home": "npm run build && node scripts/verify-shopify-home.mjs",
+    "capture:shopify-browser-parity": "SHOPIFY_CAPTURE_MODE=connected node scripts/capture-shopify-browser-parity.mjs",
+    "capture:shopify-browser-parity:connected": "SHOPIFY_CAPTURE_MODE=connected node scripts/capture-shopify-browser-parity.mjs",
+    "capture:shopify-browser-parity:headless": "SHOPIFY_CAPTURE_MODE=headless node scripts/capture-shopify-browser-parity.mjs",
+    "capture:shopify-intro": "node scripts/capture-shopify-intro-parity.mjs",
+    "capture:shopify-intro-sequence": "node scripts/capture-shopify-intro-sequence.mjs",
+    "start": "next start",
+    "lint": "eslint",
+    "upload:b2": "node scripts/upload-to-b2.mjs",
+    "rewrite:b2": "node scripts/rewrite-to-b2.cjs",
+    "cf:build": "opennextjs-cloudflare build",
+    "cf:preview": "npm run cf:build && opennextjs-cloudflare preview",
+    "cf:deploy": "npm run cf:build && opennextjs-cloudflare deploy",
+    "cf:typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
+  },
+  "dependencies": {
+    "next": "16.2.4",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@opennextjs/cloudflare": "1.19.3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.4",
+    "pixelmatch": "^7.1.0",
+    "playwright": "^1.59.1",
+    "pngjs": "^7.0.0",
+    "puppeteer-core": "^24.29.0",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "wrangler": "4.84.1"
+  }
+}

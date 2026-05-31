@@ -1,0 +1,13 @@
+{
+  "name": "@delveblue/router",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "cf:typegen": "wrangler types"
+  },
+  "devDependencies": {
+    "wrangler": "4.84.1"
+  }
+}

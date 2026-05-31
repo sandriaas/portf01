@@ -1,0 +1,347 @@
+{
+  "generatedAt": "2026-04-09T04:07:06.776Z",
+  "captureMode": "headless",
+  "localUrl": "http://127.0.0.1:3005/",
+  "liveUrl": "https://shopify.design/",
+  "results": [
+    {
+      "name": "live-desktop-2026-04-09",
+      "kind": "page",
+      "url": "https://shopify.design/",
+      "viewport": {
+        "width": 1440,
+        "height": 2200
+      },
+      "pairKey": "desktop",
+      "counts": {
+        "headerCta": 1,
+        "heroCards": 19,
+        "manifestoButtons": 1,
+        "carouselCards": 10,
+        "remoteThumbs": 1,
+        "footerLinks": 1,
+        "modalOverlayCount": 1,
+        "layoutRootClass": "layout-root loading",
+        "title": "Shopify Design",
+        "canonical": "https://shopify.design/",
+        "documentHeight": 20822
+      },
+      "captureFallback": {
+        "applied": true,
+        "layoutRootClass": "layout-root codex-capture-fallback",
+        "removedOverlay": true,
+        "removedWebglFallback": false,
+        "hiddenCanvasCount": 0
+      },
+      "state": {
+        "hash": "",
+        "modalHidden": "true"
+      },
+      "fullPageCapture": {
+        "totalHeight": 20822,
+        "capturedHeight": 20822,
+        "truncated": false
+      },
+      "screenshot": "docs/design-references/shopify.design/live-desktop-2026-04-09.png",
+      "fullPageScreenshot": "docs/design-references/shopify.design/live-desktop-2026-04-09-full.png"
+    },
+    {
+      "name": "local-desktop-2026-04-09",
+      "kind": "page",
+      "url": "http://127.0.0.1:3005/",
+      "viewport": {
+        "width": 1440,
+        "height": 2200
+      },
+      "pairKey": "desktop",
+      "counts": {
+        "headerCta": 1,
+        "heroCards": 19,
+        "manifestoButtons": 1,
+        "carouselCards": 10,
+        "remoteThumbs": 1,
+        "footerLinks": 1,
+        "modalOverlayCount": 1,
+        "layoutRootClass": "layout-root loading-fallback",
+        "title": "Shopify Design",
+        "canonical": "https://shopify.design/",
+        "documentHeight": 20822
+      },
+      "captureFallback": {
+        "applied": false,
+        "layoutRootClass": "layout-root loading-fallback",
+        "removedOverlay": false,
+        "removedWebglFallback": true,
+        "hiddenCanvasCount": 0
+      },
+      "state": {
+        "hash": "",
+        "modalHidden": "true"
+      },
+      "fullPageCapture": {
+        "totalHeight": 20822,
+        "capturedHeight": 20822,
+        "truncated": false
+      },
+      "screenshot": "docs/design-references/shopify.design/local-desktop-2026-04-09.png",
+      "fullPageScreenshot": "docs/design-references/shopify.design/local-desktop-2026-04-09-full.png"
+    },
+    {
+      "name": "live-tablet-2026-04-09",
+      "kind": "page",
+      "url": "https://shopify.design/",
+      "viewport": {
+        "width": 768,
+        "height": 1800
+      },
+      "pairKey": "tablet",
+      "counts": {
+        "headerCta": 1,
+        "heroCards": 19,
+        "manifestoButtons": 1,
+        "carouselCards": 10,
+        "remoteThumbs": 1,
+        "footerLinks": 1,
+        "modalOverlayCount": 1,
+        "layoutRootClass": "layout-root codex-capture-fallback",
+        "title": "Shopify Design",
+        "canonical": "https://shopify.design/",
+        "documentHeight": 18006
+      },
+      "captureFallback": {
+        "applied": true,
+        "layoutRootClass": "layout-root codex-capture-fallback",
+        "removedOverlay": true,
+        "removedWebglFallback": true,
+        "hiddenCanvasCount": 0
+      },
+      "state": {
+        "hash": "",
+        "modalHidden": "true"
+      },
+      "fullPageCapture": {
+        "totalHeight": 18006,
+        "capturedHeight": 18006,
+        "truncated": false
+      },
+      "screenshot": "docs/design-references/shopify.design/live-tablet-2026-04-09.png",
+      "fullPageScreenshot": "docs/design-references/shopify.design/live-tablet-2026-04-09-full.png"
+    },
+    {
+      "name": "local-tablet-2026-04-09",
+      "kind": "page",
+      "url": "http://127.0.0.1:3005/",
+      "viewport": {
+        "width": 768,
+        "height": 1800
+      },
+      "pairKey": "tablet",
+      "counts": {
+        "headerCta": 1,
+        "heroCards": 19,
+        "manifestoButtons": 1,
+        "carouselCards": 10,
+        "remoteThumbs": 1,
+        "footerLinks": 1,
+        "modalOverlayCount": 1,
+        "layoutRootClass": "layout-root loading-fallback",
+        "title": "Shopify Design",
+        "canonical": "https://shopify.design/",
+        "documentHeight": 18006
+      },
+      "captureFallback": {
+        "applied": false,
+        "layoutRootClass": "layout-root loading-fallback",
+        "removedOverlay": false,
+        "removedWebglFallback": true,
+        "hiddenCanvasCount": 0
+      },
+      "state": {
+        "hash": "",
+        "modalHidden": "true"
+      },
+      "fullPageCapture": {
+        "totalHeight": 18006,
+        "capturedHeight": 18006,
+        "truncated": false
+      },
+      "screenshot": "docs/design-references/shopify.design/local-tablet-2026-04-09.png",
+      "fullPageScreenshot": "docs/design-references/shopify.design/local-tablet-2026-04-09-full.png"
+    },
+    {
+      "name": "live-mobile-2026-04-09",
+      "kind": "page",
+      "url": "https://shopify.design/",
+      "viewport": {
+        "width": 390,
+        "height": 1600
+      },
+      "pairKey": "mobile",
+      "counts": {
+        "headerCta": 1,
+        "heroCards": 19,
+        "manifestoButtons": 1,
+        "carouselCards": 10,
+        "remoteThumbs": 1,
+        "footerLinks": 1,
+        "modalOverlayCount": 1,
+        "layoutRootClass": "layout-root codex-capture-fallback",
+        "title": "Shopify Design",
+        "canonical": "https://shopify.design/",
+        "documentHeight": 13779
+      },
+      "captureFallback": {
+        "applied": true,
+        "layoutRootClass": "layout-root codex-capture-fallback",
+        "removedOverlay": true,
+        "removedWebglFallback": true,
+        "hiddenCanvasCount": 0
+      },
+      "state": {
+        "hash": "",
+        "modalHidden": "true"
+      },
+      "fullPageCapture": {
+        "totalHeight": 13779,
+        "capturedHeight": 13779,
+        "truncated": false
+      },
+      "screenshot": "docs/design-references/shopify.design/live-mobile-2026-04-09.png",
+      "fullPageScreenshot": "docs/design-references/shopify.design/live-mobile-2026-04-09-full.png"
+    },
+    {
+      "name": "local-mobile-2026-04-09",
+      "kind": "page",
+      "url": "http://127.0.0.1:3005/",
+      "viewport": {
+        "width": 390,
+        "height": 1600
+      },
+      "pairKey": "mobile",
+      "counts": {
+        "headerCta": 1,
+        "heroCards": 19,
+        "manifestoButtons": 1,
+        "carouselCards": 10,
+        "remoteThumbs": 1,
+        "footerLinks": 1,
+        "modalOverlayCount": 1,
+        "layoutRootClass": "layout-root loading-fallback",
+        "title": "Shopify Design",
+        "canonical": "https://shopify.design/",
+        "documentHeight": 13779
+      },
+      "captureFallback": {
+        "applied": false,
+        "layoutRootClass": "layout-root loading-fallback",
+        "removedOverlay": false,
+        "removedWebglFallback": true,
+        "hiddenCanvasCount": 0
+      },
+      "state": {
+        "hash": "",
+        "modalHidden": "true"
+      },
+      "fullPageCapture": {
+        "totalHeight": 13779,
+        "capturedHeight": 13779,
+        "truncated": false
+      },
+      "screenshot": "docs/design-references/shopify.design/local-mobile-2026-04-09.png",
+      "fullPageScreenshot": "docs/design-references/shopify.design/local-mobile-2026-04-09-full.png"
+    }
+  ],
+  "diffs": [
+    {
+      "pair": "desktop",
+      "viewportDiff": {
+        "width": 1440,
+        "height": 2200,
+        "mismatchPixels": 773884,
+        "mismatchRatio": 0.244282,
+        "diffImage": "docs/design-references/shopify.design/desktop-2026-04-09-diff.png"
+      },
+      "liveState": {
+        "hash": "",
+        "modalHidden": "true"
+      },
+      "localState": {
+        "hash": "",
+        "modalHidden": "true"
+      },
+      "fullPageDiff": {
+        "width": 1440,
+        "height": 20822,
+        "mismatchPixels": 5176832,
+        "mismatchRatio": 0.172655,
+        "diffImage": "docs/design-references/shopify.design/desktop-full-2026-04-09-diff.png"
+      }
+    },
+    {
+      "pair": "tablet",
+      "viewportDiff": {
+        "width": 768,
+        "height": 1800,
+        "mismatchPixels": 327,
+        "mismatchRatio": 0.000237,
+        "diffImage": "docs/design-references/shopify.design/tablet-2026-04-09-diff.png"
+      },
+      "liveState": {
+        "hash": "",
+        "modalHidden": "true"
+      },
+      "localState": {
+        "hash": "",
+        "modalHidden": "true"
+      },
+      "fullPageDiff": {
+        "width": 768,
+        "height": 18006,
+        "mismatchPixels": 5069,
+        "mismatchRatio": 0.000367,
+        "diffImage": "docs/design-references/shopify.design/tablet-full-2026-04-09-diff.png"
+      }
+    },
+    {
+      "pair": "mobile",
+      "viewportDiff": {
+        "width": 390,
+        "height": 1600,
+        "mismatchPixels": 522,
+        "mismatchRatio": 0.000837,
+        "diffImage": "docs/design-references/shopify.design/mobile-2026-04-09-diff.png"
+      },
+      "liveState": {
+        "hash": "",
+        "modalHidden": "true"
+      },
+      "localState": {
+        "hash": "",
+        "modalHidden": "true"
+      },
+      "fullPageDiff": {
+        "width": 390,
+        "height": 13779,
+        "mismatchPixels": 2858,
+        "mismatchRatio": 0.000532,
+        "diffImage": "docs/design-references/shopify.design/mobile-full-2026-04-09-diff.png"
+      }
+    }
+  ],
+  "interactionChecks": [
+    {
+      "check": "manifesto modal opens",
+      "modalHidden": "true"
+    },
+    {
+      "check": "carousel modal opens",
+      "modalHidden": "false",
+      "hash": "#context"
+    },
+    {
+      "check": "remote studio interaction responds",
+      "modalHidden": "true",
+      "hash": ""
+    }
+  ]
+}

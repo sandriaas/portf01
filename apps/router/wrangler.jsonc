@@ -1,0 +1,28 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "delveblue-gallery-microfrontend-001",
+  "account_id": "96d55ad87e6bb93a52d0d2728f0f093d",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-04-22",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "workers_dev": true,
+  "routes": [
+    {
+      "pattern": "arvi.qzz.io",
+      "custom_domain": true
+    }
+  ],
+  "services": [
+    {
+      "binding": "MAIN",
+      "service": "delveblue-001"
+    },
+    {
+      "binding": "GALLERY",
+      "service": "delvebluegallery"
+    }
+  ]
+}

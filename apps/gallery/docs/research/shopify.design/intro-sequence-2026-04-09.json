@@ -1,0 +1,1222 @@
+{
+  "generatedAt": "2026-04-09T04:33:10.174Z",
+  "live": {
+    "name": "live-intro",
+    "url": "https://shopify.design/",
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "frameCount": 10,
+    "frameIntervalMs": 200,
+    "frames": [
+      {
+        "index": 0,
+        "atMs": 0,
+        "png": "docs/design-references/shopify.design/intro-sequence/live-intro/frame-000.png",
+        "state": {
+          "title": "Shopify Design",
+          "rootClass": "layout-root loading",
+          "headline": null,
+          "header": {
+            "opacity": "0",
+            "transform": "none",
+            "clipPath": "none",
+            "top": "-40px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "hero": {
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 247.9)",
+            "clipPath": "none",
+            "top": "0px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "modalHidden": "true",
+          "readyState": "interactive",
+          "scrollY": 0
+        }
+      },
+      {
+        "index": 1,
+        "atMs": 200,
+        "png": "docs/design-references/shopify.design/intro-sequence/live-intro/frame-001.png",
+        "state": {
+          "title": "Shopify Design",
+          "rootClass": "layout-root loading",
+          "headline": null,
+          "header": {
+            "opacity": "0",
+            "transform": "none",
+            "clipPath": "none",
+            "top": "-40px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "hero": {
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 247.9)",
+            "clipPath": "none",
+            "top": "0px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "modalHidden": "true",
+          "readyState": "interactive",
+          "scrollY": 0
+        }
+      },
+      {
+        "index": 2,
+        "atMs": 400,
+        "png": "docs/design-references/shopify.design/intro-sequence/live-intro/frame-002.png",
+        "state": {
+          "title": "Shopify Design",
+          "rootClass": "layout-root loading",
+          "headline": null,
+          "header": {
+            "opacity": "0",
+            "transform": "none",
+            "clipPath": "none",
+            "top": "-40px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "hero": {
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 247.9)",
+            "clipPath": "none",
+            "top": "0px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "modalHidden": "true",
+          "readyState": "interactive",
+          "scrollY": 0
+        }
+      },
+      {
+        "index": 3,
+        "atMs": 600,
+        "png": "docs/design-references/shopify.design/intro-sequence/live-intro/frame-003.png",
+        "state": {
+          "title": "Shopify Design",
+          "rootClass": "layout-root loading",
+          "headline": null,
+          "header": {
+            "opacity": "0",
+            "transform": "none",
+            "clipPath": "none",
+            "top": "-40px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "hero": {
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 247.9)",
+            "clipPath": "none",
+            "top": "0px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "modalHidden": "true",
+          "readyState": "interactive",
+          "scrollY": 0
+        }
+      },
+      {
+        "index": 4,
+        "atMs": 800,
+        "png": "docs/design-references/shopify.design/intro-sequence/live-intro/frame-004.png",
+        "state": {
+          "title": "Shopify Design",
+          "rootClass": "layout-root loading",
+          "headline": null,
+          "header": {
+            "opacity": "0",
+            "transform": "none",
+            "clipPath": "none",
+            "top": "-40px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "hero": {
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 247.9)",
+            "clipPath": "none",
+            "top": "0px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "modalHidden": "true",
+          "readyState": "interactive",
+          "scrollY": 0
+        }
+      },
+      {
+        "index": 5,
+        "atMs": 1000,
+        "png": "docs/design-references/shopify.design/intro-sequence/live-intro/frame-005.png",
+        "state": {
+          "title": "Shopify Design",
+          "rootClass": "layout-root loading",
+          "headline": null,
+          "header": {
+            "opacity": "0",
+            "transform": "none",
+            "clipPath": "none",
+            "top": "-40px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "hero": {
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 247.9)",
+            "clipPath": "none",
+            "top": "0px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "modalHidden": "true",
+          "readyState": "complete",
+          "scrollY": 0
+        }
+      },
+      {
+        "index": 6,
+        "atMs": 1200,
+        "png": "docs/design-references/shopify.design/intro-sequence/live-intro/frame-006.png",
+        "state": {
+          "title": "Shopify Design",
+          "rootClass": "layout-root loading",
+          "headline": null,
+          "header": {
+            "opacity": "0",
+            "transform": "none",
+            "clipPath": "none",
+            "top": "-40px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "hero": {
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 247.9)",
+            "clipPath": "none",
+            "top": "0px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "modalHidden": "true",
+          "readyState": "complete",
+          "scrollY": 0
+        }
+      },
+      {
+        "index": 7,
+        "atMs": 1400,
+        "png": "docs/design-references/shopify.design/intro-sequence/live-intro/frame-007.png",
+        "state": {
+          "title": "Shopify Design",
+          "rootClass": "layout-root loading",
+          "headline": null,
+          "header": {
+            "opacity": "0",
+            "transform": "none",
+            "clipPath": "none",
+            "top": "-40px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "hero": {
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 247.9)",
+            "clipPath": "none",
+            "top": "0px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "modalHidden": "true",
+          "readyState": "complete",
+          "scrollY": 0
+        }
+      },
+      {
+        "index": 8,
+        "atMs": 1600,
+        "png": "docs/design-references/shopify.design/intro-sequence/live-intro/frame-008.png",
+        "state": {
+          "title": "Shopify Design",
+          "rootClass": "layout-root loading",
+          "headline": null,
+          "header": {
+            "opacity": "0",
+            "transform": "none",
+            "clipPath": "none",
+            "top": "-40px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "hero": {
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 247.9)",
+            "clipPath": "none",
+            "top": "0px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "modalHidden": "true",
+          "readyState": "complete",
+          "scrollY": 0
+        }
+      },
+      {
+        "index": 9,
+        "atMs": 1800,
+        "png": "docs/design-references/shopify.design/intro-sequence/live-intro/frame-009.png",
+        "state": {
+          "title": "Shopify Design",
+          "rootClass": "layout-root",
+          "headline": {
+            "opacity": "1",
+            "transform": "none",
+            "clipPath": "none",
+            "top": "0px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "header": {
+            "opacity": "0",
+            "transform": "none",
+            "clipPath": "none",
+            "top": "-40px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "hero": {
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 247.9)",
+            "clipPath": "none",
+            "top": "0px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "modalHidden": "true",
+          "readyState": "complete",
+          "scrollY": 0
+        }
+      }
+    ],
+    "video": "docs/design-references/shopify.design/intro-sequence/live-intro-2026-04-09.mp4"
+  },
+  "local": {
+    "name": "local-intro",
+    "url": "http://127.0.0.1:3005/",
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "frameCount": 10,
+    "frameIntervalMs": 200,
+    "frames": [
+      {
+        "index": 0,
+        "atMs": 0,
+        "png": "docs/design-references/shopify.design/intro-sequence/local-intro/frame-000.png",
+        "state": {
+          "title": "Shopify Design",
+          "rootClass": "layout-root loading",
+          "headline": null,
+          "header": {
+            "opacity": "0",
+            "transform": "none",
+            "clipPath": "none",
+            "top": "-40px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "hero": {
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 247.9)",
+            "clipPath": "none",
+            "top": "0px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "modalHidden": "true",
+          "readyState": "complete",
+          "scrollY": 0
+        }
+      },
+      {
+        "index": 1,
+        "atMs": 200,
+        "png": "docs/design-references/shopify.design/intro-sequence/local-intro/frame-001.png",
+        "state": {
+          "title": "Shopify Design",
+          "rootClass": "layout-root loading",
+          "headline": null,
+          "header": {
+            "opacity": "0",
+            "transform": "none",
+            "clipPath": "none",
+            "top": "-40px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "hero": {
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 247.9)",
+            "clipPath": "none",
+            "top": "0px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "modalHidden": "true",
+          "readyState": "complete",
+          "scrollY": 0
+        }
+      },
+      {
+        "index": 2,
+        "atMs": 400,
+        "png": "docs/design-references/shopify.design/intro-sequence/local-intro/frame-002.png",
+        "state": {
+          "title": "Shopify Design",
+          "rootClass": "layout-root loading",
+          "headline": null,
+          "header": {
+            "opacity": "0",
+            "transform": "none",
+            "clipPath": "none",
+            "top": "-40px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "hero": {
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 247.9)",
+            "clipPath": "none",
+            "top": "0px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "modalHidden": "true",
+          "readyState": "complete",
+          "scrollY": 0
+        }
+      },
+      {
+        "index": 3,
+        "atMs": 600,
+        "png": "docs/design-references/shopify.design/intro-sequence/local-intro/frame-003.png",
+        "state": {
+          "title": "Shopify Design",
+          "rootClass": "layout-root loading",
+          "headline": null,
+          "header": {
+            "opacity": "0",
+            "transform": "none",
+            "clipPath": "none",
+            "top": "-40px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "hero": {
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 247.9)",
+            "clipPath": "none",
+            "top": "0px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "modalHidden": "true",
+          "readyState": "complete",
+          "scrollY": 0
+        }
+      },
+      {
+        "index": 4,
+        "atMs": 800,
+        "png": "docs/design-references/shopify.design/intro-sequence/local-intro/frame-004.png",
+        "state": {
+          "title": "Shopify Design",
+          "rootClass": "layout-root",
+          "headline": {
+            "opacity": "1",
+            "transform": "none",
+            "clipPath": "none",
+            "top": "0px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "header": {
+            "opacity": "0",
+            "transform": "none",
+            "clipPath": "none",
+            "top": "-40px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "hero": {
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 247.9)",
+            "clipPath": "none",
+            "top": "0px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "modalHidden": "true",
+          "readyState": "complete",
+          "scrollY": 0
+        }
+      },
+      {
+        "index": 5,
+        "atMs": 1000,
+        "png": "docs/design-references/shopify.design/intro-sequence/local-intro/frame-005.png",
+        "state": {
+          "title": "Shopify Design",
+          "rootClass": "layout-root",
+          "headline": {
+            "opacity": "1",
+            "transform": "none",
+            "clipPath": "none",
+            "top": "0px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "header": {
+            "opacity": "1",
+            "transform": "none",
+            "clipPath": "none",
+            "top": "0px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "hero": {
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "clipPath": "none",
+            "top": "0px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "modalHidden": "true",
+          "readyState": "complete",
+          "scrollY": 0
+        }
+      },
+      {
+        "index": 6,
+        "atMs": 1200,
+        "png": "docs/design-references/shopify.design/intro-sequence/local-intro/frame-006.png",
+        "state": {
+          "title": "Shopify Design",
+          "rootClass": "layout-root",
+          "headline": {
+            "opacity": "1",
+            "transform": "none",
+            "clipPath": "none",
+            "top": "0px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "header": {
+            "opacity": "1",
+            "transform": "none",
+            "clipPath": "none",
+            "top": "0px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "hero": {
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "clipPath": "none",
+            "top": "0px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "modalHidden": "true",
+          "readyState": "complete",
+          "scrollY": 0
+        }
+      },
+      {
+        "index": 7,
+        "atMs": 1400,
+        "png": "docs/design-references/shopify.design/intro-sequence/local-intro/frame-007.png",
+        "state": {
+          "title": "Shopify Design",
+          "rootClass": "layout-root",
+          "headline": {
+            "opacity": "1",
+            "transform": "none",
+            "clipPath": "none",
+            "top": "0px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "header": {
+            "opacity": "1",
+            "transform": "none",
+            "clipPath": "none",
+            "top": "0px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "hero": {
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "clipPath": "none",
+            "top": "0px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "modalHidden": "true",
+          "readyState": "complete",
+          "scrollY": 0
+        }
+      },
+      {
+        "index": 8,
+        "atMs": 1600,
+        "png": "docs/design-references/shopify.design/intro-sequence/local-intro/frame-008.png",
+        "state": {
+          "title": "Shopify Design",
+          "rootClass": "layout-root",
+          "headline": {
+            "opacity": "1",
+            "transform": "none",
+            "clipPath": "none",
+            "top": "0px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "header": {
+            "opacity": "1",
+            "transform": "none",
+            "clipPath": "none",
+            "top": "0px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "hero": {
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "clipPath": "none",
+            "top": "0px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "modalHidden": "true",
+          "readyState": "complete",
+          "scrollY": 0
+        }
+      },
+      {
+        "index": 9,
+        "atMs": 1800,
+        "png": "docs/design-references/shopify.design/intro-sequence/local-intro/frame-009.png",
+        "state": {
+          "title": "Shopify Design",
+          "rootClass": "layout-root",
+          "headline": {
+            "opacity": "1",
+            "transform": "none",
+            "clipPath": "none",
+            "top": "0px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "header": {
+            "opacity": "1",
+            "transform": "none",
+            "clipPath": "none",
+            "top": "0px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "hero": {
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "clipPath": "none",
+            "top": "0px",
+            "color": "rgb(0, 0, 0)"
+          },
+          "modalHidden": "true",
+          "readyState": "complete",
+          "scrollY": 0
+        }
+      }
+    ],
+    "video": "docs/design-references/shopify.design/intro-sequence/local-intro-2026-04-09.mp4"
+  },
+  "comparisons": [
+    {
+      "index": 0,
+      "atMs": 0,
+      "mismatchPixels": 0,
+      "mismatchRatio": 0,
+      "diff": "docs/design-references/shopify.design/intro-sequence/diff-frame-000-2026-04-09.png",
+      "liveState": {
+        "title": "Shopify Design",
+        "rootClass": "layout-root loading",
+        "headline": null,
+        "header": {
+          "opacity": "0",
+          "transform": "none",
+          "clipPath": "none",
+          "top": "-40px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "hero": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 247.9)",
+          "clipPath": "none",
+          "top": "0px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "modalHidden": "true",
+        "readyState": "interactive",
+        "scrollY": 0
+      },
+      "localState": {
+        "title": "Shopify Design",
+        "rootClass": "layout-root loading",
+        "headline": null,
+        "header": {
+          "opacity": "0",
+          "transform": "none",
+          "clipPath": "none",
+          "top": "-40px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "hero": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 247.9)",
+          "clipPath": "none",
+          "top": "0px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "modalHidden": "true",
+        "readyState": "complete",
+        "scrollY": 0
+      }
+    },
+    {
+      "index": 1,
+      "atMs": 200,
+      "mismatchPixels": 0,
+      "mismatchRatio": 0,
+      "diff": "docs/design-references/shopify.design/intro-sequence/diff-frame-001-2026-04-09.png",
+      "liveState": {
+        "title": "Shopify Design",
+        "rootClass": "layout-root loading",
+        "headline": null,
+        "header": {
+          "opacity": "0",
+          "transform": "none",
+          "clipPath": "none",
+          "top": "-40px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "hero": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 247.9)",
+          "clipPath": "none",
+          "top": "0px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "modalHidden": "true",
+        "readyState": "interactive",
+        "scrollY": 0
+      },
+      "localState": {
+        "title": "Shopify Design",
+        "rootClass": "layout-root loading",
+        "headline": null,
+        "header": {
+          "opacity": "0",
+          "transform": "none",
+          "clipPath": "none",
+          "top": "-40px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "hero": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 247.9)",
+          "clipPath": "none",
+          "top": "0px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "modalHidden": "true",
+        "readyState": "complete",
+        "scrollY": 0
+      }
+    },
+    {
+      "index": 2,
+      "atMs": 400,
+      "mismatchPixels": 0,
+      "mismatchRatio": 0,
+      "diff": "docs/design-references/shopify.design/intro-sequence/diff-frame-002-2026-04-09.png",
+      "liveState": {
+        "title": "Shopify Design",
+        "rootClass": "layout-root loading",
+        "headline": null,
+        "header": {
+          "opacity": "0",
+          "transform": "none",
+          "clipPath": "none",
+          "top": "-40px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "hero": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 247.9)",
+          "clipPath": "none",
+          "top": "0px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "modalHidden": "true",
+        "readyState": "interactive",
+        "scrollY": 0
+      },
+      "localState": {
+        "title": "Shopify Design",
+        "rootClass": "layout-root loading",
+        "headline": null,
+        "header": {
+          "opacity": "0",
+          "transform": "none",
+          "clipPath": "none",
+          "top": "-40px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "hero": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 247.9)",
+          "clipPath": "none",
+          "top": "0px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "modalHidden": "true",
+        "readyState": "complete",
+        "scrollY": 0
+      }
+    },
+    {
+      "index": 3,
+      "atMs": 600,
+      "mismatchPixels": 0,
+      "mismatchRatio": 0,
+      "diff": "docs/design-references/shopify.design/intro-sequence/diff-frame-003-2026-04-09.png",
+      "liveState": {
+        "title": "Shopify Design",
+        "rootClass": "layout-root loading",
+        "headline": null,
+        "header": {
+          "opacity": "0",
+          "transform": "none",
+          "clipPath": "none",
+          "top": "-40px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "hero": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 247.9)",
+          "clipPath": "none",
+          "top": "0px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "modalHidden": "true",
+        "readyState": "interactive",
+        "scrollY": 0
+      },
+      "localState": {
+        "title": "Shopify Design",
+        "rootClass": "layout-root loading",
+        "headline": null,
+        "header": {
+          "opacity": "0",
+          "transform": "none",
+          "clipPath": "none",
+          "top": "-40px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "hero": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 247.9)",
+          "clipPath": "none",
+          "top": "0px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "modalHidden": "true",
+        "readyState": "complete",
+        "scrollY": 0
+      }
+    },
+    {
+      "index": 4,
+      "atMs": 800,
+      "mismatchPixels": 0,
+      "mismatchRatio": 0,
+      "diff": "docs/design-references/shopify.design/intro-sequence/diff-frame-004-2026-04-09.png",
+      "liveState": {
+        "title": "Shopify Design",
+        "rootClass": "layout-root loading",
+        "headline": null,
+        "header": {
+          "opacity": "0",
+          "transform": "none",
+          "clipPath": "none",
+          "top": "-40px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "hero": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 247.9)",
+          "clipPath": "none",
+          "top": "0px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "modalHidden": "true",
+        "readyState": "interactive",
+        "scrollY": 0
+      },
+      "localState": {
+        "title": "Shopify Design",
+        "rootClass": "layout-root",
+        "headline": {
+          "opacity": "1",
+          "transform": "none",
+          "clipPath": "none",
+          "top": "0px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "header": {
+          "opacity": "0",
+          "transform": "none",
+          "clipPath": "none",
+          "top": "-40px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "hero": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 247.9)",
+          "clipPath": "none",
+          "top": "0px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "modalHidden": "true",
+        "readyState": "complete",
+        "scrollY": 0
+      }
+    },
+    {
+      "index": 5,
+      "atMs": 1000,
+      "mismatchPixels": 592642,
+      "mismatchRatio": 0.257223,
+      "diff": "docs/design-references/shopify.design/intro-sequence/diff-frame-005-2026-04-09.png",
+      "liveState": {
+        "title": "Shopify Design",
+        "rootClass": "layout-root loading",
+        "headline": null,
+        "header": {
+          "opacity": "0",
+          "transform": "none",
+          "clipPath": "none",
+          "top": "-40px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "hero": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 247.9)",
+          "clipPath": "none",
+          "top": "0px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "modalHidden": "true",
+        "readyState": "complete",
+        "scrollY": 0
+      },
+      "localState": {
+        "title": "Shopify Design",
+        "rootClass": "layout-root",
+        "headline": {
+          "opacity": "1",
+          "transform": "none",
+          "clipPath": "none",
+          "top": "0px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "header": {
+          "opacity": "1",
+          "transform": "none",
+          "clipPath": "none",
+          "top": "0px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "hero": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "clipPath": "none",
+          "top": "0px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "modalHidden": "true",
+        "readyState": "complete",
+        "scrollY": 0
+      }
+    },
+    {
+      "index": 6,
+      "atMs": 1200,
+      "mismatchPixels": 464600,
+      "mismatchRatio": 0.201649,
+      "diff": "docs/design-references/shopify.design/intro-sequence/diff-frame-006-2026-04-09.png",
+      "liveState": {
+        "title": "Shopify Design",
+        "rootClass": "layout-root loading",
+        "headline": null,
+        "header": {
+          "opacity": "0",
+          "transform": "none",
+          "clipPath": "none",
+          "top": "-40px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "hero": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 247.9)",
+          "clipPath": "none",
+          "top": "0px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "modalHidden": "true",
+        "readyState": "complete",
+        "scrollY": 0
+      },
+      "localState": {
+        "title": "Shopify Design",
+        "rootClass": "layout-root",
+        "headline": {
+          "opacity": "1",
+          "transform": "none",
+          "clipPath": "none",
+          "top": "0px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "header": {
+          "opacity": "1",
+          "transform": "none",
+          "clipPath": "none",
+          "top": "0px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "hero": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "clipPath": "none",
+          "top": "0px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "modalHidden": "true",
+        "readyState": "complete",
+        "scrollY": 0
+      }
+    },
+    {
+      "index": 7,
+      "atMs": 1400,
+      "mismatchPixels": 466988,
+      "mismatchRatio": 0.202686,
+      "diff": "docs/design-references/shopify.design/intro-sequence/diff-frame-007-2026-04-09.png",
+      "liveState": {
+        "title": "Shopify Design",
+        "rootClass": "layout-root loading",
+        "headline": null,
+        "header": {
+          "opacity": "0",
+          "transform": "none",
+          "clipPath": "none",
+          "top": "-40px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "hero": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 247.9)",
+          "clipPath": "none",
+          "top": "0px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "modalHidden": "true",
+        "readyState": "complete",
+        "scrollY": 0
+      },
+      "localState": {
+        "title": "Shopify Design",
+        "rootClass": "layout-root",
+        "headline": {
+          "opacity": "1",
+          "transform": "none",
+          "clipPath": "none",
+          "top": "0px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "header": {
+          "opacity": "1",
+          "transform": "none",
+          "clipPath": "none",
+          "top": "0px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "hero": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "clipPath": "none",
+          "top": "0px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "modalHidden": "true",
+        "readyState": "complete",
+        "scrollY": 0
+      }
+    },
+    {
+      "index": 8,
+      "atMs": 1600,
+      "mismatchPixels": 460840,
+      "mismatchRatio": 0.200017,
+      "diff": "docs/design-references/shopify.design/intro-sequence/diff-frame-008-2026-04-09.png",
+      "liveState": {
+        "title": "Shopify Design",
+        "rootClass": "layout-root loading",
+        "headline": null,
+        "header": {
+          "opacity": "0",
+          "transform": "none",
+          "clipPath": "none",
+          "top": "-40px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "hero": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 247.9)",
+          "clipPath": "none",
+          "top": "0px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "modalHidden": "true",
+        "readyState": "complete",
+        "scrollY": 0
+      },
+      "localState": {
+        "title": "Shopify Design",
+        "rootClass": "layout-root",
+        "headline": {
+          "opacity": "1",
+          "transform": "none",
+          "clipPath": "none",
+          "top": "0px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "header": {
+          "opacity": "1",
+          "transform": "none",
+          "clipPath": "none",
+          "top": "0px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "hero": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "clipPath": "none",
+          "top": "0px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "modalHidden": "true",
+        "readyState": "complete",
+        "scrollY": 0
+      }
+    },
+    {
+      "index": 9,
+      "atMs": 1800,
+      "mismatchPixels": 472434,
+      "mismatchRatio": 0.205049,
+      "diff": "docs/design-references/shopify.design/intro-sequence/diff-frame-009-2026-04-09.png",
+      "liveState": {
+        "title": "Shopify Design",
+        "rootClass": "layout-root",
+        "headline": {
+          "opacity": "1",
+          "transform": "none",
+          "clipPath": "none",
+          "top": "0px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "header": {
+          "opacity": "0",
+          "transform": "none",
+          "clipPath": "none",
+          "top": "-40px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "hero": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 247.9)",
+          "clipPath": "none",
+          "top": "0px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "modalHidden": "true",
+        "readyState": "complete",
+        "scrollY": 0
+      },
+      "localState": {
+        "title": "Shopify Design",
+        "rootClass": "layout-root",
+        "headline": {
+          "opacity": "1",
+          "transform": "none",
+          "clipPath": "none",
+          "top": "0px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "header": {
+          "opacity": "1",
+          "transform": "none",
+          "clipPath": "none",
+          "top": "0px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "hero": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "clipPath": "none",
+          "top": "0px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "modalHidden": "true",
+        "readyState": "complete",
+        "scrollY": 0
+      }
+    }
+  ],
+  "worstFrame": {
+    "index": 5,
+    "atMs": 1000,
+    "mismatchPixels": 592642,
+    "mismatchRatio": 0.257223,
+    "diff": "docs/design-references/shopify.design/intro-sequence/diff-frame-005-2026-04-09.png",
+    "liveState": {
+      "title": "Shopify Design",
+      "rootClass": "layout-root loading",
+      "headline": null,
+      "header": {
+        "opacity": "0",
+        "transform": "none",
+        "clipPath": "none",
+        "top": "-40px",
+        "color": "rgb(0, 0, 0)"
+      },
+      "hero": {
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 247.9)",
+        "clipPath": "none",
+        "top": "0px",
+        "color": "rgb(0, 0, 0)"
+      },
+      "modalHidden": "true",
+      "readyState": "complete",
+      "scrollY": 0
+    },
+    "localState": {
+      "title": "Shopify Design",
+      "rootClass": "layout-root",
+      "headline": {
+        "opacity": "1",
+        "transform": "none",
+        "clipPath": "none",
+        "top": "0px",
+        "color": "rgb(0, 0, 0)"
+      },
+      "header": {
+        "opacity": "1",
+        "transform": "none",
+        "clipPath": "none",
+        "top": "0px",
+        "color": "rgb(0, 0, 0)"
+      },
+      "hero": {
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "clipPath": "none",
+        "top": "0px",
+        "color": "rgb(0, 0, 0)"
+      },
+      "modalHidden": "true",
+      "readyState": "complete",
+      "scrollY": 0
+    }
+  }
+}
